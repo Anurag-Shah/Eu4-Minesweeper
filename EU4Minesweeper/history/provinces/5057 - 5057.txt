@@ -1,0 +1,14 @@
+#5057
+
+add_core = MSW
+owner = MSW
+controller = MSW
+culture = cornish
+religion = animist
+hre = no
+base_tax = 1
+base_production = 1
+trade_goods = copper
+base_manpower = 1
+capital = "5057"
+is_city = yes

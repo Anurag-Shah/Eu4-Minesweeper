@@ -1,0 +1,5 @@
+#Country Name: Please see filename.
+
+graphical_culture = asiangfx
+
+color = { 189	189   189 }

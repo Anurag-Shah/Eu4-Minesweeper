@@ -1,0 +1,1 @@
+MSW = "countries/Minesweeper.txt"
