@@ -64,7 +64,7 @@ country_decisions = {
 				}
 
 				set_variable = {
-					which = neighbor_count@THIS
+					which = neighbor_count
 					value = 0
 				}
 
@@ -79,7 +79,7 @@ country_decisions = {
 						}
 					}
 					change_variable = {
-				        which = neighbor_count@PREV
+				        which = neighbor_count
 				        value = 1
 				    }
 				}
@@ -87,7 +87,7 @@ country_decisions = {
 				if = {
 					limit = {
 						check_variable = {
-						    which = neighbor_count@THIS
+						    which = neighbor_count
 						    value = 8
 						}
 					}
@@ -100,7 +100,7 @@ country_decisions = {
 				else_if = {
 					limit = {
 						check_variable = {
-						    which = neighbor_count@THIS
+						    which = neighbor_count
 						    value = 7
 						}
 					}
@@ -113,7 +113,7 @@ country_decisions = {
 				else_if = {
 					limit = {
 						check_variable = {
-						    which = neighbor_count@THIS
+						    which = neighbor_count
 						    value = 6
 						}
 					}
@@ -126,7 +126,7 @@ country_decisions = {
 				else_if = {
 					limit = {
 						check_variable = {
-						    which = neighbor_count@THIS
+						    which = neighbor_count
 						    value = 5
 						}
 					}
@@ -139,7 +139,7 @@ country_decisions = {
 				else_if = {
 					limit = {
 						check_variable = {
-						    which = neighbor_count@THIS
+						    which = neighbor_count
 						    value = 4
 						}
 					}
@@ -152,7 +152,7 @@ country_decisions = {
 				else_if = {
 					limit = {
 						check_variable = {
-						    which = neighbor_count@THIS
+						    which = neighbor_count
 						    value = 3
 						}
 					}
@@ -165,7 +165,7 @@ country_decisions = {
 				else_if = {
 					limit = {
 						check_variable = {
-						    which = neighbor_count@THIS
+						    which = neighbor_count
 						    value = 2
 						}
 					}
@@ -178,7 +178,7 @@ country_decisions = {
 				else_if = {
 					limit = {
 						check_variable = {
-						    which = neighbor_count@THIS
+						    which = neighbor_count
 						    value = 1
 						}
 					}
