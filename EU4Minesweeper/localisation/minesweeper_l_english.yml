@@ -7,6 +7,8 @@
  minesweeper_view_flags_decision_title: "View flags and bombs"
  minesweeper_view_flags_decision_desc: "Check how many total bombs there are in the game and how many flags you have placed."
  minesweeper_view_flags_decision_tooltip: "Number of Flags Placed: [MSW.flags_placed.GetValue]\nNumber of Total Bombs: [MSW.bomb_total.GetValue]"
+ switch_to_msw_decision_title: "Switch to Minesweeper Country"
+ switch_to_msw_decision_desc: "If you want to play Minesweeper, please click this decision first"
  #Events
  minesweeper.2.t: "Game Difficulty Menu"
  minesweeper.2.d: "Select your Game Difficulty from the presets below, or select the custom option to set the number of bombs yourself!"
@@ -36,7 +38,7 @@
  minesweeper.8.d: "This button does nothing. If you need a refresher on how to play, please use the Tutorial decision."
  minesweeper.8a: "Understood"
  minesweeper.9.t: "Tutorial"
- minesweeper.9.d: "Welcome to Minesweeper in EU4!\nPlaying this game is simple. First, you will want to initialize your game. You can do this by clicking the \"Play Minesweeper\" decision. This will pop up an event asking you how many bombs you want in the game, keep in mind it is a 10x10 grid with 100 tiles. This will then move you over to the Minesweeper tag, and you can get started!\nThe game grid is located in the middle of the atlantic ocean. When a game has begun, you can use the trade mapmode to view the tiles on the grid. It is helpful to zoom far out to where the tiles just meet each other, to give the illusion that it is a real minesweeper board and aid with calculations.\nIn order to clear or flag tiles, you have to go into the province view for that tile and click the administrative development button to clear the tile, or the military development button to flag the tile. There is a decision in the window where you can view how many bombs there are in total, and how many flags you have placed. Once you have cleared the entire board, you win the game! If you accidentally clear a bomb, don't worry. The board will show the solution, and you can restart to a new game whenever you want!\nHave fun playing!"
+ minesweeper.9.d: "Welcome to Minesweeper in EU4!\nPlaying this game is simple. First, make sure you are playing as the Minesweeper country. If you are not, click the \"Switch to Minesweeper Country\" decision. Next, you will want to initialize your game. You can do this by clicking the \"Play Minesweeper\" decision. This will pop up an event asking you how many bombs you want in the game, keep in mind it is a 10x10 grid with 100 tiles; select an option or customize your choice, and you can get started.\nThe game grid is located in the middle of the atlantic ocean. When a game has begun, you can use the trade mapmode to view the tiles on the grid. It is helpful to zoom far out to where the tiles just meet each other, to give the illusion that it is a real minesweeper board and aid with calculations.\nIn order to clear or flag tiles, you have to go into the province view for that tile and click the administrative development button to clear the tile, or the military development button to flag the tile. There is a decision in the window where you can view how many bombs there are in total, and how many flags you have placed. Once you have cleared the entire board, you win the game! If you accidentally clear a bomb, don't worry. The board will show the solution, and you can restart to a new game whenever you want!\nHave fun playing!"
  minesweeper.9a: "Understood."
  # Countries
  MSW: "Minesweeper"

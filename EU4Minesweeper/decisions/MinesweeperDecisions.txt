@@ -3,14 +3,24 @@ country_decisions = {
 		major = yes
 		potential = {
 			NOT = { has_global_flag = game_in_progress_flag }
+			ROOT = { TAG = MSW }
 		}
 
 		allow = {
 			hidden_trigger = {
 				NOT = { has_global_flag = game_in_progress_flag }
+				ROOT = { TAG = MSW }
 			}
 		}
 		effect = {
+			if = {
+				limit = {
+					NOT = {
+						ROOT = { TAG = MSW }
+					}
+				}
+				switch_tag = MSW
+			}
 			hidden_effect = {
 				# Initialize flag
 				set_global_flag	= game_in_progress_flag
@@ -173,15 +183,6 @@ country_decisions = {
 					}
 				}
 			}
-
-			if = {
-				limit = {
-					NOT = {
-						ROOT = { TAG = MSW }
-					}
-				}
-				switch_tag = MSW
-			}
 		}
 		ai_will_do = {
 			factor = 0
@@ -210,6 +211,24 @@ country_decisions = {
 
 		effect = {
 			custom_tooltip = minesweeper_view_flags_decision_tooltip
+		}
+	}
+
+	switch_to_msw_decision = {
+		potential = {
+			NOT = {
+				ROOT = { TAG = MSW }
+			}
+		}
+		allow = {
+			hidden_trigger = {
+				NOT = {
+					ROOT = { TAG = MSW }
+				}
+			}
+		}
+		effect = {
+			switch_tag = MSW
 		}
 	}
 }
