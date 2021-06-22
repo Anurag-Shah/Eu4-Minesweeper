@@ -1,0 +1,71 @@
+bomb_mod = {
+	province_trade_power_modifier = 0.1
+	local_development_cost = -10
+	picture = tile_bomb
+}
+
+zero_mod = {
+	province_trade_power_modifier = 0.1
+	local_development_cost = -10
+	picture = tile_0
+}
+
+one_mod = {
+	province_trade_power_modifier = 0.1
+	local_development_cost = -10
+	picture = tile_1
+}
+
+two_mod = {
+	province_trade_power_modifier = 0.1
+	local_development_cost = -10
+	picture = tile_2
+}
+
+three_mod = {
+	province_trade_power_modifier = 0.1
+	local_development_cost = -10
+	picture = tile_3
+}
+
+four_mod = {
+	province_trade_power_modifier = 0.1
+	local_development_cost = -10
+	picture = tile_4
+}
+
+five_mod = {
+	province_trade_power_modifier = 0.1
+	local_development_cost = -10
+	picture = tile_5
+}
+
+six_mod = {
+	province_trade_power_modifier = 0.1
+	local_development_cost = -10
+	picture = tile_6
+}
+
+seven_mod = {
+	province_trade_power_modifier = 0.1
+	local_development_cost = -10
+	picture = tile_7
+}
+
+eight_mod = {
+	province_trade_power_modifier = 0.1
+	local_development_cost = -10
+	picture = tile_8
+}
+
+question_mod = {
+	province_trade_power_modifier = 0.1
+	local_development_cost = -10
+	picture = tile_question
+}
+
+flag_mod = {
+	province_trade_power_modifier = 0.1
+	local_development_cost = -10
+	picture = tile_flag
+}

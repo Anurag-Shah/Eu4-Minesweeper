@@ -5,3 +5,5 @@ tags={
 }
 supported_version="1.31.*.*"
 replace_path="map"
+replace_path="common/tradegoods"
+replace_path="common/on_actions"

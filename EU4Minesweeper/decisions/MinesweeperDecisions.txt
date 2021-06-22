@@ -1,16 +1,151 @@
 country_decisions = {
-
 	minesweeper = {
 		major = yes
 		potential = {
-			treasury = 1
+			NOT = { has_global_flag = game_in_progress_flag }
 		}
 
 		allow = {
-			treasury = 1
+			NOT = { has_global_flag = game_in_progress_flag }
 		}
 		effect = {
 			hidden_effect = {
+				# Initialize flag
+				set_global_flag	= game_in_progress_flag
+
+				# Set score
+
+				ROOT = {
+					set_variable = {
+					    which = score
+					    value = 0
+					}
+				}
+
+				# Remove old modifiers and flags
+				minesweeper_region = {
+					if = {
+						limit = {
+							has_province_modifier = bomb_mod
+						}
+						remove_province_modifier = bomb_mod
+					}
+					else_if = {
+						limit = {
+							has_province_modifier = zero_mod
+						}
+						remove_province_modifier = zero_mod
+					}
+					else_if = {
+						limit = {
+							has_province_modifier = one_mod
+						}
+						remove_province_modifier = one_mod
+					}
+					else_if = {
+						limit = {
+							has_province_modifier = two_mod
+						}
+						remove_province_modifier = two_mod
+					}
+					else_if = {
+						limit = {
+							has_province_modifier = three_mod
+						}
+						remove_province_modifier = three_mod
+					}
+					else_if = {
+						limit = {
+							has_province_modifier = four_mod
+						}
+						remove_province_modifier = four_mod
+					}
+					else_if = {
+						limit = {
+							has_province_modifier = five_mod
+						}
+						remove_province_modifier = five_mod
+					}
+					else_if = {
+						limit = {
+							has_province_modifier = six_mod
+						}
+						remove_province_modifier = six_mod
+					}
+					else_if = {
+						limit = {
+							has_province_modifier = seven_mod
+						}
+						remove_province_modifier = seven_mod
+					}
+					else_if = {
+						limit = {
+							has_province_modifier = eight_mod
+						}
+						remove_province_modifier = eight_mod
+					}
+
+					if = {
+						limit = {
+							has_province_flag = bomb_flag
+						}
+						clr_province_flag = bomb_flag
+					}
+					else_if = {
+						limit = {
+							has_province_flag = zero_flag
+						}
+						clr_province_flag = zero_flag
+					}
+					else_if = {
+						limit = {
+							has_province_flag = one_flag
+						}
+						clr_province_flag = one_flag
+					}
+					else_if = {
+						limit = {
+							has_province_flag = two_flag
+						}
+						clr_province_flag = two_flag
+					}
+					else_if = {
+						limit = {
+							has_province_flag = three_flag
+						}
+						clr_province_flag = three_flag
+					}
+					else_if = {
+						limit = {
+							has_province_flag = four_flag
+						}
+						clr_province_flag = four_flag
+					}
+					else_if = {
+						limit = {
+							has_province_flag = five_flag
+						}
+						clr_province_flag = five_flag
+					}
+					else_if = {
+						limit = {
+							has_province_flag = six_flag
+						}
+						clr_province_flag = six_flag
+					}
+					else_if = {
+						limit = {
+							has_province_flag = seven_flag
+						}
+						clr_province_flag = seven_flag
+					}
+					else_if = {
+						limit = {
+							has_province_flag = eight_flag
+						}
+						clr_province_flag = eight_flag
+					}
+				}
 
 				# Setup Bombs
 				set_variable = {
@@ -31,10 +166,6 @@ country_decisions = {
 							region = minesweeper_region
 							NOT = { has_province_flag = bomb_flag }
 						}
-						add_province_modifier = {
-							name = bomb_modifier
-							duration = -1
-						}
 						set_province_flag = bomb_flag
 					}
 					change_variable = {
@@ -45,8 +176,120 @@ country_decisions = {
 
 				# Setup Numbers
 				# Currently not hidden
+				minesweeper_region = {
+					limit = {
+						NOT = { has_province_flag = bomb_flag }
+					}
 
+					set_variable = {
+						which = neighbor_count
+						value = 0
+					}
 
+					minesweeper_region = {
+						limit = {
+							has_province_flag = bomb_flag
+							NOT = {
+								province_distance = {
+									who = PREV
+									distance = 29
+								}
+							}
+						}
+						PREV = {
+							change_variable = {
+								which = neighbor_count
+								value = 1
+							}
+						}
+					}
+
+					if = {
+						limit = {
+							check_variable = {
+								which = neighbor_count
+								value = 8
+							}
+						}
+						set_province_flag = eight_flag
+					}
+					else_if = {
+						limit = {
+							check_variable = {
+								which = neighbor_count
+								value = 7
+							}
+						}
+						set_province_flag = seven_flag
+					}
+					else_if = {
+						limit = {
+							check_variable = {
+								which = neighbor_count
+								value = 6
+							}
+						}
+						set_province_flag = six_flag
+					}
+					else_if = {
+						limit = {
+							check_variable = {
+								which = neighbor_count
+								value = 5
+							}
+						}
+						set_province_flag = five_flag
+					}
+					else_if = {
+						limit = {
+							check_variable = {
+								which = neighbor_count
+								value = 4
+							}
+						}
+						set_province_flag = four_flag
+					}
+					else_if = {
+						limit = {
+							check_variable = {
+								which = neighbor_count
+								value = 3
+							}
+						}
+						set_province_flag = three_flag
+					}
+					else_if = {
+						limit = {
+							check_variable = {
+								which = neighbor_count
+								value = 2
+							}
+						}
+						set_province_flag = two_flag
+					}
+					else_if = {
+						limit = {
+							check_variable = {
+								which = neighbor_count
+								value = 1
+							}
+						}
+						set_province_flag = one_flag
+					}
+					else = {
+						set_province_flag = zero_flag
+					}
+				}
+
+				# Change trade good and modifier
+
+				minesweeper_region = {
+					change_trade_goods = tile_question
+					add_province_modifier = {
+						name = question_mod
+						duration = -1
+					}
+				}
 			}
 
 			if = {
@@ -57,178 +300,9 @@ country_decisions = {
 				}
 				switch_tag = MSW
 			}
-
-			minesweeper_region = {
-				limit = {
-					NOT = { has_province_flag = bomb_flag }
-				}
-
-				set_variable = {
-					which = neighbor_count
-					value = 0
-				}
-
-				minesweeper_region = {
-					limit = {
-						has_province_flag = bomb_flag
-						NOT = {
-							province_distance = {
-								who = PREV
-								distance = 29
-							}
-						}
-					}
-					change_variable = {
-				        which = neighbor_count
-				        value = 1
-				    }
-				}
-
-				if = {
-					limit = {
-						check_variable = {
-						    which = neighbor_count
-						    value = 8
-						}
-					}
-					add_province_flag = eight_flag
-					add_province_modifier = {
-						name = eight_mod
-						duration = -1
-					}
-				}
-				else_if = {
-					limit = {
-						check_variable = {
-						    which = neighbor_count
-						    value = 7
-						}
-					}
-					add_province_flag = seven_flag
-					add_province_modifier = {
-						name = seven_mod
-						duration = -1
-					}
-				}
-				else_if = {
-					limit = {
-						check_variable = {
-						    which = neighbor_count
-						    value = 6
-						}
-					}
-					add_province_flag = six_flag
-					add_province_modifier = {
-						name = six_mod
-						duration = -1
-					}
-				}
-				else_if = {
-					limit = {
-						check_variable = {
-						    which = neighbor_count
-						    value = 5
-						}
-					}
-					add_province_flag = five_flag
-					add_province_modifier = {
-						name = five_mod
-						duration = -1
-					}
-				}
-				else_if = {
-					limit = {
-						check_variable = {
-						    which = neighbor_count
-						    value = 4
-						}
-					}
-					add_province_flag = four_flag
-					add_province_modifier = {
-						name = four_mod
-						duration = -1
-					}
-				}
-				else_if = {
-					limit = {
-						check_variable = {
-						    which = neighbor_count
-						    value = 3
-						}
-					}
-					add_province_flag = three_flag
-					add_province_modifier = {
-						name = three_mod
-						duration = -1
-					}
-				}
-				else_if = {
-					limit = {
-						check_variable = {
-						    which = neighbor_count
-						    value = 2
-						}
-					}
-					add_province_flag = two_flag
-					add_province_modifier = {
-						name = two_mod
-						duration = -1
-					}
-				}
-				else_if = {
-					limit = {
-						check_variable = {
-						    which = neighbor_count
-						    value = 1
-						}
-					}
-					add_province_flag = one_flag
-					add_province_modifier = {
-						name = one_mod
-						duration = -1
-					}
-				}
-				else = {
-					add_province_flag = zero_flag
-					add_province_modifier = {
-						name = zero_mod
-						duration = -1
-					}
-				}
-			}
 		}
 		ai_will_do = {
 			factor = 0
 		}
 	}
-
-	test_decision = {
-		effect = {
-			set_variable = {
-				which = test_part_2_count
-				value = 0
-			}
-			every_province = {
-				limit = {
-					region = minesweeper_region
-					NOT = {
-						province_distance = {
-							who = 5000
-							distance = 29
-						}
-					}
-					NOT = {
-						province_id = 5000
-					}
-				}
-				change_variable = {
-					which = test_part_2_count
-					value = 1
-				}
-			}
-			add_treasury = variable:test_part_2_count
-			add_treasury = test_part_2_count
-		}
-	}
-
 }
