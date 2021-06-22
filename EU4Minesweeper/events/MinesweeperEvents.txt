@@ -5,7 +5,7 @@ country_event = {
 	id = minesweeper.1
 	title = minesweeper.1.t
 	desc = minesweeper.1.d
-	picture = HRE_eventPicture
+	picture = MINESWEEPER_eventPicture
 
 	hidden = yes
 
@@ -171,7 +171,7 @@ country_event = {
 	id = minesweeper.2
 	title = minesweeper.2.t
 	desc = minesweeper.2.d
-	picture = HRE_eventPicture
+	picture = MINESWEEPER_eventPicture
 
 	is_triggered_only = yes
 
@@ -260,7 +260,7 @@ country_event = {
 	id = minesweeper.3
 	title = minesweeper.3.t
 	desc = minesweeper.3.d
-	picture = HRE_eventPicture
+	picture = MINESWEEPER_eventPicture
 
 	is_triggered_only = yes
 
@@ -397,7 +397,7 @@ country_event = {
 	id = minesweeper.4
 	title = minesweeper.4.t
 	desc = minesweeper.4.d
-	picture = HRE_eventPicture
+	picture = MINESWEEPER_eventPicture
 
 	hidden = yes
 
@@ -424,7 +424,7 @@ country_event = {
 	id = minesweeper.5
 	title = minesweeper.5.t
 	desc = minesweeper.5.d
-	picture = HRE_eventPicture
+	picture = MINESWEEPER_eventPicture
 
 	is_triggered_only = yes
 
@@ -444,7 +444,7 @@ country_event = {
 	id = minesweeper.6
 	title = minesweeper.6.t
 	desc = minesweeper.6.d
-	picture = HRE_eventPicture
+	picture = MINESWEEPER_eventPicture
 
 	is_triggered_only = yes
 
@@ -464,7 +464,7 @@ country_event = {
 	id = minesweeper.7
 	title = minesweeper.7.t
 	desc = minesweeper.7.d
-	picture = HRE_eventPicture
+	picture = MINESWEEPER_eventPicture
 
 	is_triggered_only = yes
 
@@ -484,7 +484,7 @@ country_event = {
 	id = minesweeper.8
 	title = minesweeper.8.t
 	desc = minesweeper.8.d
-	picture = HRE_eventPicture
+	picture = MINESWEEPER_eventPicture
 
 	is_triggered_only = yes
 
@@ -504,7 +504,7 @@ country_event = {
 	id = minesweeper.9
 	title = minesweeper.9.t
 	desc = minesweeper.9.d
-	picture = HRE_eventPicture
+	picture = MINESWEEPER_eventPicture
 
 	is_triggered_only = yes
 
