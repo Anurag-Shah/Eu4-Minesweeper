@@ -6,7 +6,9 @@ country_decisions = {
 		}
 
 		allow = {
-			NOT = { has_global_flag = game_in_progress_flag }
+			hidden_trigger = {
+				NOT = { has_global_flag = game_in_progress_flag }
+			}
 		}
 		effect = {
 			hidden_effect = {
@@ -22,8 +24,25 @@ country_decisions = {
 					}
 				}
 
+				ROOT = {
+					set_variable = {
+					    which = flags_placed
+					    value = 0
+					}
+				}
+
+
 				# Remove old modifiers and flags
 				minesweeper_region = {
+					# Needs to be separate from the main modifier block
+					if = {
+						limit = {
+							has_province_modifier = flag_mod
+						}
+						remove_province_modifier = flag_mod
+					}
+
+					# Main modifier block
 					if = {
 						limit = {
 							has_province_modifier = bomb_mod
@@ -85,6 +104,7 @@ country_decisions = {
 						remove_province_modifier = eight_mod
 					}
 
+					# Main flag block
 					if = {
 						limit = {
 							has_province_flag = bomb_flag
@@ -147,147 +167,9 @@ country_decisions = {
 					}
 				}
 
-				# Setup Bombs
-				set_variable = {
-					which = bomb_count
-					value = 0
-				}
-				while = {
-					limit = {
-						NOT = {
-							check_variable = {
-								which = bomb_count
-								value = 12
-							}
-						}
-					}
-					random_province = {
-						limit = {
-							region = minesweeper_region
-							NOT = { has_province_flag = bomb_flag }
-						}
-						set_province_flag = bomb_flag
-					}
-					change_variable = {
-						which = bomb_count
-						value = 1
-					}
-				}
-
-				# Setup Numbers
-				# Currently not hidden
-				minesweeper_region = {
-					limit = {
-						NOT = { has_province_flag = bomb_flag }
-					}
-
-					set_variable = {
-						which = neighbor_count
-						value = 0
-					}
-
-					minesweeper_region = {
-						limit = {
-							has_province_flag = bomb_flag
-							NOT = {
-								province_distance = {
-									who = PREV
-									distance = 29
-								}
-							}
-						}
-						PREV = {
-							change_variable = {
-								which = neighbor_count
-								value = 1
-							}
-						}
-					}
-
-					if = {
-						limit = {
-							check_variable = {
-								which = neighbor_count
-								value = 8
-							}
-						}
-						set_province_flag = eight_flag
-					}
-					else_if = {
-						limit = {
-							check_variable = {
-								which = neighbor_count
-								value = 7
-							}
-						}
-						set_province_flag = seven_flag
-					}
-					else_if = {
-						limit = {
-							check_variable = {
-								which = neighbor_count
-								value = 6
-							}
-						}
-						set_province_flag = six_flag
-					}
-					else_if = {
-						limit = {
-							check_variable = {
-								which = neighbor_count
-								value = 5
-							}
-						}
-						set_province_flag = five_flag
-					}
-					else_if = {
-						limit = {
-							check_variable = {
-								which = neighbor_count
-								value = 4
-							}
-						}
-						set_province_flag = four_flag
-					}
-					else_if = {
-						limit = {
-							check_variable = {
-								which = neighbor_count
-								value = 3
-							}
-						}
-						set_province_flag = three_flag
-					}
-					else_if = {
-						limit = {
-							check_variable = {
-								which = neighbor_count
-								value = 2
-							}
-						}
-						set_province_flag = two_flag
-					}
-					else_if = {
-						limit = {
-							check_variable = {
-								which = neighbor_count
-								value = 1
-							}
-						}
-						set_province_flag = one_flag
-					}
-					else = {
-						set_province_flag = zero_flag
-					}
-				}
-
-				# Change trade good and modifier
-
-				minesweeper_region = {
-					change_trade_goods = tile_question
-					add_province_modifier = {
-						name = question_mod
-						duration = -1
+				MSW = {
+					country_event = {
+						id = minesweeper.2
 					}
 				}
 			}
@@ -303,6 +185,31 @@ country_decisions = {
 		}
 		ai_will_do = {
 			factor = 0
+		}
+	}
+
+	minesweeper_tutorial_decision = {
+		major = yes
+		effect = {
+			hidden_effect = {
+				country_event = {
+					id = minesweeper.9
+				}
+			}
+		}
+	}
+
+	minesweeper_view_flags_decision = {
+		potential = {
+			has_global_flag = game_in_progress_flag
+		}
+
+		allow = {
+			hidden_trigger = { has_global_flag = game_in_progress_flag }
+		}
+
+		effect = {
+			custom_tooltip = minesweeper_view_flags_decision_tooltip
 		}
 	}
 }

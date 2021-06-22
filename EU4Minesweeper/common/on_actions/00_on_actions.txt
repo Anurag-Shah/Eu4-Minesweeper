@@ -2,6 +2,25 @@
 
 # country
 on_startup = {
+	minesweeper_region = {
+		kill_units = {
+			who = owner
+		}
+	}
+	1582 = {
+		kill_units = {
+			type = heavy_ship
+		}
+		kill_units = {
+			type = light_ship
+		}
+		kill_units = {
+			type = galley
+		}
+		kill_units = {
+			type = transport
+		}
+	}
 	if = {
 		limit = {
 			current_age = age_of_discovery
@@ -733,6 +752,17 @@ on_great_project_constructed = {
 # OBS: Consider that the following on_actions can be called for Personal Union juniors as well.
 # country
 on_new_monarch = {
+	if = {
+		limit = {
+			has_global_flag = minesweeper_event_board_reset
+		}
+		clr_global_flag = minesweeper_event_board_reset
+		MSW = {
+			country_event = {
+				id = minesweeper.1
+			}
+		}
+	}
 	crimean_succession_effect = yes #Scripted effect
 	slesvig_question_effect = yes #Scripted effect
 	if = {
@@ -1615,7 +1645,13 @@ on_adm_development = {
 			limit = {
 				has_province_flag = bomb_flag
 			}
-			# TODO: The game is lost, fire an event indicating this
+			# The game is lost, fire an event indicating this
+
+			owner = {
+				country_event = {
+					id = minesweeper.6
+				}
+			}
 
 			# show every province on the board for its final color
 			minesweeper_region = {
@@ -1917,6 +1953,157 @@ on_adm_development = {
 					name = zero_mod
 					duration = -1
 				}
+				ROOT = {
+					set_variable = {
+						which = minesweeper_event_1_loop_exit_cond
+						value = 1
+					}
+				}
+
+				while = {
+					limit = {
+						ROOT = {
+							check_variable = {
+								which = minesweeper_event_1_loop_exit_cond
+								value = 1
+							}
+						}
+					}
+
+					# Set iteration counter
+					ROOT = {
+						set_variable = {
+							which = minesweeper_event_1_loop_exit_cond
+							value = 0
+						}
+					}
+
+					# Check if there are any zero provinces with question neighbors
+					minesweeper_region = {
+						limit = {
+							has_province_modifier = zero_mod
+						}
+						minesweeper_region = {
+							limit = {
+								AND = {
+									has_province_modifier = question_mod
+									NOT = {
+										province_distance = {
+											who = PREV
+											distance = 29
+										}
+									}
+								}
+							}
+
+							# These are provinces with question neighbors, set their values to their flags
+
+							# First update counter variable
+							ROOT = {
+								change_variable = {
+									which = minesweeper_event_1_loop_exit_cond
+									value = 1
+								}
+							}
+
+							# Next update score variable
+
+							owner = {
+								change_variable = {
+									which = score
+									value = 1
+								}
+							}
+
+							# Then remove question mod
+
+							remove_province_modifier = question_mod
+
+							# Then if block
+							if = {
+								limit = {
+									has_province_flag = zero_flag
+								}
+								add_province_modifier = {
+									name = zero_mod
+									duration = -1
+								}
+							}
+							else_if = {
+								limit = {
+									has_province_flag = one_flag
+								}
+								add_province_modifier = {
+									name = one_mod
+									duration = -1
+								}
+							}
+							else_if = {
+								limit = {
+									has_province_flag = two_flag
+								}
+								add_province_modifier = {
+									name = two_mod
+									duration = -1
+								}
+							}
+							else_if = {
+								limit = {
+									has_province_flag = three_flag
+								}
+								add_province_modifier = {
+									name = three_mod
+									duration = -1
+								}
+							}
+							else_if = {
+								limit = {
+									has_province_flag = four_flag
+								}
+								add_province_modifier = {
+									name = four_mod
+									duration = -1
+								}
+							}
+							else_if = {
+								limit = {
+									has_province_flag = five_flag
+								}
+								add_province_modifier = {
+									name = five_mod
+									duration = -1
+								}
+							}
+							else_if = {
+								limit = {
+									has_province_flag = six_flag
+								}
+								add_province_modifier = {
+									name = six_mod
+									duration = -1
+								}
+							}
+							else_if = {
+								limit = {
+									has_province_flag = seven_flag
+								}
+								add_province_modifier = {
+									name = seven_mod
+									duration = -1
+								}
+							}
+							else = {
+								add_province_modifier = {
+									name = eight_mod
+									duration = -1
+								}
+							}
+							
+						}
+					}
+
+					# END WHILE
+				}
 			}
 			else_if = {
 				limit = {
@@ -2002,6 +2189,11 @@ on_adm_development = {
 				}
 			}
 			clr_global_flag = game_in_progress_flag
+			owner = {
+				country_event = {
+					id = minesweeper.7
+				}
+			}
 		}
 		# if not any of the above do nothing
 	}
@@ -2014,7 +2206,11 @@ on_dip_development = {
 	}
 	add_base_production = -1
 
-	# TODO: Fire an event explaining how adm/mil dev is used and that this button does nothing
+	owner = {
+		country_event = {
+			id = minesweeper.8
+		}
+	}
 }
 
 # province
@@ -2052,6 +2248,14 @@ on_mil_development = {
 					}
 				}
 			}
+
+			# increase flags placed variable
+			owner = {
+				change_variable = {
+					which = flags_placed
+					value = 1
+				}
+			}
 		}
 		else_if = {
 			limit = {
@@ -2074,6 +2278,14 @@ on_mil_development = {
 					}
 				}
 			}
+
+			# decrease flags placed variable
+			owner = {
+				subtract_variable = {
+					which = flags_placed
+					value = 1
+				}
+			}
 		}
 
 		if = {
@@ -2086,6 +2298,11 @@ on_mil_development = {
 				}
 			}
 			clr_global_flag = game_in_progress_flag
+			owner = {
+				country_event = {
+					id = minesweeper.7
+				}
+			}
 		}
 	}
 }

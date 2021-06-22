@@ -1,0 +1,520 @@
+namespace = minesweeper
+
+# Setup Flags
+country_event = {
+	id = minesweeper.1
+	title = minesweeper.1.t
+	desc = minesweeper.1.d
+	picture = HRE_eventPicture
+
+	hidden = yes
+
+	is_triggered_only = yes
+
+	immediate = {
+		# Setup Bombs
+		set_variable = {
+			which = bomb_count
+			value = 0
+		}
+		while = {
+			limit = {
+				NOT = {
+					check_variable = {
+						which = bomb_count
+						which = bomb_total
+					}
+				}
+			}
+			random_province = {
+				limit = {
+					region = minesweeper_region
+					NOT = { has_province_flag = bomb_flag }
+				}
+				set_province_flag = bomb_flag
+			}
+			change_variable = {
+				which = bomb_count
+				value = 1
+			}
+		}
+
+		# Setup Numbers
+		minesweeper_region = {
+			limit = {
+				NOT = { has_province_flag = bomb_flag }
+			}
+
+			set_variable = {
+				which = neighbor_count
+				value = 0
+			}
+
+			minesweeper_region = {
+				limit = {
+					has_province_flag = bomb_flag
+					NOT = {
+						province_distance = {
+							who = PREV
+							distance = 29
+						}
+					}
+				}
+				PREV = {
+					change_variable = {
+						which = neighbor_count
+						value = 1
+					}
+				}
+			}
+
+			if = {
+				limit = {
+					check_variable = {
+						which = neighbor_count
+						value = 8
+					}
+				}
+				set_province_flag = eight_flag
+			}
+			else_if = {
+				limit = {
+					check_variable = {
+						which = neighbor_count
+						value = 7
+					}
+				}
+				set_province_flag = seven_flag
+			}
+			else_if = {
+				limit = {
+					check_variable = {
+						which = neighbor_count
+						value = 6
+					}
+				}
+				set_province_flag = six_flag
+			}
+			else_if = {
+				limit = {
+					check_variable = {
+						which = neighbor_count
+						value = 5
+					}
+				}
+				set_province_flag = five_flag
+			}
+			else_if = {
+				limit = {
+					check_variable = {
+						which = neighbor_count
+						value = 4
+					}
+				}
+				set_province_flag = four_flag
+			}
+			else_if = {
+				limit = {
+					check_variable = {
+						which = neighbor_count
+						value = 3
+					}
+				}
+				set_province_flag = three_flag
+			}
+			else_if = {
+				limit = {
+					check_variable = {
+						which = neighbor_count
+						value = 2
+					}
+				}
+				set_province_flag = two_flag
+			}
+			else_if = {
+				limit = {
+					check_variable = {
+						which = neighbor_count
+						value = 1
+					}
+				}
+				set_province_flag = one_flag
+			}
+			else = {
+				set_province_flag = zero_flag
+			}
+		}
+
+		# Change modifier
+
+		minesweeper_region = {
+			add_province_modifier = {
+				name = question_mod
+				duration = -1
+			}
+		}
+	}
+
+	option = {
+		name = "MINESWEEPER_EVENT_HIDDEN"
+
+		MSW = {
+			country_event = {
+				id = minesweeper.5
+			}
+		}
+	}
+}
+
+# Minesweeper Bomb Option Menu
+country_event = {
+	id = minesweeper.2
+	title = minesweeper.2.t
+	desc = minesweeper.2.d
+	picture = HRE_eventPicture
+
+	is_triggered_only = yes
+
+	trigger = {
+		MSW = {
+			adm_tech = 1
+		}
+	}
+
+	option = {
+		name = "minesweeper.2a"
+
+		hidden_effect = {
+			MSW = {
+				set_variable = {
+					which = bomb_total
+					value = 12
+				}
+			}
+
+			set_global_flag = minesweeper_event_board_reset
+			MNG = {
+				define_ruler = {
+					dynasty = original_dynasty
+				}
+			}
+		}
+	}
+	option = {
+		name = "minesweeper.2b"
+
+		hidden_effect = {
+			MSW = {
+				set_variable = {
+					which = bomb_total
+					value = 20
+				}
+			}
+
+			set_global_flag = minesweeper_event_board_reset
+			MNG = {
+				define_ruler = {
+					dynasty = original_dynasty
+				}
+			}
+		}
+	}
+	option = {
+		name = "minesweeper.2c"
+
+		hidden_effect = {
+			MSW = {
+				set_variable = {
+					which = bomb_total
+					value = 32
+				}
+			}
+
+			set_global_flag = minesweeper_event_board_reset
+			MNG = {
+				define_ruler = {
+					dynasty = original_dynasty
+				}
+			}
+		}
+	}
+	option = {
+		name = "minesweeper.2d"
+
+		hidden_effect = {
+			MSW = {
+				set_variable = {
+					which = bomb_total
+					value = 0
+				}
+				country_event = {
+					id = minesweeper.3
+				}
+			}
+		}
+	}
+}
+
+# Minesweeper Bomb Custom Menu
+country_event = {
+	id = minesweeper.3
+	title = minesweeper.3.t
+	desc = minesweeper.3.d
+	picture = HRE_eventPicture
+
+	is_triggered_only = yes
+
+	trigger = {
+		MSW = {
+			adm_tech = 1
+		}
+	}
+
+	option = {
+		name = "minesweeper.3a"
+
+		hidden_effect = {
+			MSW = {
+				change_variable = {
+					which = bomb_total
+					value = 1
+				}
+				country_event = {
+					id = minesweeper.4
+				}
+			}
+		}
+	}
+	option = {
+		name = "minesweeper.3b"
+
+		hidden_effect = {
+			MSW = {
+				change_variable = {
+					which = bomb_total
+					value = 5
+				}
+				country_event = {
+					id = minesweeper.4
+				}
+			}
+		}
+	}
+	option = {
+		name = "minesweeper.3c"
+
+		hidden_effect = {
+			MSW = {
+				change_variable = {
+					which = bomb_total
+					value = 10
+				}
+				country_event = {
+					id = minesweeper.4
+				}
+			}
+		}
+	}
+	option = {
+		name = "minesweeper.3d"
+
+		hidden_effect = {
+			MSW = {
+				subtract_variable = {
+					which = bomb_total
+					value = 1
+				}
+				country_event = {
+					id = minesweeper.4
+				}
+			}
+		}
+	}
+	option = {
+		name = "minesweeper.3e"
+
+		hidden_effect = {
+			MSW = {
+				subtract_variable = {
+					which = bomb_total
+					value = 5
+				}
+				country_event = {
+					id = minesweeper.4
+				}
+			}
+		}
+	}
+	option = {
+		name = "minesweeper.3f"
+
+		hidden_effect = {
+			MSW = {
+				subtract_variable = {
+					which = bomb_total
+					value = 10
+				}
+				country_event = {
+					id = minesweeper.4
+				}
+			}
+		}
+	}
+	option = {
+		name = "minesweeper.3g"
+
+		trigger = {
+			AND = {
+				MSW = {
+					check_variable = {
+						which = bomb_total
+						value = 1
+					}
+				}
+				NOT = {
+					MSW = {
+						check_variable = {
+							which = bomb_total
+							value = 100
+						}
+					}
+				}
+			}
+		}
+
+		hidden_effect = {
+			set_global_flag = minesweeper_event_board_reset
+			MNG = {
+				define_ruler = {
+					dynasty = original_dynasty
+				}
+			}
+		}
+	}
+}
+
+country_event = {
+	id = minesweeper.4
+	title = minesweeper.4.t
+	desc = minesweeper.4.d
+	picture = HRE_eventPicture
+
+	hidden = yes
+
+	is_triggered_only = yes
+
+	trigger = {
+		MSW = {
+			adm_tech = 1
+		}
+	}
+
+	option = {
+		name = minesweeper.4a
+		MSW = {
+			country_event = {
+				id = minesweeper.3
+			}
+		}
+	}
+}
+
+# Game started event
+country_event = {
+	id = minesweeper.5
+	title = minesweeper.5.t
+	desc = minesweeper.5.d
+	picture = HRE_eventPicture
+
+	is_triggered_only = yes
+
+	trigger = {
+		MSW = {
+			adm_tech = 1
+		}
+	}
+
+	option = {
+		name = minesweeper.5a
+	}
+}
+
+# Game lost event
+country_event = {
+	id = minesweeper.6
+	title = minesweeper.6.t
+	desc = minesweeper.6.d
+	picture = HRE_eventPicture
+
+	is_triggered_only = yes
+
+	trigger = {
+		MSW = {
+			adm_tech = 1
+		}
+	}
+
+	option = {
+		name = minesweeper.6a
+	}
+}
+
+# Game won event
+country_event = {
+	id = minesweeper.7
+	title = minesweeper.7.t
+	desc = minesweeper.7.d
+	picture = HRE_eventPicture
+
+	is_triggered_only = yes
+
+	trigger = {
+		MSW = {
+			adm_tech = 1
+		}
+	}
+
+	option = {
+		name = minesweeper.7a
+	}
+}
+
+# Diplo dev event
+country_event = {
+	id = minesweeper.8
+	title = minesweeper.8.t
+	desc = minesweeper.8.d
+	picture = HRE_eventPicture
+
+	is_triggered_only = yes
+
+	trigger = {
+		MSW = {
+			adm_tech = 1
+		}
+	}
+
+	option = {
+		name = minesweeper.8a
+	}
+}
+
+# Tutorial event
+country_event = {
+	id = minesweeper.9
+	title = minesweeper.9.t
+	desc = minesweeper.9.d
+	picture = HRE_eventPicture
+
+	is_triggered_only = yes
+
+	trigger = {
+		MSW = {
+			adm_tech = 1
+		}
+	}
+
+	option = {
+		name = minesweeper.9a
+	}
+}
