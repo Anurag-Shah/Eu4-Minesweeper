@@ -1,0 +1,14 @@
+spriteTypes = {
+	### Event pictures
+	spriteType = {
+		name = "MINESWEEPER_eventPicture"
+		texturefile = "interface/images/minesweeper.dds"
+	}
+	
+	### Localisation pictures
+	spriteType = {
+		name = "GFX_MS_Kaboom"
+		texturefile = "interface/images/ms_kaboom.dds"
+	}
+
+}
