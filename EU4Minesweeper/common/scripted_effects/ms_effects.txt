@@ -696,3 +696,31 @@ ms_wat_u_doin = {
 		}
 	}
 }
+
+
+#ms menu
+ms_bomb_amount = { #add/#sub
+	change_variable = {
+		which = bomb_total
+		value = [[add]$add$][[sub]$sub$]
+	}
+	[[add]
+	if = {
+		limit = {
+			check_variable = { which = bomb_total value = 101 }
+		}
+		set_variable = { which = bomb_total value = 100 }
+	}
+	]
+	[[sub]
+	if = {
+		limit = {
+			NOT = { check_variable = { which = bomb_total value = 0 } }
+		}
+		set_variable = { which = bomb_total value = 0 }
+	}
+	]
+	country_event = {
+		id = minesweeper.4
+	}
+}

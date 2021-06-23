@@ -175,12 +175,6 @@ country_event = {
 
 	is_triggered_only = yes
 
-	trigger = {
-		MSW = {
-			adm_tech = 1
-		}
-	}
-
 	option = {
 		name = "minesweeper.2a"
 
@@ -245,7 +239,7 @@ country_event = {
 			MSW = {
 				set_variable = {
 					which = bomb_total
-					value = 0
+					value = 1
 				}
 				country_event = {
 					id = minesweeper.3
@@ -264,123 +258,92 @@ country_event = {
 
 	is_triggered_only = yes
 
-	trigger = {
-		MSW = {
-			adm_tech = 1
-		}
-	}
-
 	option = {
 		name = "minesweeper.3a"
-
+		
+		trigger = {
+			MSW = {
+				NOT = { check_variable = { which = bomb_total value = 100 } }
+			}
+		}
 		hidden_effect = {
 			MSW = {
-				change_variable = {
-					which = bomb_total
-					value = 1
-				}
-				country_event = {
-					id = minesweeper.4
-				}
+				ms_bomb_amount = { add = 1 }
 			}
 		}
 	}
 	option = {
 		name = "minesweeper.3b"
-
+		
+		trigger = {
+			MSW = {
+				NOT = { check_variable = { which = bomb_total value = 100 } }
+			}
+		}
 		hidden_effect = {
 			MSW = {
-				change_variable = {
-					which = bomb_total
-					value = 5
-				}
-				country_event = {
-					id = minesweeper.4
-				}
+				ms_bomb_amount = { add = 5 }
 			}
 		}
 	}
 	option = {
 		name = "minesweeper.3c"
-
+		
+		trigger = {
+			MSW = {
+				NOT = { check_variable = { which = bomb_total value = 100 } }
+			}
+		}
 		hidden_effect = {
 			MSW = {
-				change_variable = {
-					which = bomb_total
-					value = 10
-				}
-				country_event = {
-					id = minesweeper.4
-				}
+				ms_bomb_amount = { add = 10 }
 			}
 		}
 	}
 	option = {
 		name = "minesweeper.3d"
 
+		trigger = {
+			MSW = {
+				check_variable = { which = bomb_total value = 2 }
+			}
+		}
 		hidden_effect = {
 			MSW = {
-				subtract_variable = {
-					which = bomb_total
-					value = 1
-				}
-				country_event = {
-					id = minesweeper.4
-				}
+				ms_bomb_amount = { sub = 1 }
 			}
 		}
 	}
 	option = {
 		name = "minesweeper.3e"
 
+		trigger = {
+			MSW = {
+				check_variable = { which = bomb_total value = 2 }
+			}
+		}
 		hidden_effect = {
 			MSW = {
-				subtract_variable = {
-					which = bomb_total
-					value = 5
-				}
-				country_event = {
-					id = minesweeper.4
-				}
+				ms_bomb_amount = { sub = 5 }
 			}
 		}
 	}
 	option = {
 		name = "minesweeper.3f"
 
+		trigger = {
+			MSW = {
+				check_variable = { which = bomb_total value = 2 }
+			}
+		}
 		hidden_effect = {
 			MSW = {
-				subtract_variable = {
-					which = bomb_total
-					value = 10
-				}
-				country_event = {
-					id = minesweeper.4
-				}
+				ms_bomb_amount = { sub = 10 }
 			}
 		}
 	}
 	option = {
 		name = "minesweeper.3g"
-
-		trigger = {
-			AND = {
-				MSW = {
-					check_variable = {
-						which = bomb_total
-						value = 1
-					}
-				}
-				NOT = {
-					MSW = {
-						check_variable = {
-							which = bomb_total
-							value = 100
-						}
-					}
-				}
-			}
-		}
 
 		hidden_effect = {
 			set_global_flag = minesweeper_event_board_reset
@@ -403,12 +366,6 @@ country_event = {
 
 	is_triggered_only = yes
 
-	trigger = {
-		MSW = {
-			adm_tech = 1
-		}
-	}
-
 	option = {
 		name = minesweeper.4a
 		MSW = {
@@ -428,12 +385,6 @@ country_event = {
 
 	is_triggered_only = yes
 
-	trigger = {
-		MSW = {
-			adm_tech = 1
-		}
-	}
-
 	option = {
 		name = minesweeper.5a
 	}
@@ -447,12 +398,6 @@ country_event = {
 	picture = MINESWEEPER_eventPicture
 
 	is_triggered_only = yes
-
-	trigger = {
-		MSW = {
-			adm_tech = 1
-		}
-	}
 
 	option = {
 		name = minesweeper.6a
@@ -468,12 +413,6 @@ country_event = {
 
 	is_triggered_only = yes
 
-	trigger = {
-		MSW = {
-			adm_tech = 1
-		}
-	}
-
 	option = {
 		name = minesweeper.7a
 	}
@@ -488,12 +427,6 @@ country_event = {
 
 	is_triggered_only = yes
 
-	trigger = {
-		MSW = {
-			adm_tech = 1
-		}
-	}
-
 	option = {
 		name = minesweeper.8a
 	}
@@ -507,12 +440,6 @@ country_event = {
 	picture = MINESWEEPER_eventPicture
 
 	is_triggered_only = yes
-
-	trigger = {
-		MSW = {
-			adm_tech = 1
-		}
-	}
 
 	option = {
 		name = minesweeper.9a
