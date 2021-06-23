@@ -702,7 +702,7 @@ ms_wat_u_doin = {
 ms_bomb_amount = { #add/#sub
 	change_variable = {
 		which = bomb_total
-		value = [[add]$add$][[sub]$sub$]
+		value = [[add]$add$][[sub]-$sub$]
 	}
 	[[add]
 	if = {
