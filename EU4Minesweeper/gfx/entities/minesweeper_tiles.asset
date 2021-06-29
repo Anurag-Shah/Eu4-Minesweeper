@@ -1,0 +1,4 @@
+entity = {
+    name = "question_tile"
+    pdxmesh = "mesh_question_tile"
+}

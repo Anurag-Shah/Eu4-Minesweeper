@@ -41,6 +41,20 @@ country_decisions = {
 					}
 				}
 
+				ROOT = {
+					set_variable = {
+					    which = bomb_total
+					    value = 0
+					}
+				}
+
+				ROOT = {
+					set_variable = {
+					    which = bomb_count
+					    value = 0
+					}
+				}
+
 
 				# Remove old modifiers and flags
 				minesweeper_region = {

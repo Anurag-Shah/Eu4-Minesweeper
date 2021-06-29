@@ -1,0 +1,7 @@
+objectTypes = {
+    pdxmesh = {
+        name = "mesh_question_tile"
+        file = "gfx/models/minesweeper/question_model_test.mesh" 
+        scale = 15.0 
+    } 
+}

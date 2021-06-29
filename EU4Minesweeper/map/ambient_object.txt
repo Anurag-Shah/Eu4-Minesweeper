@@ -2735,3 +2735,24 @@ type={
 		}
 	}
 }
+
+
+#MINESWEEPER
+
+type={
+    type="question_tile"
+    use_animation=no
+    time_duration=300.000000
+    always_visible=yes
+    visible_in_all_map_modes=yes
+    object={
+        name="unit01"
+        hidden_on_start=no
+        position={
+            3932.000 0.000 1188.000 
+        }
+        rotation={
+            0.000 180.000 0.000 
+        }
+    }
+}
