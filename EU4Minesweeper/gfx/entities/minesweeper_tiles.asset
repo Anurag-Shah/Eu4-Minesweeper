@@ -1,0 +1,59 @@
+entity = {
+    name = "question_tile"
+    pdxmesh = "mesh_question_tile"
+}
+
+entity = {
+    name = "bomb_tile"
+    pdxmesh = "bomb_mesh"
+}
+
+entity = {
+    name = "flagged_tile"
+    pdxmesh = "flagged_mesh"
+}
+
+entity = {
+    name = "0_tile"
+    pdxmesh = "tile_0_mesh"
+}
+
+entity = {
+    name = "1_tile"
+    pdxmesh = "tile_1_mesh"
+}
+
+entity = {
+    name = "2_tile"
+    pdxmesh = "tile_2_mesh"
+}
+
+entity = {
+    name = "3_tile"
+    pdxmesh = "tile_3_mesh"
+}
+
+entity = {
+    name = "4_tile"
+    pdxmesh = "tile_4_mesh"
+}
+
+entity = {
+    name = "5_tile"
+    pdxmesh = "tile_5_mesh"
+}
+
+entity = {
+    name = "6_tile"
+    pdxmesh = "tile_6_mesh"
+}
+
+entity = {
+    name = "7_tile"
+    pdxmesh = "tile_7_mesh"
+}
+
+entity = {
+    name = "8_tile"
+    pdxmesh = "tile_8_mesh"
+}

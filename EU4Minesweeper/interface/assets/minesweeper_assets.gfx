@@ -1,0 +1,74 @@
+objectTypes = {
+    pdxmesh = {
+        name = "mesh_question_tile"
+        file = "gfx/models/minesweeper/question_model_test.mesh"
+        scale = 15.0
+    }
+
+    pdxmesh = {
+        name = "bomb_mesh"
+        file = "gfx/models/minesweeper/bomb_mesh.mesh"
+        scale = 15.0
+    }
+
+    pdxmesh = {
+        name = "flagged_mesh"
+        file = "gfx/models/minesweeper/flagged_mesh.mesh"
+        scale = 15.0
+    }
+
+	pdxmesh = {
+        name = "tile_0_mesh"
+        file = "gfx/models/minesweeper/tile_0_mesh.mesh"
+        scale = 15.0
+    }
+
+    pdxmesh = {
+        name = "tile_1_mesh"
+        file = "gfx/models/minesweeper/tile_1_mesh.mesh"
+        scale = 15.0
+    }
+
+    pdxmesh = {
+        name = "tile_2_mesh"
+        file = "gfx/models/minesweeper/tile_2_mesh.mesh"
+        scale = 15.0
+    }
+
+    pdxmesh = {
+        name = "tile_3_mesh"
+        file = "gfx/models/minesweeper/tile_3_mesh.mesh"
+        scale = 15.0
+    }
+
+    pdxmesh = {
+        name = "tile_4_mesh"
+        file = "gfx/models/minesweeper/tile_4_mesh.mesh"
+        scale = 15.0
+    }
+
+    pdxmesh = {
+        name = "tile_5_mesh"
+        file = "gfx/models/minesweeper/tile_5_mesh.mesh"
+        scale = 15.0
+    }
+
+    pdxmesh = {
+        name = "tile_6_mesh"
+        file = "gfx/models/minesweeper/tile_6_mesh.mesh"
+        scale = 15.0
+    }
+
+    pdxmesh = {
+        name = "tile_7_mesh"
+        file = "gfx/models/minesweeper/tile_7_mesh.mesh"
+        scale = 15.0
+    }
+
+    pdxmesh = {
+        name = "tile_8_mesh"
+        file = "gfx/models/minesweeper/tile_8_mesh.mesh"
+        scale = 15.0
+    }
+
+}

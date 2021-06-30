@@ -41,6 +41,20 @@ country_decisions = {
 					}
 				}
 
+				ROOT = {
+					set_variable = {
+					    which = bomb_total
+					    value = 0
+					}
+				}
+
+				ROOT = {
+					set_variable = {
+					    which = bomb_count
+					    value = 0
+					}
+				}
+
 
 				# Remove old modifiers and flags
 				minesweeper_region = {
@@ -50,6 +64,7 @@ country_decisions = {
 							has_province_modifier = flag_mod
 						}
 						remove_province_modifier = flag_mod
+						ms_hide_flagged_tile_in_prov = yes
 					}
 
 					# Main modifier block
@@ -58,60 +73,70 @@ country_decisions = {
 							has_province_modifier = bomb_mod
 						}
 						remove_province_modifier = bomb_mod
+						ms_hide_bomb_tile_in_prov = yes
 					}
 					else_if = {
 						limit = {
 							has_province_modifier = zero_mod
 						}
 						remove_province_modifier = zero_mod
+						ms_hide_0_tile_in_prov = yes
 					}
 					else_if = {
 						limit = {
 							has_province_modifier = one_mod
 						}
 						remove_province_modifier = one_mod
+						ms_hide_1_tile_in_prov = yes
 					}
 					else_if = {
 						limit = {
 							has_province_modifier = two_mod
 						}
 						remove_province_modifier = two_mod
+						ms_hide_2_tile_in_prov = yes
 					}
 					else_if = {
 						limit = {
 							has_province_modifier = three_mod
 						}
 						remove_province_modifier = three_mod
+						ms_hide_3_tile_in_prov = yes
 					}
 					else_if = {
 						limit = {
 							has_province_modifier = four_mod
 						}
 						remove_province_modifier = four_mod
+						ms_hide_4_tile_in_prov = yes
 					}
 					else_if = {
 						limit = {
 							has_province_modifier = five_mod
 						}
 						remove_province_modifier = five_mod
+						ms_hide_5_tile_in_prov = yes
 					}
 					else_if = {
 						limit = {
 							has_province_modifier = six_mod
 						}
 						remove_province_modifier = six_mod
+						ms_hide_6_tile_in_prov = yes
 					}
 					else_if = {
 						limit = {
 							has_province_modifier = seven_mod
 						}
 						remove_province_modifier = seven_mod
+						ms_hide_7_tile_in_prov = yes
 					}
 					else_if = {
 						limit = {
 							has_province_modifier = eight_mod
 						}
 						remove_province_modifier = eight_mod
+						ms_hide_8_tile_in_prov = yes
 					}
 
 					# Main flag block
