@@ -2739,20 +2739,24 @@ type={
 
 #MINESWEEPER
 
-type={
+type = {
     type="question_tile"
     use_animation=no
-    time_duration=300.000000
+    scale = 1.5
+    time_duration=300.000
+    
     always_visible=yes
     visible_in_all_map_modes=yes
-    object={
-        name="unit01"
+    
+    object = {
+        name="question_tile_0"
         hidden_on_start=no
-        position={
-            3932.000 0.000 1188.000 
-        }
-        rotation={
-            0.000 180.000 0.000 
-        }
+		position={
+			1565.800 0.000 1016.500 
+		}
+		rotation={
+			0.000 0.000 0.000 
+		}
     }
+    
 }
