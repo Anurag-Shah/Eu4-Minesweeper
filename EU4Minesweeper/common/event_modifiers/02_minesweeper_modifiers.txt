@@ -1,14 +1,14 @@
-bomb_mod = {\
+bomb_mod = {
 	local_development_cost = -10
 	picture = tile_bomb
 }
 
-zero_mod = {\
+zero_mod = {
 	local_development_cost = -10
 	picture = tile_0
 }
 
-one_mod = {\
+one_mod = {
 	local_development_cost = -10
 	picture = tile_1
 }
