@@ -152,6 +152,7 @@ country_event = {
 				name = question_mod
 				duration = -1
 			}
+			ms_show_question_tile_in_prov = yes
 		}
 	}
 
