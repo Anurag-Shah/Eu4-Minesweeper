@@ -2740,23 +2740,13322 @@ type={
 #MINESWEEPER
 
 type = {
-    type="question_tile"
-    use_animation=no
-    scale = 1.5
-    time_duration=300.000
-    
-    always_visible=yes
-    visible_in_all_map_modes=yes
-    
-    object = {
-        name="question_tile_0"
-        hidden_on_start=no
+	type="question_tile"
+	use_animation=no
+	scale = 0.66
+	time_duration=300.000
+	always_visible=no
+	visible_in_all_map_modes=yes
+
+	object = {
+		name="question_tile_0"
+		hidden_on_start=yes
 		position={
-			1565.800 0.000 1016.500 
+			1980.5 0.81 1515.5
 		}
 		rotation={
-			0.000 0.000 0.000 
+			0.000 0.000 0.000
 		}
-    }
-    
+	}
+
+	object = {
+		name="question_tile_1"
+		hidden_on_start=yes
+		position={
+			2000.5 0.81 1515.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="question_tile_2"
+		hidden_on_start=yes
+		position={
+			2020.5 0.81 1515.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="question_tile_3"
+		hidden_on_start=yes
+		position={
+			2040.5 0.81 1515.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="question_tile_4"
+		hidden_on_start=yes
+		position={
+			2060.5 0.81 1515.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="question_tile_5"
+		hidden_on_start=yes
+		position={
+			2080.5 0.81 1515.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="question_tile_6"
+		hidden_on_start=yes
+		position={
+			2100.5 0.81 1515.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="question_tile_7"
+		hidden_on_start=yes
+		position={
+			2120.5 0.81 1515.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="question_tile_8"
+		hidden_on_start=yes
+		position={
+			2140.5 0.81 1515.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="question_tile_9"
+		hidden_on_start=yes
+		position={
+			2160.5 0.81 1515.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="question_tile_10"
+		hidden_on_start=yes
+		position={
+			1980.5 0.81 1495.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="question_tile_11"
+		hidden_on_start=yes
+		position={
+			2000.5 0.81 1495.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="question_tile_12"
+		hidden_on_start=yes
+		position={
+			2020.5 0.81 1495.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="question_tile_13"
+		hidden_on_start=yes
+		position={
+			2040.5 0.81 1495.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="question_tile_14"
+		hidden_on_start=yes
+		position={
+			2060.5 0.81 1495.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="question_tile_15"
+		hidden_on_start=yes
+		position={
+			2080.5 0.81 1495.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="question_tile_16"
+		hidden_on_start=yes
+		position={
+			2100.5 0.81 1495.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="question_tile_17"
+		hidden_on_start=yes
+		position={
+			2120.5 0.81 1495.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="question_tile_18"
+		hidden_on_start=yes
+		position={
+			2140.5 0.81 1495.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="question_tile_19"
+		hidden_on_start=yes
+		position={
+			2160.5 0.81 1495.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="question_tile_20"
+		hidden_on_start=yes
+		position={
+			1980.5 0.81 1475.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="question_tile_21"
+		hidden_on_start=yes
+		position={
+			2000.5 0.81 1475.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="question_tile_22"
+		hidden_on_start=yes
+		position={
+			2020.5 0.81 1475.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="question_tile_23"
+		hidden_on_start=yes
+		position={
+			2040.5 0.81 1475.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="question_tile_24"
+		hidden_on_start=yes
+		position={
+			2060.5 0.81 1475.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="question_tile_25"
+		hidden_on_start=yes
+		position={
+			2080.5 0.81 1475.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="question_tile_26"
+		hidden_on_start=yes
+		position={
+			2100.5 0.81 1475.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="question_tile_27"
+		hidden_on_start=yes
+		position={
+			2120.5 0.81 1475.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="question_tile_28"
+		hidden_on_start=yes
+		position={
+			2140.5 0.81 1475.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="question_tile_29"
+		hidden_on_start=yes
+		position={
+			2160.5 0.81 1475.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="question_tile_30"
+		hidden_on_start=yes
+		position={
+			1980.5 0.81 1455.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="question_tile_31"
+		hidden_on_start=yes
+		position={
+			2000.5 0.81 1455.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="question_tile_32"
+		hidden_on_start=yes
+		position={
+			2020.5 0.81 1455.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="question_tile_33"
+		hidden_on_start=yes
+		position={
+			2040.5 0.81 1455.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="question_tile_34"
+		hidden_on_start=yes
+		position={
+			2060.5 0.81 1455.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="question_tile_35"
+		hidden_on_start=yes
+		position={
+			2080.5 0.81 1455.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="question_tile_36"
+		hidden_on_start=yes
+		position={
+			2100.5 0.81 1455.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="question_tile_37"
+		hidden_on_start=yes
+		position={
+			2120.5 0.81 1455.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="question_tile_38"
+		hidden_on_start=yes
+		position={
+			2140.5 0.81 1455.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="question_tile_39"
+		hidden_on_start=yes
+		position={
+			2160.5 0.81 1455.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="question_tile_40"
+		hidden_on_start=yes
+		position={
+			1980.5 0.81 1435.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="question_tile_41"
+		hidden_on_start=yes
+		position={
+			2000.5 0.81 1435.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="question_tile_42"
+		hidden_on_start=yes
+		position={
+			2020.5 0.81 1435.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="question_tile_43"
+		hidden_on_start=yes
+		position={
+			2040.5 0.81 1435.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="question_tile_44"
+		hidden_on_start=yes
+		position={
+			2060.5 0.81 1435.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="question_tile_45"
+		hidden_on_start=yes
+		position={
+			2080.5 0.81 1435.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="question_tile_46"
+		hidden_on_start=yes
+		position={
+			2100.5 0.81 1435.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="question_tile_47"
+		hidden_on_start=yes
+		position={
+			2120.5 0.81 1435.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="question_tile_48"
+		hidden_on_start=yes
+		position={
+			2140.5 0.81 1435.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="question_tile_49"
+		hidden_on_start=yes
+		position={
+			2160.5 0.81 1435.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="question_tile_50"
+		hidden_on_start=yes
+		position={
+			1980.5 0.81 1415.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="question_tile_51"
+		hidden_on_start=yes
+		position={
+			2000.5 0.81 1415.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="question_tile_52"
+		hidden_on_start=yes
+		position={
+			2020.5 0.81 1415.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="question_tile_53"
+		hidden_on_start=yes
+		position={
+			2040.5 0.81 1415.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="question_tile_54"
+		hidden_on_start=yes
+		position={
+			2060.5 0.81 1415.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="question_tile_55"
+		hidden_on_start=yes
+		position={
+			2080.5 0.81 1415.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="question_tile_56"
+		hidden_on_start=yes
+		position={
+			2100.5 0.81 1415.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="question_tile_57"
+		hidden_on_start=yes
+		position={
+			2120.5 0.81 1415.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="question_tile_58"
+		hidden_on_start=yes
+		position={
+			2140.5 0.81 1415.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="question_tile_59"
+		hidden_on_start=yes
+		position={
+			2160.5 0.81 1415.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="question_tile_60"
+		hidden_on_start=yes
+		position={
+			1980.5 0.81 1395.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="question_tile_61"
+		hidden_on_start=yes
+		position={
+			2000.5 0.81 1395.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="question_tile_62"
+		hidden_on_start=yes
+		position={
+			2020.5 0.81 1395.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="question_tile_63"
+		hidden_on_start=yes
+		position={
+			2040.5 0.81 1395.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="question_tile_64"
+		hidden_on_start=yes
+		position={
+			2060.5 0.81 1395.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="question_tile_65"
+		hidden_on_start=yes
+		position={
+			2080.5 0.81 1395.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="question_tile_66"
+		hidden_on_start=yes
+		position={
+			2100.5 0.81 1395.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="question_tile_67"
+		hidden_on_start=yes
+		position={
+			2120.5 0.81 1395.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="question_tile_68"
+		hidden_on_start=yes
+		position={
+			2140.5 0.81 1395.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="question_tile_69"
+		hidden_on_start=yes
+		position={
+			2160.5 0.81 1395.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="question_tile_70"
+		hidden_on_start=yes
+		position={
+			1980.5 0.81 1375.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="question_tile_71"
+		hidden_on_start=yes
+		position={
+			2000.5 0.81 1375.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="question_tile_72"
+		hidden_on_start=yes
+		position={
+			2020.5 0.81 1375.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="question_tile_73"
+		hidden_on_start=yes
+		position={
+			2040.5 0.81 1375.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="question_tile_74"
+		hidden_on_start=yes
+		position={
+			2060.5 0.81 1375.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="question_tile_75"
+		hidden_on_start=yes
+		position={
+			2080.5 0.81 1375.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="question_tile_76"
+		hidden_on_start=yes
+		position={
+			2100.5 0.81 1375.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="question_tile_77"
+		hidden_on_start=yes
+		position={
+			2120.5 0.81 1375.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="question_tile_78"
+		hidden_on_start=yes
+		position={
+			2140.5 0.81 1375.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="question_tile_79"
+		hidden_on_start=yes
+		position={
+			2160.5 0.81 1375.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="question_tile_80"
+		hidden_on_start=yes
+		position={
+			1980.5 0.81 1355.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="question_tile_81"
+		hidden_on_start=yes
+		position={
+			2000.5 0.81 1355.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="question_tile_82"
+		hidden_on_start=yes
+		position={
+			2020.5 0.81 1355.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="question_tile_83"
+		hidden_on_start=yes
+		position={
+			2040.5 0.81 1355.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="question_tile_84"
+		hidden_on_start=yes
+		position={
+			2060.5 0.81 1355.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="question_tile_85"
+		hidden_on_start=yes
+		position={
+			2080.5 0.81 1355.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="question_tile_86"
+		hidden_on_start=yes
+		position={
+			2100.5 0.81 1355.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="question_tile_87"
+		hidden_on_start=yes
+		position={
+			2120.5 0.81 1355.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="question_tile_88"
+		hidden_on_start=yes
+		position={
+			2140.5 0.81 1355.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="question_tile_89"
+		hidden_on_start=yes
+		position={
+			2160.5 0.81 1355.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="question_tile_90"
+		hidden_on_start=yes
+		position={
+			1980.5 0.81 1335.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="question_tile_91"
+		hidden_on_start=yes
+		position={
+			2000.5 0.81 1335.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="question_tile_92"
+		hidden_on_start=yes
+		position={
+			2020.5 0.81 1335.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="question_tile_93"
+		hidden_on_start=yes
+		position={
+			2040.5 0.81 1335.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="question_tile_94"
+		hidden_on_start=yes
+		position={
+			2060.5 0.81 1335.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="question_tile_95"
+		hidden_on_start=yes
+		position={
+			2080.5 0.81 1335.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="question_tile_96"
+		hidden_on_start=yes
+		position={
+			2100.5 0.81 1335.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="question_tile_97"
+		hidden_on_start=yes
+		position={
+			2120.5 0.81 1335.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="question_tile_98"
+		hidden_on_start=yes
+		position={
+			2140.5 0.81 1335.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="question_tile_99"
+		hidden_on_start=yes
+		position={
+			2160.5 0.81 1335.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
 }
+
+type = {
+	type="bomb_tile"
+	use_animation=no
+	scale = 0.66
+	time_duration=300.000
+	always_visible=no
+	visible_in_all_map_modes=yes
+
+	object = {
+		name="bomb_tile_0"
+		hidden_on_start=yes
+		position={
+			1980.5 0.81 1515.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="bomb_tile_1"
+		hidden_on_start=yes
+		position={
+			2000.5 0.81 1515.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="bomb_tile_2"
+		hidden_on_start=yes
+		position={
+			2020.5 0.81 1515.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="bomb_tile_3"
+		hidden_on_start=yes
+		position={
+			2040.5 0.81 1515.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="bomb_tile_4"
+		hidden_on_start=yes
+		position={
+			2060.5 0.81 1515.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="bomb_tile_5"
+		hidden_on_start=yes
+		position={
+			2080.5 0.81 1515.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="bomb_tile_6"
+		hidden_on_start=yes
+		position={
+			2100.5 0.81 1515.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="bomb_tile_7"
+		hidden_on_start=yes
+		position={
+			2120.5 0.81 1515.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="bomb_tile_8"
+		hidden_on_start=yes
+		position={
+			2140.5 0.81 1515.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="bomb_tile_9"
+		hidden_on_start=yes
+		position={
+			2160.5 0.81 1515.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="bomb_tile_10"
+		hidden_on_start=yes
+		position={
+			1980.5 0.81 1495.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="bomb_tile_11"
+		hidden_on_start=yes
+		position={
+			2000.5 0.81 1495.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="bomb_tile_12"
+		hidden_on_start=yes
+		position={
+			2020.5 0.81 1495.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="bomb_tile_13"
+		hidden_on_start=yes
+		position={
+			2040.5 0.81 1495.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="bomb_tile_14"
+		hidden_on_start=yes
+		position={
+			2060.5 0.81 1495.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="bomb_tile_15"
+		hidden_on_start=yes
+		position={
+			2080.5 0.81 1495.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="bomb_tile_16"
+		hidden_on_start=yes
+		position={
+			2100.5 0.81 1495.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="bomb_tile_17"
+		hidden_on_start=yes
+		position={
+			2120.5 0.81 1495.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="bomb_tile_18"
+		hidden_on_start=yes
+		position={
+			2140.5 0.81 1495.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="bomb_tile_19"
+		hidden_on_start=yes
+		position={
+			2160.5 0.81 1495.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="bomb_tile_20"
+		hidden_on_start=yes
+		position={
+			1980.5 0.81 1475.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="bomb_tile_21"
+		hidden_on_start=yes
+		position={
+			2000.5 0.81 1475.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="bomb_tile_22"
+		hidden_on_start=yes
+		position={
+			2020.5 0.81 1475.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="bomb_tile_23"
+		hidden_on_start=yes
+		position={
+			2040.5 0.81 1475.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="bomb_tile_24"
+		hidden_on_start=yes
+		position={
+			2060.5 0.81 1475.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="bomb_tile_25"
+		hidden_on_start=yes
+		position={
+			2080.5 0.81 1475.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="bomb_tile_26"
+		hidden_on_start=yes
+		position={
+			2100.5 0.81 1475.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="bomb_tile_27"
+		hidden_on_start=yes
+		position={
+			2120.5 0.81 1475.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="bomb_tile_28"
+		hidden_on_start=yes
+		position={
+			2140.5 0.81 1475.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="bomb_tile_29"
+		hidden_on_start=yes
+		position={
+			2160.5 0.81 1475.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="bomb_tile_30"
+		hidden_on_start=yes
+		position={
+			1980.5 0.81 1455.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="bomb_tile_31"
+		hidden_on_start=yes
+		position={
+			2000.5 0.81 1455.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="bomb_tile_32"
+		hidden_on_start=yes
+		position={
+			2020.5 0.81 1455.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="bomb_tile_33"
+		hidden_on_start=yes
+		position={
+			2040.5 0.81 1455.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="bomb_tile_34"
+		hidden_on_start=yes
+		position={
+			2060.5 0.81 1455.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="bomb_tile_35"
+		hidden_on_start=yes
+		position={
+			2080.5 0.81 1455.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="bomb_tile_36"
+		hidden_on_start=yes
+		position={
+			2100.5 0.81 1455.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="bomb_tile_37"
+		hidden_on_start=yes
+		position={
+			2120.5 0.81 1455.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="bomb_tile_38"
+		hidden_on_start=yes
+		position={
+			2140.5 0.81 1455.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="bomb_tile_39"
+		hidden_on_start=yes
+		position={
+			2160.5 0.81 1455.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="bomb_tile_40"
+		hidden_on_start=yes
+		position={
+			1980.5 0.81 1435.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="bomb_tile_41"
+		hidden_on_start=yes
+		position={
+			2000.5 0.81 1435.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="bomb_tile_42"
+		hidden_on_start=yes
+		position={
+			2020.5 0.81 1435.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="bomb_tile_43"
+		hidden_on_start=yes
+		position={
+			2040.5 0.81 1435.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="bomb_tile_44"
+		hidden_on_start=yes
+		position={
+			2060.5 0.81 1435.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="bomb_tile_45"
+		hidden_on_start=yes
+		position={
+			2080.5 0.81 1435.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="bomb_tile_46"
+		hidden_on_start=yes
+		position={
+			2100.5 0.81 1435.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="bomb_tile_47"
+		hidden_on_start=yes
+		position={
+			2120.5 0.81 1435.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="bomb_tile_48"
+		hidden_on_start=yes
+		position={
+			2140.5 0.81 1435.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="bomb_tile_49"
+		hidden_on_start=yes
+		position={
+			2160.5 0.81 1435.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="bomb_tile_50"
+		hidden_on_start=yes
+		position={
+			1980.5 0.81 1415.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="bomb_tile_51"
+		hidden_on_start=yes
+		position={
+			2000.5 0.81 1415.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="bomb_tile_52"
+		hidden_on_start=yes
+		position={
+			2020.5 0.81 1415.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="bomb_tile_53"
+		hidden_on_start=yes
+		position={
+			2040.5 0.81 1415.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="bomb_tile_54"
+		hidden_on_start=yes
+		position={
+			2060.5 0.81 1415.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="bomb_tile_55"
+		hidden_on_start=yes
+		position={
+			2080.5 0.81 1415.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="bomb_tile_56"
+		hidden_on_start=yes
+		position={
+			2100.5 0.81 1415.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="bomb_tile_57"
+		hidden_on_start=yes
+		position={
+			2120.5 0.81 1415.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="bomb_tile_58"
+		hidden_on_start=yes
+		position={
+			2140.5 0.81 1415.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="bomb_tile_59"
+		hidden_on_start=yes
+		position={
+			2160.5 0.81 1415.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="bomb_tile_60"
+		hidden_on_start=yes
+		position={
+			1980.5 0.81 1395.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="bomb_tile_61"
+		hidden_on_start=yes
+		position={
+			2000.5 0.81 1395.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="bomb_tile_62"
+		hidden_on_start=yes
+		position={
+			2020.5 0.81 1395.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="bomb_tile_63"
+		hidden_on_start=yes
+		position={
+			2040.5 0.81 1395.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="bomb_tile_64"
+		hidden_on_start=yes
+		position={
+			2060.5 0.81 1395.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="bomb_tile_65"
+		hidden_on_start=yes
+		position={
+			2080.5 0.81 1395.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="bomb_tile_66"
+		hidden_on_start=yes
+		position={
+			2100.5 0.81 1395.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="bomb_tile_67"
+		hidden_on_start=yes
+		position={
+			2120.5 0.81 1395.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="bomb_tile_68"
+		hidden_on_start=yes
+		position={
+			2140.5 0.81 1395.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="bomb_tile_69"
+		hidden_on_start=yes
+		position={
+			2160.5 0.81 1395.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="bomb_tile_70"
+		hidden_on_start=yes
+		position={
+			1980.5 0.81 1375.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="bomb_tile_71"
+		hidden_on_start=yes
+		position={
+			2000.5 0.81 1375.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="bomb_tile_72"
+		hidden_on_start=yes
+		position={
+			2020.5 0.81 1375.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="bomb_tile_73"
+		hidden_on_start=yes
+		position={
+			2040.5 0.81 1375.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="bomb_tile_74"
+		hidden_on_start=yes
+		position={
+			2060.5 0.81 1375.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="bomb_tile_75"
+		hidden_on_start=yes
+		position={
+			2080.5 0.81 1375.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="bomb_tile_76"
+		hidden_on_start=yes
+		position={
+			2100.5 0.81 1375.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="bomb_tile_77"
+		hidden_on_start=yes
+		position={
+			2120.5 0.81 1375.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="bomb_tile_78"
+		hidden_on_start=yes
+		position={
+			2140.5 0.81 1375.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="bomb_tile_79"
+		hidden_on_start=yes
+		position={
+			2160.5 0.81 1375.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="bomb_tile_80"
+		hidden_on_start=yes
+		position={
+			1980.5 0.81 1355.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="bomb_tile_81"
+		hidden_on_start=yes
+		position={
+			2000.5 0.81 1355.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="bomb_tile_82"
+		hidden_on_start=yes
+		position={
+			2020.5 0.81 1355.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="bomb_tile_83"
+		hidden_on_start=yes
+		position={
+			2040.5 0.81 1355.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="bomb_tile_84"
+		hidden_on_start=yes
+		position={
+			2060.5 0.81 1355.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="bomb_tile_85"
+		hidden_on_start=yes
+		position={
+			2080.5 0.81 1355.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="bomb_tile_86"
+		hidden_on_start=yes
+		position={
+			2100.5 0.81 1355.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="bomb_tile_87"
+		hidden_on_start=yes
+		position={
+			2120.5 0.81 1355.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="bomb_tile_88"
+		hidden_on_start=yes
+		position={
+			2140.5 0.81 1355.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="bomb_tile_89"
+		hidden_on_start=yes
+		position={
+			2160.5 0.81 1355.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="bomb_tile_90"
+		hidden_on_start=yes
+		position={
+			1980.5 0.81 1335.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="bomb_tile_91"
+		hidden_on_start=yes
+		position={
+			2000.5 0.81 1335.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="bomb_tile_92"
+		hidden_on_start=yes
+		position={
+			2020.5 0.81 1335.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="bomb_tile_93"
+		hidden_on_start=yes
+		position={
+			2040.5 0.81 1335.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="bomb_tile_94"
+		hidden_on_start=yes
+		position={
+			2060.5 0.81 1335.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="bomb_tile_95"
+		hidden_on_start=yes
+		position={
+			2080.5 0.81 1335.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="bomb_tile_96"
+		hidden_on_start=yes
+		position={
+			2100.5 0.81 1335.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="bomb_tile_97"
+		hidden_on_start=yes
+		position={
+			2120.5 0.81 1335.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="bomb_tile_98"
+		hidden_on_start=yes
+		position={
+			2140.5 0.81 1335.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="bomb_tile_99"
+		hidden_on_start=yes
+		position={
+			2160.5 0.81 1335.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+}
+
+type = {
+	type="flagged_tile"
+	use_animation=no
+	scale = 0.66
+	time_duration=300.000
+	always_visible=no
+	visible_in_all_map_modes=yes
+
+	object = {
+		name="flagged_tile_0"
+		hidden_on_start=yes
+		position={
+			1980.5 0.81 1515.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="flagged_tile_1"
+		hidden_on_start=yes
+		position={
+			2000.5 0.81 1515.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="flagged_tile_2"
+		hidden_on_start=yes
+		position={
+			2020.5 0.81 1515.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="flagged_tile_3"
+		hidden_on_start=yes
+		position={
+			2040.5 0.81 1515.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="flagged_tile_4"
+		hidden_on_start=yes
+		position={
+			2060.5 0.81 1515.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="flagged_tile_5"
+		hidden_on_start=yes
+		position={
+			2080.5 0.81 1515.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="flagged_tile_6"
+		hidden_on_start=yes
+		position={
+			2100.5 0.81 1515.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="flagged_tile_7"
+		hidden_on_start=yes
+		position={
+			2120.5 0.81 1515.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="flagged_tile_8"
+		hidden_on_start=yes
+		position={
+			2140.5 0.81 1515.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="flagged_tile_9"
+		hidden_on_start=yes
+		position={
+			2160.5 0.81 1515.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="flagged_tile_10"
+		hidden_on_start=yes
+		position={
+			1980.5 0.81 1495.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="flagged_tile_11"
+		hidden_on_start=yes
+		position={
+			2000.5 0.81 1495.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="flagged_tile_12"
+		hidden_on_start=yes
+		position={
+			2020.5 0.81 1495.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="flagged_tile_13"
+		hidden_on_start=yes
+		position={
+			2040.5 0.81 1495.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="flagged_tile_14"
+		hidden_on_start=yes
+		position={
+			2060.5 0.81 1495.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="flagged_tile_15"
+		hidden_on_start=yes
+		position={
+			2080.5 0.81 1495.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="flagged_tile_16"
+		hidden_on_start=yes
+		position={
+			2100.5 0.81 1495.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="flagged_tile_17"
+		hidden_on_start=yes
+		position={
+			2120.5 0.81 1495.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="flagged_tile_18"
+		hidden_on_start=yes
+		position={
+			2140.5 0.81 1495.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="flagged_tile_19"
+		hidden_on_start=yes
+		position={
+			2160.5 0.81 1495.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="flagged_tile_20"
+		hidden_on_start=yes
+		position={
+			1980.5 0.81 1475.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="flagged_tile_21"
+		hidden_on_start=yes
+		position={
+			2000.5 0.81 1475.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="flagged_tile_22"
+		hidden_on_start=yes
+		position={
+			2020.5 0.81 1475.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="flagged_tile_23"
+		hidden_on_start=yes
+		position={
+			2040.5 0.81 1475.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="flagged_tile_24"
+		hidden_on_start=yes
+		position={
+			2060.5 0.81 1475.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="flagged_tile_25"
+		hidden_on_start=yes
+		position={
+			2080.5 0.81 1475.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="flagged_tile_26"
+		hidden_on_start=yes
+		position={
+			2100.5 0.81 1475.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="flagged_tile_27"
+		hidden_on_start=yes
+		position={
+			2120.5 0.81 1475.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="flagged_tile_28"
+		hidden_on_start=yes
+		position={
+			2140.5 0.81 1475.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="flagged_tile_29"
+		hidden_on_start=yes
+		position={
+			2160.5 0.81 1475.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="flagged_tile_30"
+		hidden_on_start=yes
+		position={
+			1980.5 0.81 1455.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="flagged_tile_31"
+		hidden_on_start=yes
+		position={
+			2000.5 0.81 1455.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="flagged_tile_32"
+		hidden_on_start=yes
+		position={
+			2020.5 0.81 1455.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="flagged_tile_33"
+		hidden_on_start=yes
+		position={
+			2040.5 0.81 1455.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="flagged_tile_34"
+		hidden_on_start=yes
+		position={
+			2060.5 0.81 1455.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="flagged_tile_35"
+		hidden_on_start=yes
+		position={
+			2080.5 0.81 1455.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="flagged_tile_36"
+		hidden_on_start=yes
+		position={
+			2100.5 0.81 1455.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="flagged_tile_37"
+		hidden_on_start=yes
+		position={
+			2120.5 0.81 1455.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="flagged_tile_38"
+		hidden_on_start=yes
+		position={
+			2140.5 0.81 1455.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="flagged_tile_39"
+		hidden_on_start=yes
+		position={
+			2160.5 0.81 1455.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="flagged_tile_40"
+		hidden_on_start=yes
+		position={
+			1980.5 0.81 1435.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="flagged_tile_41"
+		hidden_on_start=yes
+		position={
+			2000.5 0.81 1435.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="flagged_tile_42"
+		hidden_on_start=yes
+		position={
+			2020.5 0.81 1435.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="flagged_tile_43"
+		hidden_on_start=yes
+		position={
+			2040.5 0.81 1435.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="flagged_tile_44"
+		hidden_on_start=yes
+		position={
+			2060.5 0.81 1435.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="flagged_tile_45"
+		hidden_on_start=yes
+		position={
+			2080.5 0.81 1435.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="flagged_tile_46"
+		hidden_on_start=yes
+		position={
+			2100.5 0.81 1435.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="flagged_tile_47"
+		hidden_on_start=yes
+		position={
+			2120.5 0.81 1435.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="flagged_tile_48"
+		hidden_on_start=yes
+		position={
+			2140.5 0.81 1435.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="flagged_tile_49"
+		hidden_on_start=yes
+		position={
+			2160.5 0.81 1435.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="flagged_tile_50"
+		hidden_on_start=yes
+		position={
+			1980.5 0.81 1415.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="flagged_tile_51"
+		hidden_on_start=yes
+		position={
+			2000.5 0.81 1415.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="flagged_tile_52"
+		hidden_on_start=yes
+		position={
+			2020.5 0.81 1415.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="flagged_tile_53"
+		hidden_on_start=yes
+		position={
+			2040.5 0.81 1415.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="flagged_tile_54"
+		hidden_on_start=yes
+		position={
+			2060.5 0.81 1415.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="flagged_tile_55"
+		hidden_on_start=yes
+		position={
+			2080.5 0.81 1415.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="flagged_tile_56"
+		hidden_on_start=yes
+		position={
+			2100.5 0.81 1415.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="flagged_tile_57"
+		hidden_on_start=yes
+		position={
+			2120.5 0.81 1415.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="flagged_tile_58"
+		hidden_on_start=yes
+		position={
+			2140.5 0.81 1415.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="flagged_tile_59"
+		hidden_on_start=yes
+		position={
+			2160.5 0.81 1415.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="flagged_tile_60"
+		hidden_on_start=yes
+		position={
+			1980.5 0.81 1395.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="flagged_tile_61"
+		hidden_on_start=yes
+		position={
+			2000.5 0.81 1395.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="flagged_tile_62"
+		hidden_on_start=yes
+		position={
+			2020.5 0.81 1395.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="flagged_tile_63"
+		hidden_on_start=yes
+		position={
+			2040.5 0.81 1395.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="flagged_tile_64"
+		hidden_on_start=yes
+		position={
+			2060.5 0.81 1395.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="flagged_tile_65"
+		hidden_on_start=yes
+		position={
+			2080.5 0.81 1395.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="flagged_tile_66"
+		hidden_on_start=yes
+		position={
+			2100.5 0.81 1395.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="flagged_tile_67"
+		hidden_on_start=yes
+		position={
+			2120.5 0.81 1395.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="flagged_tile_68"
+		hidden_on_start=yes
+		position={
+			2140.5 0.81 1395.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="flagged_tile_69"
+		hidden_on_start=yes
+		position={
+			2160.5 0.81 1395.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="flagged_tile_70"
+		hidden_on_start=yes
+		position={
+			1980.5 0.81 1375.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="flagged_tile_71"
+		hidden_on_start=yes
+		position={
+			2000.5 0.81 1375.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="flagged_tile_72"
+		hidden_on_start=yes
+		position={
+			2020.5 0.81 1375.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="flagged_tile_73"
+		hidden_on_start=yes
+		position={
+			2040.5 0.81 1375.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="flagged_tile_74"
+		hidden_on_start=yes
+		position={
+			2060.5 0.81 1375.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="flagged_tile_75"
+		hidden_on_start=yes
+		position={
+			2080.5 0.81 1375.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="flagged_tile_76"
+		hidden_on_start=yes
+		position={
+			2100.5 0.81 1375.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="flagged_tile_77"
+		hidden_on_start=yes
+		position={
+			2120.5 0.81 1375.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="flagged_tile_78"
+		hidden_on_start=yes
+		position={
+			2140.5 0.81 1375.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="flagged_tile_79"
+		hidden_on_start=yes
+		position={
+			2160.5 0.81 1375.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="flagged_tile_80"
+		hidden_on_start=yes
+		position={
+			1980.5 0.81 1355.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="flagged_tile_81"
+		hidden_on_start=yes
+		position={
+			2000.5 0.81 1355.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="flagged_tile_82"
+		hidden_on_start=yes
+		position={
+			2020.5 0.81 1355.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="flagged_tile_83"
+		hidden_on_start=yes
+		position={
+			2040.5 0.81 1355.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="flagged_tile_84"
+		hidden_on_start=yes
+		position={
+			2060.5 0.81 1355.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="flagged_tile_85"
+		hidden_on_start=yes
+		position={
+			2080.5 0.81 1355.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="flagged_tile_86"
+		hidden_on_start=yes
+		position={
+			2100.5 0.81 1355.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="flagged_tile_87"
+		hidden_on_start=yes
+		position={
+			2120.5 0.81 1355.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="flagged_tile_88"
+		hidden_on_start=yes
+		position={
+			2140.5 0.81 1355.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="flagged_tile_89"
+		hidden_on_start=yes
+		position={
+			2160.5 0.81 1355.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="flagged_tile_90"
+		hidden_on_start=yes
+		position={
+			1980.5 0.81 1335.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="flagged_tile_91"
+		hidden_on_start=yes
+		position={
+			2000.5 0.81 1335.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="flagged_tile_92"
+		hidden_on_start=yes
+		position={
+			2020.5 0.81 1335.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="flagged_tile_93"
+		hidden_on_start=yes
+		position={
+			2040.5 0.81 1335.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="flagged_tile_94"
+		hidden_on_start=yes
+		position={
+			2060.5 0.81 1335.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="flagged_tile_95"
+		hidden_on_start=yes
+		position={
+			2080.5 0.81 1335.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="flagged_tile_96"
+		hidden_on_start=yes
+		position={
+			2100.5 0.81 1335.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="flagged_tile_97"
+		hidden_on_start=yes
+		position={
+			2120.5 0.81 1335.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="flagged_tile_98"
+		hidden_on_start=yes
+		position={
+			2140.5 0.81 1335.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="flagged_tile_99"
+		hidden_on_start=yes
+		position={
+			2160.5 0.81 1335.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+}
+
+type = {
+	type="0_tile"
+	use_animation=no
+	scale = 0.66
+	time_duration=300.000
+	always_visible=no
+	visible_in_all_map_modes=yes
+
+	object = {
+		name="0_tile_0"
+		hidden_on_start=yes
+		position={
+			1980.5 0.81 1515.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="0_tile_1"
+		hidden_on_start=yes
+		position={
+			2000.5 0.81 1515.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="0_tile_2"
+		hidden_on_start=yes
+		position={
+			2020.5 0.81 1515.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="0_tile_3"
+		hidden_on_start=yes
+		position={
+			2040.5 0.81 1515.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="0_tile_4"
+		hidden_on_start=yes
+		position={
+			2060.5 0.81 1515.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="0_tile_5"
+		hidden_on_start=yes
+		position={
+			2080.5 0.81 1515.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="0_tile_6"
+		hidden_on_start=yes
+		position={
+			2100.5 0.81 1515.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="0_tile_7"
+		hidden_on_start=yes
+		position={
+			2120.5 0.81 1515.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="0_tile_8"
+		hidden_on_start=yes
+		position={
+			2140.5 0.81 1515.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="0_tile_9"
+		hidden_on_start=yes
+		position={
+			2160.5 0.81 1515.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="0_tile_10"
+		hidden_on_start=yes
+		position={
+			1980.5 0.81 1495.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="0_tile_11"
+		hidden_on_start=yes
+		position={
+			2000.5 0.81 1495.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="0_tile_12"
+		hidden_on_start=yes
+		position={
+			2020.5 0.81 1495.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="0_tile_13"
+		hidden_on_start=yes
+		position={
+			2040.5 0.81 1495.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="0_tile_14"
+		hidden_on_start=yes
+		position={
+			2060.5 0.81 1495.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="0_tile_15"
+		hidden_on_start=yes
+		position={
+			2080.5 0.81 1495.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="0_tile_16"
+		hidden_on_start=yes
+		position={
+			2100.5 0.81 1495.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="0_tile_17"
+		hidden_on_start=yes
+		position={
+			2120.5 0.81 1495.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="0_tile_18"
+		hidden_on_start=yes
+		position={
+			2140.5 0.81 1495.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="0_tile_19"
+		hidden_on_start=yes
+		position={
+			2160.5 0.81 1495.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="0_tile_20"
+		hidden_on_start=yes
+		position={
+			1980.5 0.81 1475.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="0_tile_21"
+		hidden_on_start=yes
+		position={
+			2000.5 0.81 1475.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="0_tile_22"
+		hidden_on_start=yes
+		position={
+			2020.5 0.81 1475.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="0_tile_23"
+		hidden_on_start=yes
+		position={
+			2040.5 0.81 1475.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="0_tile_24"
+		hidden_on_start=yes
+		position={
+			2060.5 0.81 1475.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="0_tile_25"
+		hidden_on_start=yes
+		position={
+			2080.5 0.81 1475.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="0_tile_26"
+		hidden_on_start=yes
+		position={
+			2100.5 0.81 1475.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="0_tile_27"
+		hidden_on_start=yes
+		position={
+			2120.5 0.81 1475.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="0_tile_28"
+		hidden_on_start=yes
+		position={
+			2140.5 0.81 1475.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="0_tile_29"
+		hidden_on_start=yes
+		position={
+			2160.5 0.81 1475.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="0_tile_30"
+		hidden_on_start=yes
+		position={
+			1980.5 0.81 1455.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="0_tile_31"
+		hidden_on_start=yes
+		position={
+			2000.5 0.81 1455.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="0_tile_32"
+		hidden_on_start=yes
+		position={
+			2020.5 0.81 1455.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="0_tile_33"
+		hidden_on_start=yes
+		position={
+			2040.5 0.81 1455.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="0_tile_34"
+		hidden_on_start=yes
+		position={
+			2060.5 0.81 1455.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="0_tile_35"
+		hidden_on_start=yes
+		position={
+			2080.5 0.81 1455.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="0_tile_36"
+		hidden_on_start=yes
+		position={
+			2100.5 0.81 1455.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="0_tile_37"
+		hidden_on_start=yes
+		position={
+			2120.5 0.81 1455.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="0_tile_38"
+		hidden_on_start=yes
+		position={
+			2140.5 0.81 1455.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="0_tile_39"
+		hidden_on_start=yes
+		position={
+			2160.5 0.81 1455.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="0_tile_40"
+		hidden_on_start=yes
+		position={
+			1980.5 0.81 1435.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="0_tile_41"
+		hidden_on_start=yes
+		position={
+			2000.5 0.81 1435.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="0_tile_42"
+		hidden_on_start=yes
+		position={
+			2020.5 0.81 1435.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="0_tile_43"
+		hidden_on_start=yes
+		position={
+			2040.5 0.81 1435.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="0_tile_44"
+		hidden_on_start=yes
+		position={
+			2060.5 0.81 1435.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="0_tile_45"
+		hidden_on_start=yes
+		position={
+			2080.5 0.81 1435.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="0_tile_46"
+		hidden_on_start=yes
+		position={
+			2100.5 0.81 1435.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="0_tile_47"
+		hidden_on_start=yes
+		position={
+			2120.5 0.81 1435.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="0_tile_48"
+		hidden_on_start=yes
+		position={
+			2140.5 0.81 1435.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="0_tile_49"
+		hidden_on_start=yes
+		position={
+			2160.5 0.81 1435.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="0_tile_50"
+		hidden_on_start=yes
+		position={
+			1980.5 0.81 1415.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="0_tile_51"
+		hidden_on_start=yes
+		position={
+			2000.5 0.81 1415.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="0_tile_52"
+		hidden_on_start=yes
+		position={
+			2020.5 0.81 1415.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="0_tile_53"
+		hidden_on_start=yes
+		position={
+			2040.5 0.81 1415.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="0_tile_54"
+		hidden_on_start=yes
+		position={
+			2060.5 0.81 1415.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="0_tile_55"
+		hidden_on_start=yes
+		position={
+			2080.5 0.81 1415.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="0_tile_56"
+		hidden_on_start=yes
+		position={
+			2100.5 0.81 1415.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="0_tile_57"
+		hidden_on_start=yes
+		position={
+			2120.5 0.81 1415.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="0_tile_58"
+		hidden_on_start=yes
+		position={
+			2140.5 0.81 1415.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="0_tile_59"
+		hidden_on_start=yes
+		position={
+			2160.5 0.81 1415.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="0_tile_60"
+		hidden_on_start=yes
+		position={
+			1980.5 0.81 1395.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="0_tile_61"
+		hidden_on_start=yes
+		position={
+			2000.5 0.81 1395.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="0_tile_62"
+		hidden_on_start=yes
+		position={
+			2020.5 0.81 1395.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="0_tile_63"
+		hidden_on_start=yes
+		position={
+			2040.5 0.81 1395.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="0_tile_64"
+		hidden_on_start=yes
+		position={
+			2060.5 0.81 1395.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="0_tile_65"
+		hidden_on_start=yes
+		position={
+			2080.5 0.81 1395.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="0_tile_66"
+		hidden_on_start=yes
+		position={
+			2100.5 0.81 1395.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="0_tile_67"
+		hidden_on_start=yes
+		position={
+			2120.5 0.81 1395.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="0_tile_68"
+		hidden_on_start=yes
+		position={
+			2140.5 0.81 1395.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="0_tile_69"
+		hidden_on_start=yes
+		position={
+			2160.5 0.81 1395.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="0_tile_70"
+		hidden_on_start=yes
+		position={
+			1980.5 0.81 1375.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="0_tile_71"
+		hidden_on_start=yes
+		position={
+			2000.5 0.81 1375.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="0_tile_72"
+		hidden_on_start=yes
+		position={
+			2020.5 0.81 1375.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="0_tile_73"
+		hidden_on_start=yes
+		position={
+			2040.5 0.81 1375.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="0_tile_74"
+		hidden_on_start=yes
+		position={
+			2060.5 0.81 1375.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="0_tile_75"
+		hidden_on_start=yes
+		position={
+			2080.5 0.81 1375.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="0_tile_76"
+		hidden_on_start=yes
+		position={
+			2100.5 0.81 1375.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="0_tile_77"
+		hidden_on_start=yes
+		position={
+			2120.5 0.81 1375.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="0_tile_78"
+		hidden_on_start=yes
+		position={
+			2140.5 0.81 1375.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="0_tile_79"
+		hidden_on_start=yes
+		position={
+			2160.5 0.81 1375.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="0_tile_80"
+		hidden_on_start=yes
+		position={
+			1980.5 0.81 1355.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="0_tile_81"
+		hidden_on_start=yes
+		position={
+			2000.5 0.81 1355.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="0_tile_82"
+		hidden_on_start=yes
+		position={
+			2020.5 0.81 1355.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="0_tile_83"
+		hidden_on_start=yes
+		position={
+			2040.5 0.81 1355.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="0_tile_84"
+		hidden_on_start=yes
+		position={
+			2060.5 0.81 1355.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="0_tile_85"
+		hidden_on_start=yes
+		position={
+			2080.5 0.81 1355.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="0_tile_86"
+		hidden_on_start=yes
+		position={
+			2100.5 0.81 1355.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="0_tile_87"
+		hidden_on_start=yes
+		position={
+			2120.5 0.81 1355.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="0_tile_88"
+		hidden_on_start=yes
+		position={
+			2140.5 0.81 1355.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="0_tile_89"
+		hidden_on_start=yes
+		position={
+			2160.5 0.81 1355.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="0_tile_90"
+		hidden_on_start=yes
+		position={
+			1980.5 0.81 1335.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="0_tile_91"
+		hidden_on_start=yes
+		position={
+			2000.5 0.81 1335.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="0_tile_92"
+		hidden_on_start=yes
+		position={
+			2020.5 0.81 1335.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="0_tile_93"
+		hidden_on_start=yes
+		position={
+			2040.5 0.81 1335.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="0_tile_94"
+		hidden_on_start=yes
+		position={
+			2060.5 0.81 1335.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="0_tile_95"
+		hidden_on_start=yes
+		position={
+			2080.5 0.81 1335.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="0_tile_96"
+		hidden_on_start=yes
+		position={
+			2100.5 0.81 1335.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="0_tile_97"
+		hidden_on_start=yes
+		position={
+			2120.5 0.81 1335.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="0_tile_98"
+		hidden_on_start=yes
+		position={
+			2140.5 0.81 1335.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="0_tile_99"
+		hidden_on_start=yes
+		position={
+			2160.5 0.81 1335.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+}
+
+type = {
+	type="1_tile"
+	use_animation=no
+	scale = 0.66
+	time_duration=300.000
+	always_visible=no
+	visible_in_all_map_modes=yes
+
+	object = {
+		name="1_tile_0"
+		hidden_on_start=yes
+		position={
+			1980.5 0.81 1515.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="1_tile_1"
+		hidden_on_start=yes
+		position={
+			2000.5 0.81 1515.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="1_tile_2"
+		hidden_on_start=yes
+		position={
+			2020.5 0.81 1515.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="1_tile_3"
+		hidden_on_start=yes
+		position={
+			2040.5 0.81 1515.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="1_tile_4"
+		hidden_on_start=yes
+		position={
+			2060.5 0.81 1515.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="1_tile_5"
+		hidden_on_start=yes
+		position={
+			2080.5 0.81 1515.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="1_tile_6"
+		hidden_on_start=yes
+		position={
+			2100.5 0.81 1515.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="1_tile_7"
+		hidden_on_start=yes
+		position={
+			2120.5 0.81 1515.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="1_tile_8"
+		hidden_on_start=yes
+		position={
+			2140.5 0.81 1515.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="1_tile_9"
+		hidden_on_start=yes
+		position={
+			2160.5 0.81 1515.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="1_tile_10"
+		hidden_on_start=yes
+		position={
+			1980.5 0.81 1495.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="1_tile_11"
+		hidden_on_start=yes
+		position={
+			2000.5 0.81 1495.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="1_tile_12"
+		hidden_on_start=yes
+		position={
+			2020.5 0.81 1495.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="1_tile_13"
+		hidden_on_start=yes
+		position={
+			2040.5 0.81 1495.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="1_tile_14"
+		hidden_on_start=yes
+		position={
+			2060.5 0.81 1495.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="1_tile_15"
+		hidden_on_start=yes
+		position={
+			2080.5 0.81 1495.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="1_tile_16"
+		hidden_on_start=yes
+		position={
+			2100.5 0.81 1495.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="1_tile_17"
+		hidden_on_start=yes
+		position={
+			2120.5 0.81 1495.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="1_tile_18"
+		hidden_on_start=yes
+		position={
+			2140.5 0.81 1495.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="1_tile_19"
+		hidden_on_start=yes
+		position={
+			2160.5 0.81 1495.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="1_tile_20"
+		hidden_on_start=yes
+		position={
+			1980.5 0.81 1475.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="1_tile_21"
+		hidden_on_start=yes
+		position={
+			2000.5 0.81 1475.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="1_tile_22"
+		hidden_on_start=yes
+		position={
+			2020.5 0.81 1475.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="1_tile_23"
+		hidden_on_start=yes
+		position={
+			2040.5 0.81 1475.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="1_tile_24"
+		hidden_on_start=yes
+		position={
+			2060.5 0.81 1475.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="1_tile_25"
+		hidden_on_start=yes
+		position={
+			2080.5 0.81 1475.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="1_tile_26"
+		hidden_on_start=yes
+		position={
+			2100.5 0.81 1475.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="1_tile_27"
+		hidden_on_start=yes
+		position={
+			2120.5 0.81 1475.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="1_tile_28"
+		hidden_on_start=yes
+		position={
+			2140.5 0.81 1475.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="1_tile_29"
+		hidden_on_start=yes
+		position={
+			2160.5 0.81 1475.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="1_tile_30"
+		hidden_on_start=yes
+		position={
+			1980.5 0.81 1455.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="1_tile_31"
+		hidden_on_start=yes
+		position={
+			2000.5 0.81 1455.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="1_tile_32"
+		hidden_on_start=yes
+		position={
+			2020.5 0.81 1455.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="1_tile_33"
+		hidden_on_start=yes
+		position={
+			2040.5 0.81 1455.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="1_tile_34"
+		hidden_on_start=yes
+		position={
+			2060.5 0.81 1455.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="1_tile_35"
+		hidden_on_start=yes
+		position={
+			2080.5 0.81 1455.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="1_tile_36"
+		hidden_on_start=yes
+		position={
+			2100.5 0.81 1455.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="1_tile_37"
+		hidden_on_start=yes
+		position={
+			2120.5 0.81 1455.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="1_tile_38"
+		hidden_on_start=yes
+		position={
+			2140.5 0.81 1455.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="1_tile_39"
+		hidden_on_start=yes
+		position={
+			2160.5 0.81 1455.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="1_tile_40"
+		hidden_on_start=yes
+		position={
+			1980.5 0.81 1435.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="1_tile_41"
+		hidden_on_start=yes
+		position={
+			2000.5 0.81 1435.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="1_tile_42"
+		hidden_on_start=yes
+		position={
+			2020.5 0.81 1435.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="1_tile_43"
+		hidden_on_start=yes
+		position={
+			2040.5 0.81 1435.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="1_tile_44"
+		hidden_on_start=yes
+		position={
+			2060.5 0.81 1435.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="1_tile_45"
+		hidden_on_start=yes
+		position={
+			2080.5 0.81 1435.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="1_tile_46"
+		hidden_on_start=yes
+		position={
+			2100.5 0.81 1435.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="1_tile_47"
+		hidden_on_start=yes
+		position={
+			2120.5 0.81 1435.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="1_tile_48"
+		hidden_on_start=yes
+		position={
+			2140.5 0.81 1435.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="1_tile_49"
+		hidden_on_start=yes
+		position={
+			2160.5 0.81 1435.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="1_tile_50"
+		hidden_on_start=yes
+		position={
+			1980.5 0.81 1415.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="1_tile_51"
+		hidden_on_start=yes
+		position={
+			2000.5 0.81 1415.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="1_tile_52"
+		hidden_on_start=yes
+		position={
+			2020.5 0.81 1415.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="1_tile_53"
+		hidden_on_start=yes
+		position={
+			2040.5 0.81 1415.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="1_tile_54"
+		hidden_on_start=yes
+		position={
+			2060.5 0.81 1415.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="1_tile_55"
+		hidden_on_start=yes
+		position={
+			2080.5 0.81 1415.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="1_tile_56"
+		hidden_on_start=yes
+		position={
+			2100.5 0.81 1415.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="1_tile_57"
+		hidden_on_start=yes
+		position={
+			2120.5 0.81 1415.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="1_tile_58"
+		hidden_on_start=yes
+		position={
+			2140.5 0.81 1415.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="1_tile_59"
+		hidden_on_start=yes
+		position={
+			2160.5 0.81 1415.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="1_tile_60"
+		hidden_on_start=yes
+		position={
+			1980.5 0.81 1395.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="1_tile_61"
+		hidden_on_start=yes
+		position={
+			2000.5 0.81 1395.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="1_tile_62"
+		hidden_on_start=yes
+		position={
+			2020.5 0.81 1395.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="1_tile_63"
+		hidden_on_start=yes
+		position={
+			2040.5 0.81 1395.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="1_tile_64"
+		hidden_on_start=yes
+		position={
+			2060.5 0.81 1395.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="1_tile_65"
+		hidden_on_start=yes
+		position={
+			2080.5 0.81 1395.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="1_tile_66"
+		hidden_on_start=yes
+		position={
+			2100.5 0.81 1395.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="1_tile_67"
+		hidden_on_start=yes
+		position={
+			2120.5 0.81 1395.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="1_tile_68"
+		hidden_on_start=yes
+		position={
+			2140.5 0.81 1395.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="1_tile_69"
+		hidden_on_start=yes
+		position={
+			2160.5 0.81 1395.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="1_tile_70"
+		hidden_on_start=yes
+		position={
+			1980.5 0.81 1375.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="1_tile_71"
+		hidden_on_start=yes
+		position={
+			2000.5 0.81 1375.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="1_tile_72"
+		hidden_on_start=yes
+		position={
+			2020.5 0.81 1375.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="1_tile_73"
+		hidden_on_start=yes
+		position={
+			2040.5 0.81 1375.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="1_tile_74"
+		hidden_on_start=yes
+		position={
+			2060.5 0.81 1375.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="1_tile_75"
+		hidden_on_start=yes
+		position={
+			2080.5 0.81 1375.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="1_tile_76"
+		hidden_on_start=yes
+		position={
+			2100.5 0.81 1375.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="1_tile_77"
+		hidden_on_start=yes
+		position={
+			2120.5 0.81 1375.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="1_tile_78"
+		hidden_on_start=yes
+		position={
+			2140.5 0.81 1375.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="1_tile_79"
+		hidden_on_start=yes
+		position={
+			2160.5 0.81 1375.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="1_tile_80"
+		hidden_on_start=yes
+		position={
+			1980.5 0.81 1355.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="1_tile_81"
+		hidden_on_start=yes
+		position={
+			2000.5 0.81 1355.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="1_tile_82"
+		hidden_on_start=yes
+		position={
+			2020.5 0.81 1355.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="1_tile_83"
+		hidden_on_start=yes
+		position={
+			2040.5 0.81 1355.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="1_tile_84"
+		hidden_on_start=yes
+		position={
+			2060.5 0.81 1355.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="1_tile_85"
+		hidden_on_start=yes
+		position={
+			2080.5 0.81 1355.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="1_tile_86"
+		hidden_on_start=yes
+		position={
+			2100.5 0.81 1355.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="1_tile_87"
+		hidden_on_start=yes
+		position={
+			2120.5 0.81 1355.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="1_tile_88"
+		hidden_on_start=yes
+		position={
+			2140.5 0.81 1355.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="1_tile_89"
+		hidden_on_start=yes
+		position={
+			2160.5 0.81 1355.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="1_tile_90"
+		hidden_on_start=yes
+		position={
+			1980.5 0.81 1335.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="1_tile_91"
+		hidden_on_start=yes
+		position={
+			2000.5 0.81 1335.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="1_tile_92"
+		hidden_on_start=yes
+		position={
+			2020.5 0.81 1335.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="1_tile_93"
+		hidden_on_start=yes
+		position={
+			2040.5 0.81 1335.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="1_tile_94"
+		hidden_on_start=yes
+		position={
+			2060.5 0.81 1335.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="1_tile_95"
+		hidden_on_start=yes
+		position={
+			2080.5 0.81 1335.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="1_tile_96"
+		hidden_on_start=yes
+		position={
+			2100.5 0.81 1335.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="1_tile_97"
+		hidden_on_start=yes
+		position={
+			2120.5 0.81 1335.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="1_tile_98"
+		hidden_on_start=yes
+		position={
+			2140.5 0.81 1335.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="1_tile_99"
+		hidden_on_start=yes
+		position={
+			2160.5 0.81 1335.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+}
+
+type = {
+	type="2_tile"
+	use_animation=no
+	scale = 0.66
+	time_duration=300.000
+	always_visible=no
+	visible_in_all_map_modes=yes
+
+	object = {
+		name="2_tile_0"
+		hidden_on_start=yes
+		position={
+			1980.5 0.81 1515.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="2_tile_1"
+		hidden_on_start=yes
+		position={
+			2000.5 0.81 1515.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="2_tile_2"
+		hidden_on_start=yes
+		position={
+			2020.5 0.81 1515.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="2_tile_3"
+		hidden_on_start=yes
+		position={
+			2040.5 0.81 1515.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="2_tile_4"
+		hidden_on_start=yes
+		position={
+			2060.5 0.81 1515.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="2_tile_5"
+		hidden_on_start=yes
+		position={
+			2080.5 0.81 1515.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="2_tile_6"
+		hidden_on_start=yes
+		position={
+			2100.5 0.81 1515.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="2_tile_7"
+		hidden_on_start=yes
+		position={
+			2120.5 0.81 1515.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="2_tile_8"
+		hidden_on_start=yes
+		position={
+			2140.5 0.81 1515.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="2_tile_9"
+		hidden_on_start=yes
+		position={
+			2160.5 0.81 1515.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="2_tile_10"
+		hidden_on_start=yes
+		position={
+			1980.5 0.81 1495.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="2_tile_11"
+		hidden_on_start=yes
+		position={
+			2000.5 0.81 1495.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="2_tile_12"
+		hidden_on_start=yes
+		position={
+			2020.5 0.81 1495.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="2_tile_13"
+		hidden_on_start=yes
+		position={
+			2040.5 0.81 1495.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="2_tile_14"
+		hidden_on_start=yes
+		position={
+			2060.5 0.81 1495.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="2_tile_15"
+		hidden_on_start=yes
+		position={
+			2080.5 0.81 1495.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="2_tile_16"
+		hidden_on_start=yes
+		position={
+			2100.5 0.81 1495.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="2_tile_17"
+		hidden_on_start=yes
+		position={
+			2120.5 0.81 1495.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="2_tile_18"
+		hidden_on_start=yes
+		position={
+			2140.5 0.81 1495.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="2_tile_19"
+		hidden_on_start=yes
+		position={
+			2160.5 0.81 1495.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="2_tile_20"
+		hidden_on_start=yes
+		position={
+			1980.5 0.81 1475.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="2_tile_21"
+		hidden_on_start=yes
+		position={
+			2000.5 0.81 1475.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="2_tile_22"
+		hidden_on_start=yes
+		position={
+			2020.5 0.81 1475.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="2_tile_23"
+		hidden_on_start=yes
+		position={
+			2040.5 0.81 1475.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="2_tile_24"
+		hidden_on_start=yes
+		position={
+			2060.5 0.81 1475.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="2_tile_25"
+		hidden_on_start=yes
+		position={
+			2080.5 0.81 1475.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="2_tile_26"
+		hidden_on_start=yes
+		position={
+			2100.5 0.81 1475.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="2_tile_27"
+		hidden_on_start=yes
+		position={
+			2120.5 0.81 1475.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="2_tile_28"
+		hidden_on_start=yes
+		position={
+			2140.5 0.81 1475.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="2_tile_29"
+		hidden_on_start=yes
+		position={
+			2160.5 0.81 1475.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="2_tile_30"
+		hidden_on_start=yes
+		position={
+			1980.5 0.81 1455.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="2_tile_31"
+		hidden_on_start=yes
+		position={
+			2000.5 0.81 1455.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="2_tile_32"
+		hidden_on_start=yes
+		position={
+			2020.5 0.81 1455.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="2_tile_33"
+		hidden_on_start=yes
+		position={
+			2040.5 0.81 1455.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="2_tile_34"
+		hidden_on_start=yes
+		position={
+			2060.5 0.81 1455.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="2_tile_35"
+		hidden_on_start=yes
+		position={
+			2080.5 0.81 1455.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="2_tile_36"
+		hidden_on_start=yes
+		position={
+			2100.5 0.81 1455.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="2_tile_37"
+		hidden_on_start=yes
+		position={
+			2120.5 0.81 1455.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="2_tile_38"
+		hidden_on_start=yes
+		position={
+			2140.5 0.81 1455.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="2_tile_39"
+		hidden_on_start=yes
+		position={
+			2160.5 0.81 1455.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="2_tile_40"
+		hidden_on_start=yes
+		position={
+			1980.5 0.81 1435.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="2_tile_41"
+		hidden_on_start=yes
+		position={
+			2000.5 0.81 1435.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="2_tile_42"
+		hidden_on_start=yes
+		position={
+			2020.5 0.81 1435.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="2_tile_43"
+		hidden_on_start=yes
+		position={
+			2040.5 0.81 1435.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="2_tile_44"
+		hidden_on_start=yes
+		position={
+			2060.5 0.81 1435.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="2_tile_45"
+		hidden_on_start=yes
+		position={
+			2080.5 0.81 1435.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="2_tile_46"
+		hidden_on_start=yes
+		position={
+			2100.5 0.81 1435.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="2_tile_47"
+		hidden_on_start=yes
+		position={
+			2120.5 0.81 1435.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="2_tile_48"
+		hidden_on_start=yes
+		position={
+			2140.5 0.81 1435.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="2_tile_49"
+		hidden_on_start=yes
+		position={
+			2160.5 0.81 1435.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="2_tile_50"
+		hidden_on_start=yes
+		position={
+			1980.5 0.81 1415.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="2_tile_51"
+		hidden_on_start=yes
+		position={
+			2000.5 0.81 1415.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="2_tile_52"
+		hidden_on_start=yes
+		position={
+			2020.5 0.81 1415.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="2_tile_53"
+		hidden_on_start=yes
+		position={
+			2040.5 0.81 1415.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="2_tile_54"
+		hidden_on_start=yes
+		position={
+			2060.5 0.81 1415.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="2_tile_55"
+		hidden_on_start=yes
+		position={
+			2080.5 0.81 1415.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="2_tile_56"
+		hidden_on_start=yes
+		position={
+			2100.5 0.81 1415.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="2_tile_57"
+		hidden_on_start=yes
+		position={
+			2120.5 0.81 1415.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="2_tile_58"
+		hidden_on_start=yes
+		position={
+			2140.5 0.81 1415.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="2_tile_59"
+		hidden_on_start=yes
+		position={
+			2160.5 0.81 1415.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="2_tile_60"
+		hidden_on_start=yes
+		position={
+			1980.5 0.81 1395.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="2_tile_61"
+		hidden_on_start=yes
+		position={
+			2000.5 0.81 1395.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="2_tile_62"
+		hidden_on_start=yes
+		position={
+			2020.5 0.81 1395.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="2_tile_63"
+		hidden_on_start=yes
+		position={
+			2040.5 0.81 1395.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="2_tile_64"
+		hidden_on_start=yes
+		position={
+			2060.5 0.81 1395.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="2_tile_65"
+		hidden_on_start=yes
+		position={
+			2080.5 0.81 1395.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="2_tile_66"
+		hidden_on_start=yes
+		position={
+			2100.5 0.81 1395.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="2_tile_67"
+		hidden_on_start=yes
+		position={
+			2120.5 0.81 1395.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="2_tile_68"
+		hidden_on_start=yes
+		position={
+			2140.5 0.81 1395.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="2_tile_69"
+		hidden_on_start=yes
+		position={
+			2160.5 0.81 1395.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="2_tile_70"
+		hidden_on_start=yes
+		position={
+			1980.5 0.81 1375.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="2_tile_71"
+		hidden_on_start=yes
+		position={
+			2000.5 0.81 1375.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="2_tile_72"
+		hidden_on_start=yes
+		position={
+			2020.5 0.81 1375.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="2_tile_73"
+		hidden_on_start=yes
+		position={
+			2040.5 0.81 1375.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="2_tile_74"
+		hidden_on_start=yes
+		position={
+			2060.5 0.81 1375.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="2_tile_75"
+		hidden_on_start=yes
+		position={
+			2080.5 0.81 1375.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="2_tile_76"
+		hidden_on_start=yes
+		position={
+			2100.5 0.81 1375.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="2_tile_77"
+		hidden_on_start=yes
+		position={
+			2120.5 0.81 1375.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="2_tile_78"
+		hidden_on_start=yes
+		position={
+			2140.5 0.81 1375.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="2_tile_79"
+		hidden_on_start=yes
+		position={
+			2160.5 0.81 1375.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="2_tile_80"
+		hidden_on_start=yes
+		position={
+			1980.5 0.81 1355.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="2_tile_81"
+		hidden_on_start=yes
+		position={
+			2000.5 0.81 1355.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="2_tile_82"
+		hidden_on_start=yes
+		position={
+			2020.5 0.81 1355.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="2_tile_83"
+		hidden_on_start=yes
+		position={
+			2040.5 0.81 1355.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="2_tile_84"
+		hidden_on_start=yes
+		position={
+			2060.5 0.81 1355.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="2_tile_85"
+		hidden_on_start=yes
+		position={
+			2080.5 0.81 1355.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="2_tile_86"
+		hidden_on_start=yes
+		position={
+			2100.5 0.81 1355.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="2_tile_87"
+		hidden_on_start=yes
+		position={
+			2120.5 0.81 1355.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="2_tile_88"
+		hidden_on_start=yes
+		position={
+			2140.5 0.81 1355.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="2_tile_89"
+		hidden_on_start=yes
+		position={
+			2160.5 0.81 1355.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="2_tile_90"
+		hidden_on_start=yes
+		position={
+			1980.5 0.81 1335.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="2_tile_91"
+		hidden_on_start=yes
+		position={
+			2000.5 0.81 1335.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="2_tile_92"
+		hidden_on_start=yes
+		position={
+			2020.5 0.81 1335.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="2_tile_93"
+		hidden_on_start=yes
+		position={
+			2040.5 0.81 1335.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="2_tile_94"
+		hidden_on_start=yes
+		position={
+			2060.5 0.81 1335.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="2_tile_95"
+		hidden_on_start=yes
+		position={
+			2080.5 0.81 1335.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="2_tile_96"
+		hidden_on_start=yes
+		position={
+			2100.5 0.81 1335.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="2_tile_97"
+		hidden_on_start=yes
+		position={
+			2120.5 0.81 1335.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="2_tile_98"
+		hidden_on_start=yes
+		position={
+			2140.5 0.81 1335.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="2_tile_99"
+		hidden_on_start=yes
+		position={
+			2160.5 0.81 1335.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+}
+
+type = {
+	type="3_tile"
+	use_animation=no
+	scale = 0.66
+	time_duration=300.000
+	always_visible=no
+	visible_in_all_map_modes=yes
+
+	object = {
+		name="3_tile_0"
+		hidden_on_start=yes
+		position={
+			1980.5 0.81 1515.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="3_tile_1"
+		hidden_on_start=yes
+		position={
+			2000.5 0.81 1515.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="3_tile_2"
+		hidden_on_start=yes
+		position={
+			2020.5 0.81 1515.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="3_tile_3"
+		hidden_on_start=yes
+		position={
+			2040.5 0.81 1515.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="3_tile_4"
+		hidden_on_start=yes
+		position={
+			2060.5 0.81 1515.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="3_tile_5"
+		hidden_on_start=yes
+		position={
+			2080.5 0.81 1515.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="3_tile_6"
+		hidden_on_start=yes
+		position={
+			2100.5 0.81 1515.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="3_tile_7"
+		hidden_on_start=yes
+		position={
+			2120.5 0.81 1515.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="3_tile_8"
+		hidden_on_start=yes
+		position={
+			2140.5 0.81 1515.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="3_tile_9"
+		hidden_on_start=yes
+		position={
+			2160.5 0.81 1515.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="3_tile_10"
+		hidden_on_start=yes
+		position={
+			1980.5 0.81 1495.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="3_tile_11"
+		hidden_on_start=yes
+		position={
+			2000.5 0.81 1495.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="3_tile_12"
+		hidden_on_start=yes
+		position={
+			2020.5 0.81 1495.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="3_tile_13"
+		hidden_on_start=yes
+		position={
+			2040.5 0.81 1495.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="3_tile_14"
+		hidden_on_start=yes
+		position={
+			2060.5 0.81 1495.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="3_tile_15"
+		hidden_on_start=yes
+		position={
+			2080.5 0.81 1495.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="3_tile_16"
+		hidden_on_start=yes
+		position={
+			2100.5 0.81 1495.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="3_tile_17"
+		hidden_on_start=yes
+		position={
+			2120.5 0.81 1495.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="3_tile_18"
+		hidden_on_start=yes
+		position={
+			2140.5 0.81 1495.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="3_tile_19"
+		hidden_on_start=yes
+		position={
+			2160.5 0.81 1495.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="3_tile_20"
+		hidden_on_start=yes
+		position={
+			1980.5 0.81 1475.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="3_tile_21"
+		hidden_on_start=yes
+		position={
+			2000.5 0.81 1475.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="3_tile_22"
+		hidden_on_start=yes
+		position={
+			2020.5 0.81 1475.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="3_tile_23"
+		hidden_on_start=yes
+		position={
+			2040.5 0.81 1475.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="3_tile_24"
+		hidden_on_start=yes
+		position={
+			2060.5 0.81 1475.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="3_tile_25"
+		hidden_on_start=yes
+		position={
+			2080.5 0.81 1475.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="3_tile_26"
+		hidden_on_start=yes
+		position={
+			2100.5 0.81 1475.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="3_tile_27"
+		hidden_on_start=yes
+		position={
+			2120.5 0.81 1475.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="3_tile_28"
+		hidden_on_start=yes
+		position={
+			2140.5 0.81 1475.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="3_tile_29"
+		hidden_on_start=yes
+		position={
+			2160.5 0.81 1475.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="3_tile_30"
+		hidden_on_start=yes
+		position={
+			1980.5 0.81 1455.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="3_tile_31"
+		hidden_on_start=yes
+		position={
+			2000.5 0.81 1455.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="3_tile_32"
+		hidden_on_start=yes
+		position={
+			2020.5 0.81 1455.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="3_tile_33"
+		hidden_on_start=yes
+		position={
+			2040.5 0.81 1455.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="3_tile_34"
+		hidden_on_start=yes
+		position={
+			2060.5 0.81 1455.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="3_tile_35"
+		hidden_on_start=yes
+		position={
+			2080.5 0.81 1455.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="3_tile_36"
+		hidden_on_start=yes
+		position={
+			2100.5 0.81 1455.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="3_tile_37"
+		hidden_on_start=yes
+		position={
+			2120.5 0.81 1455.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="3_tile_38"
+		hidden_on_start=yes
+		position={
+			2140.5 0.81 1455.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="3_tile_39"
+		hidden_on_start=yes
+		position={
+			2160.5 0.81 1455.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="3_tile_40"
+		hidden_on_start=yes
+		position={
+			1980.5 0.81 1435.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="3_tile_41"
+		hidden_on_start=yes
+		position={
+			2000.5 0.81 1435.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="3_tile_42"
+		hidden_on_start=yes
+		position={
+			2020.5 0.81 1435.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="3_tile_43"
+		hidden_on_start=yes
+		position={
+			2040.5 0.81 1435.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="3_tile_44"
+		hidden_on_start=yes
+		position={
+			2060.5 0.81 1435.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="3_tile_45"
+		hidden_on_start=yes
+		position={
+			2080.5 0.81 1435.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="3_tile_46"
+		hidden_on_start=yes
+		position={
+			2100.5 0.81 1435.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="3_tile_47"
+		hidden_on_start=yes
+		position={
+			2120.5 0.81 1435.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="3_tile_48"
+		hidden_on_start=yes
+		position={
+			2140.5 0.81 1435.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="3_tile_49"
+		hidden_on_start=yes
+		position={
+			2160.5 0.81 1435.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="3_tile_50"
+		hidden_on_start=yes
+		position={
+			1980.5 0.81 1415.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="3_tile_51"
+		hidden_on_start=yes
+		position={
+			2000.5 0.81 1415.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="3_tile_52"
+		hidden_on_start=yes
+		position={
+			2020.5 0.81 1415.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="3_tile_53"
+		hidden_on_start=yes
+		position={
+			2040.5 0.81 1415.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="3_tile_54"
+		hidden_on_start=yes
+		position={
+			2060.5 0.81 1415.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="3_tile_55"
+		hidden_on_start=yes
+		position={
+			2080.5 0.81 1415.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="3_tile_56"
+		hidden_on_start=yes
+		position={
+			2100.5 0.81 1415.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="3_tile_57"
+		hidden_on_start=yes
+		position={
+			2120.5 0.81 1415.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="3_tile_58"
+		hidden_on_start=yes
+		position={
+			2140.5 0.81 1415.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="3_tile_59"
+		hidden_on_start=yes
+		position={
+			2160.5 0.81 1415.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="3_tile_60"
+		hidden_on_start=yes
+		position={
+			1980.5 0.81 1395.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="3_tile_61"
+		hidden_on_start=yes
+		position={
+			2000.5 0.81 1395.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="3_tile_62"
+		hidden_on_start=yes
+		position={
+			2020.5 0.81 1395.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="3_tile_63"
+		hidden_on_start=yes
+		position={
+			2040.5 0.81 1395.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="3_tile_64"
+		hidden_on_start=yes
+		position={
+			2060.5 0.81 1395.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="3_tile_65"
+		hidden_on_start=yes
+		position={
+			2080.5 0.81 1395.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="3_tile_66"
+		hidden_on_start=yes
+		position={
+			2100.5 0.81 1395.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="3_tile_67"
+		hidden_on_start=yes
+		position={
+			2120.5 0.81 1395.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="3_tile_68"
+		hidden_on_start=yes
+		position={
+			2140.5 0.81 1395.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="3_tile_69"
+		hidden_on_start=yes
+		position={
+			2160.5 0.81 1395.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="3_tile_70"
+		hidden_on_start=yes
+		position={
+			1980.5 0.81 1375.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="3_tile_71"
+		hidden_on_start=yes
+		position={
+			2000.5 0.81 1375.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="3_tile_72"
+		hidden_on_start=yes
+		position={
+			2020.5 0.81 1375.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="3_tile_73"
+		hidden_on_start=yes
+		position={
+			2040.5 0.81 1375.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="3_tile_74"
+		hidden_on_start=yes
+		position={
+			2060.5 0.81 1375.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="3_tile_75"
+		hidden_on_start=yes
+		position={
+			2080.5 0.81 1375.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="3_tile_76"
+		hidden_on_start=yes
+		position={
+			2100.5 0.81 1375.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="3_tile_77"
+		hidden_on_start=yes
+		position={
+			2120.5 0.81 1375.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="3_tile_78"
+		hidden_on_start=yes
+		position={
+			2140.5 0.81 1375.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="3_tile_79"
+		hidden_on_start=yes
+		position={
+			2160.5 0.81 1375.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="3_tile_80"
+		hidden_on_start=yes
+		position={
+			1980.5 0.81 1355.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="3_tile_81"
+		hidden_on_start=yes
+		position={
+			2000.5 0.81 1355.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="3_tile_82"
+		hidden_on_start=yes
+		position={
+			2020.5 0.81 1355.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="3_tile_83"
+		hidden_on_start=yes
+		position={
+			2040.5 0.81 1355.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="3_tile_84"
+		hidden_on_start=yes
+		position={
+			2060.5 0.81 1355.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="3_tile_85"
+		hidden_on_start=yes
+		position={
+			2080.5 0.81 1355.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="3_tile_86"
+		hidden_on_start=yes
+		position={
+			2100.5 0.81 1355.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="3_tile_87"
+		hidden_on_start=yes
+		position={
+			2120.5 0.81 1355.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="3_tile_88"
+		hidden_on_start=yes
+		position={
+			2140.5 0.81 1355.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="3_tile_89"
+		hidden_on_start=yes
+		position={
+			2160.5 0.81 1355.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="3_tile_90"
+		hidden_on_start=yes
+		position={
+			1980.5 0.81 1335.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="3_tile_91"
+		hidden_on_start=yes
+		position={
+			2000.5 0.81 1335.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="3_tile_92"
+		hidden_on_start=yes
+		position={
+			2020.5 0.81 1335.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="3_tile_93"
+		hidden_on_start=yes
+		position={
+			2040.5 0.81 1335.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="3_tile_94"
+		hidden_on_start=yes
+		position={
+			2060.5 0.81 1335.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="3_tile_95"
+		hidden_on_start=yes
+		position={
+			2080.5 0.81 1335.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="3_tile_96"
+		hidden_on_start=yes
+		position={
+			2100.5 0.81 1335.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="3_tile_97"
+		hidden_on_start=yes
+		position={
+			2120.5 0.81 1335.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="3_tile_98"
+		hidden_on_start=yes
+		position={
+			2140.5 0.81 1335.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="3_tile_99"
+		hidden_on_start=yes
+		position={
+			2160.5 0.81 1335.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+}
+
+type = {
+	type="4_tile"
+	use_animation=no
+	scale = 0.66
+	time_duration=300.000
+	always_visible=no
+	visible_in_all_map_modes=yes
+
+	object = {
+		name="4_tile_0"
+		hidden_on_start=yes
+		position={
+			1980.5 0.81 1515.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="4_tile_1"
+		hidden_on_start=yes
+		position={
+			2000.5 0.81 1515.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="4_tile_2"
+		hidden_on_start=yes
+		position={
+			2020.5 0.81 1515.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="4_tile_3"
+		hidden_on_start=yes
+		position={
+			2040.5 0.81 1515.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="4_tile_4"
+		hidden_on_start=yes
+		position={
+			2060.5 0.81 1515.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="4_tile_5"
+		hidden_on_start=yes
+		position={
+			2080.5 0.81 1515.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="4_tile_6"
+		hidden_on_start=yes
+		position={
+			2100.5 0.81 1515.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="4_tile_7"
+		hidden_on_start=yes
+		position={
+			2120.5 0.81 1515.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="4_tile_8"
+		hidden_on_start=yes
+		position={
+			2140.5 0.81 1515.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="4_tile_9"
+		hidden_on_start=yes
+		position={
+			2160.5 0.81 1515.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="4_tile_10"
+		hidden_on_start=yes
+		position={
+			1980.5 0.81 1495.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="4_tile_11"
+		hidden_on_start=yes
+		position={
+			2000.5 0.81 1495.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="4_tile_12"
+		hidden_on_start=yes
+		position={
+			2020.5 0.81 1495.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="4_tile_13"
+		hidden_on_start=yes
+		position={
+			2040.5 0.81 1495.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="4_tile_14"
+		hidden_on_start=yes
+		position={
+			2060.5 0.81 1495.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="4_tile_15"
+		hidden_on_start=yes
+		position={
+			2080.5 0.81 1495.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="4_tile_16"
+		hidden_on_start=yes
+		position={
+			2100.5 0.81 1495.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="4_tile_17"
+		hidden_on_start=yes
+		position={
+			2120.5 0.81 1495.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="4_tile_18"
+		hidden_on_start=yes
+		position={
+			2140.5 0.81 1495.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="4_tile_19"
+		hidden_on_start=yes
+		position={
+			2160.5 0.81 1495.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="4_tile_20"
+		hidden_on_start=yes
+		position={
+			1980.5 0.81 1475.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="4_tile_21"
+		hidden_on_start=yes
+		position={
+			2000.5 0.81 1475.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="4_tile_22"
+		hidden_on_start=yes
+		position={
+			2020.5 0.81 1475.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="4_tile_23"
+		hidden_on_start=yes
+		position={
+			2040.5 0.81 1475.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="4_tile_24"
+		hidden_on_start=yes
+		position={
+			2060.5 0.81 1475.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="4_tile_25"
+		hidden_on_start=yes
+		position={
+			2080.5 0.81 1475.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="4_tile_26"
+		hidden_on_start=yes
+		position={
+			2100.5 0.81 1475.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="4_tile_27"
+		hidden_on_start=yes
+		position={
+			2120.5 0.81 1475.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="4_tile_28"
+		hidden_on_start=yes
+		position={
+			2140.5 0.81 1475.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="4_tile_29"
+		hidden_on_start=yes
+		position={
+			2160.5 0.81 1475.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="4_tile_30"
+		hidden_on_start=yes
+		position={
+			1980.5 0.81 1455.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="4_tile_31"
+		hidden_on_start=yes
+		position={
+			2000.5 0.81 1455.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="4_tile_32"
+		hidden_on_start=yes
+		position={
+			2020.5 0.81 1455.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="4_tile_33"
+		hidden_on_start=yes
+		position={
+			2040.5 0.81 1455.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="4_tile_34"
+		hidden_on_start=yes
+		position={
+			2060.5 0.81 1455.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="4_tile_35"
+		hidden_on_start=yes
+		position={
+			2080.5 0.81 1455.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="4_tile_36"
+		hidden_on_start=yes
+		position={
+			2100.5 0.81 1455.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="4_tile_37"
+		hidden_on_start=yes
+		position={
+			2120.5 0.81 1455.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="4_tile_38"
+		hidden_on_start=yes
+		position={
+			2140.5 0.81 1455.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="4_tile_39"
+		hidden_on_start=yes
+		position={
+			2160.5 0.81 1455.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="4_tile_40"
+		hidden_on_start=yes
+		position={
+			1980.5 0.81 1435.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="4_tile_41"
+		hidden_on_start=yes
+		position={
+			2000.5 0.81 1435.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="4_tile_42"
+		hidden_on_start=yes
+		position={
+			2020.5 0.81 1435.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="4_tile_43"
+		hidden_on_start=yes
+		position={
+			2040.5 0.81 1435.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="4_tile_44"
+		hidden_on_start=yes
+		position={
+			2060.5 0.81 1435.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="4_tile_45"
+		hidden_on_start=yes
+		position={
+			2080.5 0.81 1435.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="4_tile_46"
+		hidden_on_start=yes
+		position={
+			2100.5 0.81 1435.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="4_tile_47"
+		hidden_on_start=yes
+		position={
+			2120.5 0.81 1435.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="4_tile_48"
+		hidden_on_start=yes
+		position={
+			2140.5 0.81 1435.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="4_tile_49"
+		hidden_on_start=yes
+		position={
+			2160.5 0.81 1435.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="4_tile_50"
+		hidden_on_start=yes
+		position={
+			1980.5 0.81 1415.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="4_tile_51"
+		hidden_on_start=yes
+		position={
+			2000.5 0.81 1415.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="4_tile_52"
+		hidden_on_start=yes
+		position={
+			2020.5 0.81 1415.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="4_tile_53"
+		hidden_on_start=yes
+		position={
+			2040.5 0.81 1415.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="4_tile_54"
+		hidden_on_start=yes
+		position={
+			2060.5 0.81 1415.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="4_tile_55"
+		hidden_on_start=yes
+		position={
+			2080.5 0.81 1415.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="4_tile_56"
+		hidden_on_start=yes
+		position={
+			2100.5 0.81 1415.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="4_tile_57"
+		hidden_on_start=yes
+		position={
+			2120.5 0.81 1415.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="4_tile_58"
+		hidden_on_start=yes
+		position={
+			2140.5 0.81 1415.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="4_tile_59"
+		hidden_on_start=yes
+		position={
+			2160.5 0.81 1415.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="4_tile_60"
+		hidden_on_start=yes
+		position={
+			1980.5 0.81 1395.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="4_tile_61"
+		hidden_on_start=yes
+		position={
+			2000.5 0.81 1395.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="4_tile_62"
+		hidden_on_start=yes
+		position={
+			2020.5 0.81 1395.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="4_tile_63"
+		hidden_on_start=yes
+		position={
+			2040.5 0.81 1395.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="4_tile_64"
+		hidden_on_start=yes
+		position={
+			2060.5 0.81 1395.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="4_tile_65"
+		hidden_on_start=yes
+		position={
+			2080.5 0.81 1395.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="4_tile_66"
+		hidden_on_start=yes
+		position={
+			2100.5 0.81 1395.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="4_tile_67"
+		hidden_on_start=yes
+		position={
+			2120.5 0.81 1395.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="4_tile_68"
+		hidden_on_start=yes
+		position={
+			2140.5 0.81 1395.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="4_tile_69"
+		hidden_on_start=yes
+		position={
+			2160.5 0.81 1395.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="4_tile_70"
+		hidden_on_start=yes
+		position={
+			1980.5 0.81 1375.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="4_tile_71"
+		hidden_on_start=yes
+		position={
+			2000.5 0.81 1375.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="4_tile_72"
+		hidden_on_start=yes
+		position={
+			2020.5 0.81 1375.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="4_tile_73"
+		hidden_on_start=yes
+		position={
+			2040.5 0.81 1375.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="4_tile_74"
+		hidden_on_start=yes
+		position={
+			2060.5 0.81 1375.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="4_tile_75"
+		hidden_on_start=yes
+		position={
+			2080.5 0.81 1375.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="4_tile_76"
+		hidden_on_start=yes
+		position={
+			2100.5 0.81 1375.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="4_tile_77"
+		hidden_on_start=yes
+		position={
+			2120.5 0.81 1375.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="4_tile_78"
+		hidden_on_start=yes
+		position={
+			2140.5 0.81 1375.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="4_tile_79"
+		hidden_on_start=yes
+		position={
+			2160.5 0.81 1375.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="4_tile_80"
+		hidden_on_start=yes
+		position={
+			1980.5 0.81 1355.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="4_tile_81"
+		hidden_on_start=yes
+		position={
+			2000.5 0.81 1355.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="4_tile_82"
+		hidden_on_start=yes
+		position={
+			2020.5 0.81 1355.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="4_tile_83"
+		hidden_on_start=yes
+		position={
+			2040.5 0.81 1355.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="4_tile_84"
+		hidden_on_start=yes
+		position={
+			2060.5 0.81 1355.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="4_tile_85"
+		hidden_on_start=yes
+		position={
+			2080.5 0.81 1355.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="4_tile_86"
+		hidden_on_start=yes
+		position={
+			2100.5 0.81 1355.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="4_tile_87"
+		hidden_on_start=yes
+		position={
+			2120.5 0.81 1355.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="4_tile_88"
+		hidden_on_start=yes
+		position={
+			2140.5 0.81 1355.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="4_tile_89"
+		hidden_on_start=yes
+		position={
+			2160.5 0.81 1355.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="4_tile_90"
+		hidden_on_start=yes
+		position={
+			1980.5 0.81 1335.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="4_tile_91"
+		hidden_on_start=yes
+		position={
+			2000.5 0.81 1335.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="4_tile_92"
+		hidden_on_start=yes
+		position={
+			2020.5 0.81 1335.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="4_tile_93"
+		hidden_on_start=yes
+		position={
+			2040.5 0.81 1335.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="4_tile_94"
+		hidden_on_start=yes
+		position={
+			2060.5 0.81 1335.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="4_tile_95"
+		hidden_on_start=yes
+		position={
+			2080.5 0.81 1335.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="4_tile_96"
+		hidden_on_start=yes
+		position={
+			2100.5 0.81 1335.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="4_tile_97"
+		hidden_on_start=yes
+		position={
+			2120.5 0.81 1335.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="4_tile_98"
+		hidden_on_start=yes
+		position={
+			2140.5 0.81 1335.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="4_tile_99"
+		hidden_on_start=yes
+		position={
+			2160.5 0.81 1335.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+}
+
+type = {
+	type="5_tile"
+	use_animation=no
+	scale = 0.66
+	time_duration=300.000
+	always_visible=no
+	visible_in_all_map_modes=yes
+
+	object = {
+		name="5_tile_0"
+		hidden_on_start=yes
+		position={
+			1980.5 0.81 1515.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="5_tile_1"
+		hidden_on_start=yes
+		position={
+			2000.5 0.81 1515.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="5_tile_2"
+		hidden_on_start=yes
+		position={
+			2020.5 0.81 1515.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="5_tile_3"
+		hidden_on_start=yes
+		position={
+			2040.5 0.81 1515.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="5_tile_4"
+		hidden_on_start=yes
+		position={
+			2060.5 0.81 1515.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="5_tile_5"
+		hidden_on_start=yes
+		position={
+			2080.5 0.81 1515.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="5_tile_6"
+		hidden_on_start=yes
+		position={
+			2100.5 0.81 1515.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="5_tile_7"
+		hidden_on_start=yes
+		position={
+			2120.5 0.81 1515.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="5_tile_8"
+		hidden_on_start=yes
+		position={
+			2140.5 0.81 1515.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="5_tile_9"
+		hidden_on_start=yes
+		position={
+			2160.5 0.81 1515.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="5_tile_10"
+		hidden_on_start=yes
+		position={
+			1980.5 0.81 1495.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="5_tile_11"
+		hidden_on_start=yes
+		position={
+			2000.5 0.81 1495.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="5_tile_12"
+		hidden_on_start=yes
+		position={
+			2020.5 0.81 1495.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="5_tile_13"
+		hidden_on_start=yes
+		position={
+			2040.5 0.81 1495.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="5_tile_14"
+		hidden_on_start=yes
+		position={
+			2060.5 0.81 1495.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="5_tile_15"
+		hidden_on_start=yes
+		position={
+			2080.5 0.81 1495.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="5_tile_16"
+		hidden_on_start=yes
+		position={
+			2100.5 0.81 1495.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="5_tile_17"
+		hidden_on_start=yes
+		position={
+			2120.5 0.81 1495.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="5_tile_18"
+		hidden_on_start=yes
+		position={
+			2140.5 0.81 1495.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="5_tile_19"
+		hidden_on_start=yes
+		position={
+			2160.5 0.81 1495.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="5_tile_20"
+		hidden_on_start=yes
+		position={
+			1980.5 0.81 1475.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="5_tile_21"
+		hidden_on_start=yes
+		position={
+			2000.5 0.81 1475.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="5_tile_22"
+		hidden_on_start=yes
+		position={
+			2020.5 0.81 1475.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="5_tile_23"
+		hidden_on_start=yes
+		position={
+			2040.5 0.81 1475.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="5_tile_24"
+		hidden_on_start=yes
+		position={
+			2060.5 0.81 1475.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="5_tile_25"
+		hidden_on_start=yes
+		position={
+			2080.5 0.81 1475.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="5_tile_26"
+		hidden_on_start=yes
+		position={
+			2100.5 0.81 1475.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="5_tile_27"
+		hidden_on_start=yes
+		position={
+			2120.5 0.81 1475.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="5_tile_28"
+		hidden_on_start=yes
+		position={
+			2140.5 0.81 1475.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="5_tile_29"
+		hidden_on_start=yes
+		position={
+			2160.5 0.81 1475.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="5_tile_30"
+		hidden_on_start=yes
+		position={
+			1980.5 0.81 1455.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="5_tile_31"
+		hidden_on_start=yes
+		position={
+			2000.5 0.81 1455.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="5_tile_32"
+		hidden_on_start=yes
+		position={
+			2020.5 0.81 1455.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="5_tile_33"
+		hidden_on_start=yes
+		position={
+			2040.5 0.81 1455.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="5_tile_34"
+		hidden_on_start=yes
+		position={
+			2060.5 0.81 1455.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="5_tile_35"
+		hidden_on_start=yes
+		position={
+			2080.5 0.81 1455.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="5_tile_36"
+		hidden_on_start=yes
+		position={
+			2100.5 0.81 1455.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="5_tile_37"
+		hidden_on_start=yes
+		position={
+			2120.5 0.81 1455.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="5_tile_38"
+		hidden_on_start=yes
+		position={
+			2140.5 0.81 1455.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="5_tile_39"
+		hidden_on_start=yes
+		position={
+			2160.5 0.81 1455.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="5_tile_40"
+		hidden_on_start=yes
+		position={
+			1980.5 0.81 1435.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="5_tile_41"
+		hidden_on_start=yes
+		position={
+			2000.5 0.81 1435.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="5_tile_42"
+		hidden_on_start=yes
+		position={
+			2020.5 0.81 1435.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="5_tile_43"
+		hidden_on_start=yes
+		position={
+			2040.5 0.81 1435.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="5_tile_44"
+		hidden_on_start=yes
+		position={
+			2060.5 0.81 1435.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="5_tile_45"
+		hidden_on_start=yes
+		position={
+			2080.5 0.81 1435.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="5_tile_46"
+		hidden_on_start=yes
+		position={
+			2100.5 0.81 1435.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="5_tile_47"
+		hidden_on_start=yes
+		position={
+			2120.5 0.81 1435.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="5_tile_48"
+		hidden_on_start=yes
+		position={
+			2140.5 0.81 1435.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="5_tile_49"
+		hidden_on_start=yes
+		position={
+			2160.5 0.81 1435.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="5_tile_50"
+		hidden_on_start=yes
+		position={
+			1980.5 0.81 1415.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="5_tile_51"
+		hidden_on_start=yes
+		position={
+			2000.5 0.81 1415.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="5_tile_52"
+		hidden_on_start=yes
+		position={
+			2020.5 0.81 1415.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="5_tile_53"
+		hidden_on_start=yes
+		position={
+			2040.5 0.81 1415.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="5_tile_54"
+		hidden_on_start=yes
+		position={
+			2060.5 0.81 1415.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="5_tile_55"
+		hidden_on_start=yes
+		position={
+			2080.5 0.81 1415.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="5_tile_56"
+		hidden_on_start=yes
+		position={
+			2100.5 0.81 1415.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="5_tile_57"
+		hidden_on_start=yes
+		position={
+			2120.5 0.81 1415.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="5_tile_58"
+		hidden_on_start=yes
+		position={
+			2140.5 0.81 1415.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="5_tile_59"
+		hidden_on_start=yes
+		position={
+			2160.5 0.81 1415.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="5_tile_60"
+		hidden_on_start=yes
+		position={
+			1980.5 0.81 1395.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="5_tile_61"
+		hidden_on_start=yes
+		position={
+			2000.5 0.81 1395.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="5_tile_62"
+		hidden_on_start=yes
+		position={
+			2020.5 0.81 1395.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="5_tile_63"
+		hidden_on_start=yes
+		position={
+			2040.5 0.81 1395.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="5_tile_64"
+		hidden_on_start=yes
+		position={
+			2060.5 0.81 1395.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="5_tile_65"
+		hidden_on_start=yes
+		position={
+			2080.5 0.81 1395.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="5_tile_66"
+		hidden_on_start=yes
+		position={
+			2100.5 0.81 1395.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="5_tile_67"
+		hidden_on_start=yes
+		position={
+			2120.5 0.81 1395.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="5_tile_68"
+		hidden_on_start=yes
+		position={
+			2140.5 0.81 1395.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="5_tile_69"
+		hidden_on_start=yes
+		position={
+			2160.5 0.81 1395.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="5_tile_70"
+		hidden_on_start=yes
+		position={
+			1980.5 0.81 1375.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="5_tile_71"
+		hidden_on_start=yes
+		position={
+			2000.5 0.81 1375.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="5_tile_72"
+		hidden_on_start=yes
+		position={
+			2020.5 0.81 1375.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="5_tile_73"
+		hidden_on_start=yes
+		position={
+			2040.5 0.81 1375.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="5_tile_74"
+		hidden_on_start=yes
+		position={
+			2060.5 0.81 1375.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="5_tile_75"
+		hidden_on_start=yes
+		position={
+			2080.5 0.81 1375.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="5_tile_76"
+		hidden_on_start=yes
+		position={
+			2100.5 0.81 1375.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="5_tile_77"
+		hidden_on_start=yes
+		position={
+			2120.5 0.81 1375.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="5_tile_78"
+		hidden_on_start=yes
+		position={
+			2140.5 0.81 1375.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="5_tile_79"
+		hidden_on_start=yes
+		position={
+			2160.5 0.81 1375.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="5_tile_80"
+		hidden_on_start=yes
+		position={
+			1980.5 0.81 1355.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="5_tile_81"
+		hidden_on_start=yes
+		position={
+			2000.5 0.81 1355.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="5_tile_82"
+		hidden_on_start=yes
+		position={
+			2020.5 0.81 1355.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="5_tile_83"
+		hidden_on_start=yes
+		position={
+			2040.5 0.81 1355.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="5_tile_84"
+		hidden_on_start=yes
+		position={
+			2060.5 0.81 1355.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="5_tile_85"
+		hidden_on_start=yes
+		position={
+			2080.5 0.81 1355.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="5_tile_86"
+		hidden_on_start=yes
+		position={
+			2100.5 0.81 1355.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="5_tile_87"
+		hidden_on_start=yes
+		position={
+			2120.5 0.81 1355.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="5_tile_88"
+		hidden_on_start=yes
+		position={
+			2140.5 0.81 1355.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="5_tile_89"
+		hidden_on_start=yes
+		position={
+			2160.5 0.81 1355.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="5_tile_90"
+		hidden_on_start=yes
+		position={
+			1980.5 0.81 1335.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="5_tile_91"
+		hidden_on_start=yes
+		position={
+			2000.5 0.81 1335.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="5_tile_92"
+		hidden_on_start=yes
+		position={
+			2020.5 0.81 1335.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="5_tile_93"
+		hidden_on_start=yes
+		position={
+			2040.5 0.81 1335.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="5_tile_94"
+		hidden_on_start=yes
+		position={
+			2060.5 0.81 1335.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="5_tile_95"
+		hidden_on_start=yes
+		position={
+			2080.5 0.81 1335.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="5_tile_96"
+		hidden_on_start=yes
+		position={
+			2100.5 0.81 1335.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="5_tile_97"
+		hidden_on_start=yes
+		position={
+			2120.5 0.81 1335.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="5_tile_98"
+		hidden_on_start=yes
+		position={
+			2140.5 0.81 1335.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="5_tile_99"
+		hidden_on_start=yes
+		position={
+			2160.5 0.81 1335.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+}
+
+type = {
+	type="6_tile"
+	use_animation=no
+	scale = 0.66
+	time_duration=300.000
+	always_visible=no
+	visible_in_all_map_modes=yes
+
+	object = {
+		name="6_tile_0"
+		hidden_on_start=yes
+		position={
+			1980.5 0.81 1515.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="6_tile_1"
+		hidden_on_start=yes
+		position={
+			2000.5 0.81 1515.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="6_tile_2"
+		hidden_on_start=yes
+		position={
+			2020.5 0.81 1515.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="6_tile_3"
+		hidden_on_start=yes
+		position={
+			2040.5 0.81 1515.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="6_tile_4"
+		hidden_on_start=yes
+		position={
+			2060.5 0.81 1515.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="6_tile_5"
+		hidden_on_start=yes
+		position={
+			2080.5 0.81 1515.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="6_tile_6"
+		hidden_on_start=yes
+		position={
+			2100.5 0.81 1515.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="6_tile_7"
+		hidden_on_start=yes
+		position={
+			2120.5 0.81 1515.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="6_tile_8"
+		hidden_on_start=yes
+		position={
+			2140.5 0.81 1515.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="6_tile_9"
+		hidden_on_start=yes
+		position={
+			2160.5 0.81 1515.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="6_tile_10"
+		hidden_on_start=yes
+		position={
+			1980.5 0.81 1495.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="6_tile_11"
+		hidden_on_start=yes
+		position={
+			2000.5 0.81 1495.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="6_tile_12"
+		hidden_on_start=yes
+		position={
+			2020.5 0.81 1495.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="6_tile_13"
+		hidden_on_start=yes
+		position={
+			2040.5 0.81 1495.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="6_tile_14"
+		hidden_on_start=yes
+		position={
+			2060.5 0.81 1495.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="6_tile_15"
+		hidden_on_start=yes
+		position={
+			2080.5 0.81 1495.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="6_tile_16"
+		hidden_on_start=yes
+		position={
+			2100.5 0.81 1495.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="6_tile_17"
+		hidden_on_start=yes
+		position={
+			2120.5 0.81 1495.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="6_tile_18"
+		hidden_on_start=yes
+		position={
+			2140.5 0.81 1495.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="6_tile_19"
+		hidden_on_start=yes
+		position={
+			2160.5 0.81 1495.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="6_tile_20"
+		hidden_on_start=yes
+		position={
+			1980.5 0.81 1475.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="6_tile_21"
+		hidden_on_start=yes
+		position={
+			2000.5 0.81 1475.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="6_tile_22"
+		hidden_on_start=yes
+		position={
+			2020.5 0.81 1475.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="6_tile_23"
+		hidden_on_start=yes
+		position={
+			2040.5 0.81 1475.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="6_tile_24"
+		hidden_on_start=yes
+		position={
+			2060.5 0.81 1475.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="6_tile_25"
+		hidden_on_start=yes
+		position={
+			2080.5 0.81 1475.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="6_tile_26"
+		hidden_on_start=yes
+		position={
+			2100.5 0.81 1475.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="6_tile_27"
+		hidden_on_start=yes
+		position={
+			2120.5 0.81 1475.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="6_tile_28"
+		hidden_on_start=yes
+		position={
+			2140.5 0.81 1475.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="6_tile_29"
+		hidden_on_start=yes
+		position={
+			2160.5 0.81 1475.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="6_tile_30"
+		hidden_on_start=yes
+		position={
+			1980.5 0.81 1455.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="6_tile_31"
+		hidden_on_start=yes
+		position={
+			2000.5 0.81 1455.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="6_tile_32"
+		hidden_on_start=yes
+		position={
+			2020.5 0.81 1455.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="6_tile_33"
+		hidden_on_start=yes
+		position={
+			2040.5 0.81 1455.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="6_tile_34"
+		hidden_on_start=yes
+		position={
+			2060.5 0.81 1455.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="6_tile_35"
+		hidden_on_start=yes
+		position={
+			2080.5 0.81 1455.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="6_tile_36"
+		hidden_on_start=yes
+		position={
+			2100.5 0.81 1455.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="6_tile_37"
+		hidden_on_start=yes
+		position={
+			2120.5 0.81 1455.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="6_tile_38"
+		hidden_on_start=yes
+		position={
+			2140.5 0.81 1455.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="6_tile_39"
+		hidden_on_start=yes
+		position={
+			2160.5 0.81 1455.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="6_tile_40"
+		hidden_on_start=yes
+		position={
+			1980.5 0.81 1435.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="6_tile_41"
+		hidden_on_start=yes
+		position={
+			2000.5 0.81 1435.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="6_tile_42"
+		hidden_on_start=yes
+		position={
+			2020.5 0.81 1435.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="6_tile_43"
+		hidden_on_start=yes
+		position={
+			2040.5 0.81 1435.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="6_tile_44"
+		hidden_on_start=yes
+		position={
+			2060.5 0.81 1435.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="6_tile_45"
+		hidden_on_start=yes
+		position={
+			2080.5 0.81 1435.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="6_tile_46"
+		hidden_on_start=yes
+		position={
+			2100.5 0.81 1435.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="6_tile_47"
+		hidden_on_start=yes
+		position={
+			2120.5 0.81 1435.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="6_tile_48"
+		hidden_on_start=yes
+		position={
+			2140.5 0.81 1435.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="6_tile_49"
+		hidden_on_start=yes
+		position={
+			2160.5 0.81 1435.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="6_tile_50"
+		hidden_on_start=yes
+		position={
+			1980.5 0.81 1415.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="6_tile_51"
+		hidden_on_start=yes
+		position={
+			2000.5 0.81 1415.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="6_tile_52"
+		hidden_on_start=yes
+		position={
+			2020.5 0.81 1415.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="6_tile_53"
+		hidden_on_start=yes
+		position={
+			2040.5 0.81 1415.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="6_tile_54"
+		hidden_on_start=yes
+		position={
+			2060.5 0.81 1415.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="6_tile_55"
+		hidden_on_start=yes
+		position={
+			2080.5 0.81 1415.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="6_tile_56"
+		hidden_on_start=yes
+		position={
+			2100.5 0.81 1415.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="6_tile_57"
+		hidden_on_start=yes
+		position={
+			2120.5 0.81 1415.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="6_tile_58"
+		hidden_on_start=yes
+		position={
+			2140.5 0.81 1415.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="6_tile_59"
+		hidden_on_start=yes
+		position={
+			2160.5 0.81 1415.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="6_tile_60"
+		hidden_on_start=yes
+		position={
+			1980.5 0.81 1395.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="6_tile_61"
+		hidden_on_start=yes
+		position={
+			2000.5 0.81 1395.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="6_tile_62"
+		hidden_on_start=yes
+		position={
+			2020.5 0.81 1395.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="6_tile_63"
+		hidden_on_start=yes
+		position={
+			2040.5 0.81 1395.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="6_tile_64"
+		hidden_on_start=yes
+		position={
+			2060.5 0.81 1395.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="6_tile_65"
+		hidden_on_start=yes
+		position={
+			2080.5 0.81 1395.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="6_tile_66"
+		hidden_on_start=yes
+		position={
+			2100.5 0.81 1395.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="6_tile_67"
+		hidden_on_start=yes
+		position={
+			2120.5 0.81 1395.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="6_tile_68"
+		hidden_on_start=yes
+		position={
+			2140.5 0.81 1395.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="6_tile_69"
+		hidden_on_start=yes
+		position={
+			2160.5 0.81 1395.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="6_tile_70"
+		hidden_on_start=yes
+		position={
+			1980.5 0.81 1375.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="6_tile_71"
+		hidden_on_start=yes
+		position={
+			2000.5 0.81 1375.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="6_tile_72"
+		hidden_on_start=yes
+		position={
+			2020.5 0.81 1375.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="6_tile_73"
+		hidden_on_start=yes
+		position={
+			2040.5 0.81 1375.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="6_tile_74"
+		hidden_on_start=yes
+		position={
+			2060.5 0.81 1375.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="6_tile_75"
+		hidden_on_start=yes
+		position={
+			2080.5 0.81 1375.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="6_tile_76"
+		hidden_on_start=yes
+		position={
+			2100.5 0.81 1375.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="6_tile_77"
+		hidden_on_start=yes
+		position={
+			2120.5 0.81 1375.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="6_tile_78"
+		hidden_on_start=yes
+		position={
+			2140.5 0.81 1375.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="6_tile_79"
+		hidden_on_start=yes
+		position={
+			2160.5 0.81 1375.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="6_tile_80"
+		hidden_on_start=yes
+		position={
+			1980.5 0.81 1355.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="6_tile_81"
+		hidden_on_start=yes
+		position={
+			2000.5 0.81 1355.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="6_tile_82"
+		hidden_on_start=yes
+		position={
+			2020.5 0.81 1355.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="6_tile_83"
+		hidden_on_start=yes
+		position={
+			2040.5 0.81 1355.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="6_tile_84"
+		hidden_on_start=yes
+		position={
+			2060.5 0.81 1355.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="6_tile_85"
+		hidden_on_start=yes
+		position={
+			2080.5 0.81 1355.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="6_tile_86"
+		hidden_on_start=yes
+		position={
+			2100.5 0.81 1355.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="6_tile_87"
+		hidden_on_start=yes
+		position={
+			2120.5 0.81 1355.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="6_tile_88"
+		hidden_on_start=yes
+		position={
+			2140.5 0.81 1355.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="6_tile_89"
+		hidden_on_start=yes
+		position={
+			2160.5 0.81 1355.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="6_tile_90"
+		hidden_on_start=yes
+		position={
+			1980.5 0.81 1335.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="6_tile_91"
+		hidden_on_start=yes
+		position={
+			2000.5 0.81 1335.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="6_tile_92"
+		hidden_on_start=yes
+		position={
+			2020.5 0.81 1335.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="6_tile_93"
+		hidden_on_start=yes
+		position={
+			2040.5 0.81 1335.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="6_tile_94"
+		hidden_on_start=yes
+		position={
+			2060.5 0.81 1335.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="6_tile_95"
+		hidden_on_start=yes
+		position={
+			2080.5 0.81 1335.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="6_tile_96"
+		hidden_on_start=yes
+		position={
+			2100.5 0.81 1335.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="6_tile_97"
+		hidden_on_start=yes
+		position={
+			2120.5 0.81 1335.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="6_tile_98"
+		hidden_on_start=yes
+		position={
+			2140.5 0.81 1335.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="6_tile_99"
+		hidden_on_start=yes
+		position={
+			2160.5 0.81 1335.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+}
+
+type = {
+	type="7_tile"
+	use_animation=no
+	scale = 0.66
+	time_duration=300.000
+	always_visible=no
+	visible_in_all_map_modes=yes
+
+	object = {
+		name="7_tile_0"
+		hidden_on_start=yes
+		position={
+			1980.5 0.81 1515.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="7_tile_1"
+		hidden_on_start=yes
+		position={
+			2000.5 0.81 1515.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="7_tile_2"
+		hidden_on_start=yes
+		position={
+			2020.5 0.81 1515.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="7_tile_3"
+		hidden_on_start=yes
+		position={
+			2040.5 0.81 1515.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="7_tile_4"
+		hidden_on_start=yes
+		position={
+			2060.5 0.81 1515.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="7_tile_5"
+		hidden_on_start=yes
+		position={
+			2080.5 0.81 1515.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="7_tile_6"
+		hidden_on_start=yes
+		position={
+			2100.5 0.81 1515.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="7_tile_7"
+		hidden_on_start=yes
+		position={
+			2120.5 0.81 1515.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="7_tile_8"
+		hidden_on_start=yes
+		position={
+			2140.5 0.81 1515.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="7_tile_9"
+		hidden_on_start=yes
+		position={
+			2160.5 0.81 1515.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="7_tile_10"
+		hidden_on_start=yes
+		position={
+			1980.5 0.81 1495.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="7_tile_11"
+		hidden_on_start=yes
+		position={
+			2000.5 0.81 1495.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="7_tile_12"
+		hidden_on_start=yes
+		position={
+			2020.5 0.81 1495.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="7_tile_13"
+		hidden_on_start=yes
+		position={
+			2040.5 0.81 1495.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="7_tile_14"
+		hidden_on_start=yes
+		position={
+			2060.5 0.81 1495.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="7_tile_15"
+		hidden_on_start=yes
+		position={
+			2080.5 0.81 1495.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="7_tile_16"
+		hidden_on_start=yes
+		position={
+			2100.5 0.81 1495.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="7_tile_17"
+		hidden_on_start=yes
+		position={
+			2120.5 0.81 1495.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="7_tile_18"
+		hidden_on_start=yes
+		position={
+			2140.5 0.81 1495.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="7_tile_19"
+		hidden_on_start=yes
+		position={
+			2160.5 0.81 1495.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="7_tile_20"
+		hidden_on_start=yes
+		position={
+			1980.5 0.81 1475.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="7_tile_21"
+		hidden_on_start=yes
+		position={
+			2000.5 0.81 1475.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="7_tile_22"
+		hidden_on_start=yes
+		position={
+			2020.5 0.81 1475.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="7_tile_23"
+		hidden_on_start=yes
+		position={
+			2040.5 0.81 1475.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="7_tile_24"
+		hidden_on_start=yes
+		position={
+			2060.5 0.81 1475.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="7_tile_25"
+		hidden_on_start=yes
+		position={
+			2080.5 0.81 1475.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="7_tile_26"
+		hidden_on_start=yes
+		position={
+			2100.5 0.81 1475.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="7_tile_27"
+		hidden_on_start=yes
+		position={
+			2120.5 0.81 1475.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="7_tile_28"
+		hidden_on_start=yes
+		position={
+			2140.5 0.81 1475.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="7_tile_29"
+		hidden_on_start=yes
+		position={
+			2160.5 0.81 1475.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="7_tile_30"
+		hidden_on_start=yes
+		position={
+			1980.5 0.81 1455.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="7_tile_31"
+		hidden_on_start=yes
+		position={
+			2000.5 0.81 1455.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="7_tile_32"
+		hidden_on_start=yes
+		position={
+			2020.5 0.81 1455.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="7_tile_33"
+		hidden_on_start=yes
+		position={
+			2040.5 0.81 1455.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="7_tile_34"
+		hidden_on_start=yes
+		position={
+			2060.5 0.81 1455.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="7_tile_35"
+		hidden_on_start=yes
+		position={
+			2080.5 0.81 1455.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="7_tile_36"
+		hidden_on_start=yes
+		position={
+			2100.5 0.81 1455.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="7_tile_37"
+		hidden_on_start=yes
+		position={
+			2120.5 0.81 1455.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="7_tile_38"
+		hidden_on_start=yes
+		position={
+			2140.5 0.81 1455.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="7_tile_39"
+		hidden_on_start=yes
+		position={
+			2160.5 0.81 1455.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="7_tile_40"
+		hidden_on_start=yes
+		position={
+			1980.5 0.81 1435.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="7_tile_41"
+		hidden_on_start=yes
+		position={
+			2000.5 0.81 1435.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="7_tile_42"
+		hidden_on_start=yes
+		position={
+			2020.5 0.81 1435.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="7_tile_43"
+		hidden_on_start=yes
+		position={
+			2040.5 0.81 1435.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="7_tile_44"
+		hidden_on_start=yes
+		position={
+			2060.5 0.81 1435.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="7_tile_45"
+		hidden_on_start=yes
+		position={
+			2080.5 0.81 1435.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="7_tile_46"
+		hidden_on_start=yes
+		position={
+			2100.5 0.81 1435.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="7_tile_47"
+		hidden_on_start=yes
+		position={
+			2120.5 0.81 1435.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="7_tile_48"
+		hidden_on_start=yes
+		position={
+			2140.5 0.81 1435.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="7_tile_49"
+		hidden_on_start=yes
+		position={
+			2160.5 0.81 1435.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="7_tile_50"
+		hidden_on_start=yes
+		position={
+			1980.5 0.81 1415.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="7_tile_51"
+		hidden_on_start=yes
+		position={
+			2000.5 0.81 1415.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="7_tile_52"
+		hidden_on_start=yes
+		position={
+			2020.5 0.81 1415.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="7_tile_53"
+		hidden_on_start=yes
+		position={
+			2040.5 0.81 1415.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="7_tile_54"
+		hidden_on_start=yes
+		position={
+			2060.5 0.81 1415.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="7_tile_55"
+		hidden_on_start=yes
+		position={
+			2080.5 0.81 1415.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="7_tile_56"
+		hidden_on_start=yes
+		position={
+			2100.5 0.81 1415.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="7_tile_57"
+		hidden_on_start=yes
+		position={
+			2120.5 0.81 1415.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="7_tile_58"
+		hidden_on_start=yes
+		position={
+			2140.5 0.81 1415.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="7_tile_59"
+		hidden_on_start=yes
+		position={
+			2160.5 0.81 1415.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="7_tile_60"
+		hidden_on_start=yes
+		position={
+			1980.5 0.81 1395.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="7_tile_61"
+		hidden_on_start=yes
+		position={
+			2000.5 0.81 1395.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="7_tile_62"
+		hidden_on_start=yes
+		position={
+			2020.5 0.81 1395.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="7_tile_63"
+		hidden_on_start=yes
+		position={
+			2040.5 0.81 1395.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="7_tile_64"
+		hidden_on_start=yes
+		position={
+			2060.5 0.81 1395.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="7_tile_65"
+		hidden_on_start=yes
+		position={
+			2080.5 0.81 1395.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="7_tile_66"
+		hidden_on_start=yes
+		position={
+			2100.5 0.81 1395.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="7_tile_67"
+		hidden_on_start=yes
+		position={
+			2120.5 0.81 1395.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="7_tile_68"
+		hidden_on_start=yes
+		position={
+			2140.5 0.81 1395.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="7_tile_69"
+		hidden_on_start=yes
+		position={
+			2160.5 0.81 1395.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="7_tile_70"
+		hidden_on_start=yes
+		position={
+			1980.5 0.81 1375.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="7_tile_71"
+		hidden_on_start=yes
+		position={
+			2000.5 0.81 1375.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="7_tile_72"
+		hidden_on_start=yes
+		position={
+			2020.5 0.81 1375.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="7_tile_73"
+		hidden_on_start=yes
+		position={
+			2040.5 0.81 1375.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="7_tile_74"
+		hidden_on_start=yes
+		position={
+			2060.5 0.81 1375.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="7_tile_75"
+		hidden_on_start=yes
+		position={
+			2080.5 0.81 1375.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="7_tile_76"
+		hidden_on_start=yes
+		position={
+			2100.5 0.81 1375.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="7_tile_77"
+		hidden_on_start=yes
+		position={
+			2120.5 0.81 1375.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="7_tile_78"
+		hidden_on_start=yes
+		position={
+			2140.5 0.81 1375.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="7_tile_79"
+		hidden_on_start=yes
+		position={
+			2160.5 0.81 1375.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="7_tile_80"
+		hidden_on_start=yes
+		position={
+			1980.5 0.81 1355.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="7_tile_81"
+		hidden_on_start=yes
+		position={
+			2000.5 0.81 1355.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="7_tile_82"
+		hidden_on_start=yes
+		position={
+			2020.5 0.81 1355.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="7_tile_83"
+		hidden_on_start=yes
+		position={
+			2040.5 0.81 1355.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="7_tile_84"
+		hidden_on_start=yes
+		position={
+			2060.5 0.81 1355.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="7_tile_85"
+		hidden_on_start=yes
+		position={
+			2080.5 0.81 1355.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="7_tile_86"
+		hidden_on_start=yes
+		position={
+			2100.5 0.81 1355.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="7_tile_87"
+		hidden_on_start=yes
+		position={
+			2120.5 0.81 1355.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="7_tile_88"
+		hidden_on_start=yes
+		position={
+			2140.5 0.81 1355.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="7_tile_89"
+		hidden_on_start=yes
+		position={
+			2160.5 0.81 1355.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="7_tile_90"
+		hidden_on_start=yes
+		position={
+			1980.5 0.81 1335.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="7_tile_91"
+		hidden_on_start=yes
+		position={
+			2000.5 0.81 1335.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="7_tile_92"
+		hidden_on_start=yes
+		position={
+			2020.5 0.81 1335.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="7_tile_93"
+		hidden_on_start=yes
+		position={
+			2040.5 0.81 1335.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="7_tile_94"
+		hidden_on_start=yes
+		position={
+			2060.5 0.81 1335.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="7_tile_95"
+		hidden_on_start=yes
+		position={
+			2080.5 0.81 1335.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="7_tile_96"
+		hidden_on_start=yes
+		position={
+			2100.5 0.81 1335.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="7_tile_97"
+		hidden_on_start=yes
+		position={
+			2120.5 0.81 1335.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="7_tile_98"
+		hidden_on_start=yes
+		position={
+			2140.5 0.81 1335.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="7_tile_99"
+		hidden_on_start=yes
+		position={
+			2160.5 0.81 1335.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+}
+
+type = {
+	type="8_tile"
+	use_animation=no
+	scale = 0.66
+	time_duration=300.000
+	always_visible=no
+	visible_in_all_map_modes=yes
+
+	object = {
+		name="8_tile_0"
+		hidden_on_start=yes
+		position={
+			1980.5 0.81 1515.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="8_tile_1"
+		hidden_on_start=yes
+		position={
+			2000.5 0.81 1515.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="8_tile_2"
+		hidden_on_start=yes
+		position={
+			2020.5 0.81 1515.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="8_tile_3"
+		hidden_on_start=yes
+		position={
+			2040.5 0.81 1515.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="8_tile_4"
+		hidden_on_start=yes
+		position={
+			2060.5 0.81 1515.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="8_tile_5"
+		hidden_on_start=yes
+		position={
+			2080.5 0.81 1515.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="8_tile_6"
+		hidden_on_start=yes
+		position={
+			2100.5 0.81 1515.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="8_tile_7"
+		hidden_on_start=yes
+		position={
+			2120.5 0.81 1515.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="8_tile_8"
+		hidden_on_start=yes
+		position={
+			2140.5 0.81 1515.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="8_tile_9"
+		hidden_on_start=yes
+		position={
+			2160.5 0.81 1515.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="8_tile_10"
+		hidden_on_start=yes
+		position={
+			1980.5 0.81 1495.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="8_tile_11"
+		hidden_on_start=yes
+		position={
+			2000.5 0.81 1495.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="8_tile_12"
+		hidden_on_start=yes
+		position={
+			2020.5 0.81 1495.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="8_tile_13"
+		hidden_on_start=yes
+		position={
+			2040.5 0.81 1495.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="8_tile_14"
+		hidden_on_start=yes
+		position={
+			2060.5 0.81 1495.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="8_tile_15"
+		hidden_on_start=yes
+		position={
+			2080.5 0.81 1495.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="8_tile_16"
+		hidden_on_start=yes
+		position={
+			2100.5 0.81 1495.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="8_tile_17"
+		hidden_on_start=yes
+		position={
+			2120.5 0.81 1495.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="8_tile_18"
+		hidden_on_start=yes
+		position={
+			2140.5 0.81 1495.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="8_tile_19"
+		hidden_on_start=yes
+		position={
+			2160.5 0.81 1495.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="8_tile_20"
+		hidden_on_start=yes
+		position={
+			1980.5 0.81 1475.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="8_tile_21"
+		hidden_on_start=yes
+		position={
+			2000.5 0.81 1475.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="8_tile_22"
+		hidden_on_start=yes
+		position={
+			2020.5 0.81 1475.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="8_tile_23"
+		hidden_on_start=yes
+		position={
+			2040.5 0.81 1475.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="8_tile_24"
+		hidden_on_start=yes
+		position={
+			2060.5 0.81 1475.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="8_tile_25"
+		hidden_on_start=yes
+		position={
+			2080.5 0.81 1475.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="8_tile_26"
+		hidden_on_start=yes
+		position={
+			2100.5 0.81 1475.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="8_tile_27"
+		hidden_on_start=yes
+		position={
+			2120.5 0.81 1475.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="8_tile_28"
+		hidden_on_start=yes
+		position={
+			2140.5 0.81 1475.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="8_tile_29"
+		hidden_on_start=yes
+		position={
+			2160.5 0.81 1475.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="8_tile_30"
+		hidden_on_start=yes
+		position={
+			1980.5 0.81 1455.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="8_tile_31"
+		hidden_on_start=yes
+		position={
+			2000.5 0.81 1455.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="8_tile_32"
+		hidden_on_start=yes
+		position={
+			2020.5 0.81 1455.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="8_tile_33"
+		hidden_on_start=yes
+		position={
+			2040.5 0.81 1455.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="8_tile_34"
+		hidden_on_start=yes
+		position={
+			2060.5 0.81 1455.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="8_tile_35"
+		hidden_on_start=yes
+		position={
+			2080.5 0.81 1455.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="8_tile_36"
+		hidden_on_start=yes
+		position={
+			2100.5 0.81 1455.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="8_tile_37"
+		hidden_on_start=yes
+		position={
+			2120.5 0.81 1455.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="8_tile_38"
+		hidden_on_start=yes
+		position={
+			2140.5 0.81 1455.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="8_tile_39"
+		hidden_on_start=yes
+		position={
+			2160.5 0.81 1455.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="8_tile_40"
+		hidden_on_start=yes
+		position={
+			1980.5 0.81 1435.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="8_tile_41"
+		hidden_on_start=yes
+		position={
+			2000.5 0.81 1435.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="8_tile_42"
+		hidden_on_start=yes
+		position={
+			2020.5 0.81 1435.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="8_tile_43"
+		hidden_on_start=yes
+		position={
+			2040.5 0.81 1435.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="8_tile_44"
+		hidden_on_start=yes
+		position={
+			2060.5 0.81 1435.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="8_tile_45"
+		hidden_on_start=yes
+		position={
+			2080.5 0.81 1435.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="8_tile_46"
+		hidden_on_start=yes
+		position={
+			2100.5 0.81 1435.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="8_tile_47"
+		hidden_on_start=yes
+		position={
+			2120.5 0.81 1435.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="8_tile_48"
+		hidden_on_start=yes
+		position={
+			2140.5 0.81 1435.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="8_tile_49"
+		hidden_on_start=yes
+		position={
+			2160.5 0.81 1435.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="8_tile_50"
+		hidden_on_start=yes
+		position={
+			1980.5 0.81 1415.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="8_tile_51"
+		hidden_on_start=yes
+		position={
+			2000.5 0.81 1415.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="8_tile_52"
+		hidden_on_start=yes
+		position={
+			2020.5 0.81 1415.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="8_tile_53"
+		hidden_on_start=yes
+		position={
+			2040.5 0.81 1415.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="8_tile_54"
+		hidden_on_start=yes
+		position={
+			2060.5 0.81 1415.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="8_tile_55"
+		hidden_on_start=yes
+		position={
+			2080.5 0.81 1415.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="8_tile_56"
+		hidden_on_start=yes
+		position={
+			2100.5 0.81 1415.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="8_tile_57"
+		hidden_on_start=yes
+		position={
+			2120.5 0.81 1415.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="8_tile_58"
+		hidden_on_start=yes
+		position={
+			2140.5 0.81 1415.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="8_tile_59"
+		hidden_on_start=yes
+		position={
+			2160.5 0.81 1415.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="8_tile_60"
+		hidden_on_start=yes
+		position={
+			1980.5 0.81 1395.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="8_tile_61"
+		hidden_on_start=yes
+		position={
+			2000.5 0.81 1395.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="8_tile_62"
+		hidden_on_start=yes
+		position={
+			2020.5 0.81 1395.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="8_tile_63"
+		hidden_on_start=yes
+		position={
+			2040.5 0.81 1395.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="8_tile_64"
+		hidden_on_start=yes
+		position={
+			2060.5 0.81 1395.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="8_tile_65"
+		hidden_on_start=yes
+		position={
+			2080.5 0.81 1395.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="8_tile_66"
+		hidden_on_start=yes
+		position={
+			2100.5 0.81 1395.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="8_tile_67"
+		hidden_on_start=yes
+		position={
+			2120.5 0.81 1395.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="8_tile_68"
+		hidden_on_start=yes
+		position={
+			2140.5 0.81 1395.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="8_tile_69"
+		hidden_on_start=yes
+		position={
+			2160.5 0.81 1395.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="8_tile_70"
+		hidden_on_start=yes
+		position={
+			1980.5 0.81 1375.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="8_tile_71"
+		hidden_on_start=yes
+		position={
+			2000.5 0.81 1375.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="8_tile_72"
+		hidden_on_start=yes
+		position={
+			2020.5 0.81 1375.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="8_tile_73"
+		hidden_on_start=yes
+		position={
+			2040.5 0.81 1375.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="8_tile_74"
+		hidden_on_start=yes
+		position={
+			2060.5 0.81 1375.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="8_tile_75"
+		hidden_on_start=yes
+		position={
+			2080.5 0.81 1375.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="8_tile_76"
+		hidden_on_start=yes
+		position={
+			2100.5 0.81 1375.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="8_tile_77"
+		hidden_on_start=yes
+		position={
+			2120.5 0.81 1375.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="8_tile_78"
+		hidden_on_start=yes
+		position={
+			2140.5 0.81 1375.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="8_tile_79"
+		hidden_on_start=yes
+		position={
+			2160.5 0.81 1375.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="8_tile_80"
+		hidden_on_start=yes
+		position={
+			1980.5 0.81 1355.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="8_tile_81"
+		hidden_on_start=yes
+		position={
+			2000.5 0.81 1355.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="8_tile_82"
+		hidden_on_start=yes
+		position={
+			2020.5 0.81 1355.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="8_tile_83"
+		hidden_on_start=yes
+		position={
+			2040.5 0.81 1355.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="8_tile_84"
+		hidden_on_start=yes
+		position={
+			2060.5 0.81 1355.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="8_tile_85"
+		hidden_on_start=yes
+		position={
+			2080.5 0.81 1355.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="8_tile_86"
+		hidden_on_start=yes
+		position={
+			2100.5 0.81 1355.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="8_tile_87"
+		hidden_on_start=yes
+		position={
+			2120.5 0.81 1355.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="8_tile_88"
+		hidden_on_start=yes
+		position={
+			2140.5 0.81 1355.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="8_tile_89"
+		hidden_on_start=yes
+		position={
+			2160.5 0.81 1355.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="8_tile_90"
+		hidden_on_start=yes
+		position={
+			1980.5 0.81 1335.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="8_tile_91"
+		hidden_on_start=yes
+		position={
+			2000.5 0.81 1335.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="8_tile_92"
+		hidden_on_start=yes
+		position={
+			2020.5 0.81 1335.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="8_tile_93"
+		hidden_on_start=yes
+		position={
+			2040.5 0.81 1335.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="8_tile_94"
+		hidden_on_start=yes
+		position={
+			2060.5 0.81 1335.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="8_tile_95"
+		hidden_on_start=yes
+		position={
+			2080.5 0.81 1335.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="8_tile_96"
+		hidden_on_start=yes
+		position={
+			2100.5 0.81 1335.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="8_tile_97"
+		hidden_on_start=yes
+		position={
+			2120.5 0.81 1335.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="8_tile_98"
+		hidden_on_start=yes
+		position={
+			2140.5 0.81 1335.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+	object = {
+		name="8_tile_99"
+		hidden_on_start=yes
+		position={
+			2160.5 0.81 1335.5
+		}
+		rotation={
+			0.000 0.000 0.000
+		}
+	}
+
+}
+
