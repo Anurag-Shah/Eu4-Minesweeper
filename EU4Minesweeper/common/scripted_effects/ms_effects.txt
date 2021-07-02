@@ -27,7 +27,8 @@ ms_setup = {
 	}
 }
 
-ms_clear_province = {
+ms_admin_clear = {
+	# Wrapper for clear province through admin development (and not dip)
 	owner = {
 		add_adm_power = 5
 	}
@@ -38,614 +39,458 @@ ms_clear_province = {
 		limit = {
 			has_global_flag = game_in_progress_flag
 		}
+		ms_clear_province = yes
+	}
+}
 
-		# Bomb
-		if = {
-			limit = {
-				has_province_flag = bomb_flag
+ms_clear_province = {
+	# Bomb
+	if = {
+		limit = {
+			has_province_flag = bomb_flag
+		}
+		# The game is lost, fire an event indicating this
+
+		owner = {
+			country_event = {
+				id = minesweeper.6
 			}
-			# The game is lost, fire an event indicating this
-
-			owner = {
-				country_event = {
-					id = minesweeper.6
-				}
-			}
-
-			# show every province on the board for its final color
-			minesweeper_region = {
-				if = {
-					limit = {
-						has_province_flag = bomb_flag
-					}
-					if = {
-						limit = {
-							has_province_modifier = flag_mod
-						}
-						remove_province_modifier = flag_mod
-						ms_hide_flagged_tile_in_prov = yes
-					}
-					if = {
-						limit = {
-							has_province_modifier = question_mod
-						}
-						remove_province_modifier = question_mod
-						ms_hide_question_tile_in_prov = yes
-					}
-					add_province_modifier = {
-						name = bomb_mod
-						duration = -1
-					}
-					ms_show_bomb_tile_in_prov = yes
-					clr_province_flag = bomb_flag
-				}
-				else_if = {
-					limit = {
-						has_province_flag = zero_flag
-					}
-					if = {
-						limit = {
-							has_province_modifier = flag_mod
-						}
-						remove_province_modifier = flag_mod
-						ms_hide_flagged_tile_in_prov = yes
-					}
-					if = {
-						limit = {
-							has_province_modifier = question_mod
-						}
-						remove_province_modifier = question_mod
-						ms_hide_question_tile_in_prov = yes
-					}
-					if = {
-						limit = {
-							NOT = { has_province_modifier = zero_mod }
-						}
-						add_province_modifier = {
-							name = zero_mod
-							duration = -1
-						}
-						ms_show_0_tile_in_prov = yes
-					}
-					clr_province_flag = zero_flag
-				}
-				else_if = {
-					limit = {
-						has_province_flag = one_flag
-					}
-					if = {
-						limit = {
-							has_province_modifier = flag_mod
-						}
-						remove_province_modifier = flag_mod
-						ms_hide_flagged_tile_in_prov = yes
-					}
-					if = {
-						limit = {
-							has_province_modifier = question_mod
-						}
-						remove_province_modifier = question_mod
-						ms_hide_question_tile_in_prov = yes
-					}
-					if = {
-						limit = {
-							NOT = { has_province_modifier = one_mod }
-						}
-						add_province_modifier = {
-							name = one_mod
-							duration = -1
-						}
-						ms_show_1_tile_in_prov = yes
-					}
-					clr_province_flag = one_flag
-				}
-				else_if = {
-					limit = {
-						has_province_flag = two_flag
-					}
-					if = {
-						limit = {
-							has_province_modifier = flag_mod
-						}
-						remove_province_modifier = flag_mod
-						ms_hide_flagged_tile_in_prov = yes
-					}
-					if = {
-						limit = {
-							has_province_modifier = question_mod
-						}
-						remove_province_modifier = question_mod
-						ms_hide_question_tile_in_prov = yes
-					}
-					if = {
-						limit = {
-							NOT = { has_province_modifier = two_mod }
-						}
-						add_province_modifier = {
-							name = two_mod
-							duration = -1
-						}
-						ms_show_2_tile_in_prov = yes
-					}
-					clr_province_flag = two_flag
-				}
-				else_if = {
-					limit = {
-						has_province_flag = three_flag
-					}
-					if = {
-						limit = {
-							has_province_modifier = flag_mod
-						}
-						remove_province_modifier = flag_mod
-						ms_hide_flagged_tile_in_prov = yes
-					}
-					if = {
-						limit = {
-							has_province_modifier = question_mod
-						}
-						remove_province_modifier = question_mod
-						ms_hide_question_tile_in_prov = yes
-					}
-					if = {
-						limit = {
-							NOT = { has_province_modifier = three_mod }
-						}
-						add_province_modifier = {
-							name = three_mod
-							duration = -1
-						}
-						ms_show_3_tile_in_prov = yes
-					}
-					clr_province_flag = three_flag
-				}
-				else_if = {
-					limit = {
-						has_province_flag = four_flag
-					}
-					if = {
-						limit = {
-							has_province_modifier = flag_mod
-						}
-						remove_province_modifier = flag_mod
-						ms_hide_flagged_tile_in_prov = yes
-					}
-					if = {
-						limit = {
-							has_province_modifier = question_mod
-						}
-						remove_province_modifier = question_mod
-						ms_hide_question_tile_in_prov = yes
-					}
-					if = {
-						limit = {
-							NOT = { has_province_modifier = four_mod }
-						}
-						add_province_modifier = {
-							name = four_mod
-							duration = -1
-						}
-						ms_show_4_tile_in_prov = yes
-					}
-					clr_province_flag = four_flag
-				}
-				else_if = {
-					limit = {
-						has_province_flag = five_flag
-					}
-					if = {
-						limit = {
-							has_province_modifier = flag_mod
-						}
-						remove_province_modifier = flag_mod
-						ms_hide_flagged_tile_in_prov = yes
-					}
-					if = {
-						limit = {
-							has_province_modifier = question_mod
-						}
-						remove_province_modifier = question_mod
-						ms_hide_question_tile_in_prov = yes
-					}
-					if = {
-						limit = {
-							NOT = { has_province_modifier = five_mod }
-						}
-						add_province_modifier = {
-							name = five_mod
-							duration = -1
-						}
-						ms_show_5_tile_in_prov = yes
-					}
-					clr_province_flag = five_flag
-				}
-				else_if = {
-					limit = {
-						has_province_flag = six_flag
-					}
-					if = {
-						limit = {
-							has_province_modifier = flag_mod
-						}
-						remove_province_modifier = flag_mod
-						ms_hide_flagged_tile_in_prov = yes
-					}
-					if = {
-						limit = {
-							has_province_modifier = question_mod
-						}
-						remove_province_modifier = question_mod
-						ms_hide_question_tile_in_prov = yes
-					}
-					if = {
-						limit = {
-							NOT = { has_province_modifier = six_mod }
-						}
-						add_province_modifier = {
-							name = six_mod
-							duration = -1
-						}
-						ms_show_6_tile_in_prov = yes
-					}
-					clr_province_flag = six_flag
-				}
-				else_if = {
-					limit = {
-						has_province_flag = seven_flag
-					}
-					if = {
-						limit = {
-							has_province_modifier = flag_mod
-						}
-						remove_province_modifier = flag_mod
-						ms_hide_flagged_tile_in_prov = yes
-					}
-					if = {
-						limit = {
-							has_province_modifier = question_mod
-						}
-						remove_province_modifier = question_mod
-						ms_hide_question_tile_in_prov = yes
-					}
-					if = {
-						limit = {
-							NOT = { has_province_modifier = seven_mod }
-						}
-						add_province_modifier = {
-							name = seven_mod
-							duration = -1
-						}
-						ms_show_7_tile_in_prov = yes
-					}
-					clr_province_flag = seven_flag
-				}
-				else_if = {
-					limit = {
-						has_province_flag = eight_flag
-					}
-					if = {
-						limit = {
-							has_province_modifier = flag_mod
-						}
-						remove_province_modifier = flag_mod
-						ms_hide_flagged_tile_in_prov = yes
-					}
-					if = {
-						limit = {
-							has_province_modifier = question_mod
-						}
-						remove_province_modifier = question_mod
-						ms_hide_question_tile_in_prov = yes
-					}
-					if = {
-						limit = {
-							NOT = { has_province_modifier = eight_mod }
-						}
-						add_province_modifier = {
-							name = eight_mod
-							duration = -1
-						}
-						ms_show_8_tile_in_prov = yes
-					}
-					clr_province_flag = eight_flag
-				}
-			}
-
-			# Also mark off the game_in_progress_flag flag for the owner scope. This variable will unlock the "reset game" decision
-			clr_global_flag = game_in_progress_flag
-
 		}
 
-		# Other Tiles
-		else_if = {
-			limit = {
-				has_province_modifier = question_mod
-			}
-			# Province hasnt been clicked before
-			# We should reveal the tile
-
-			# Increase game score
-			owner = {
-				change_variable = {
-					which = score
-					value = 1
-				}
-			}
-
-			remove_province_modifier = question_mod
-			ms_hide_question_tile_in_prov = yes
-
+		# show every province on the board for its final color
+		minesweeper_region = {
 			if = {
+				limit = {
+					has_province_flag = bomb_flag
+				}
+				if = {
+					limit = {
+						has_province_modifier = flag_mod
+					}
+					remove_province_modifier = flag_mod
+					ms_hide_flagged_tile_in_prov = yes
+				}
+				if = {
+					limit = {
+						has_province_modifier = question_mod
+					}
+					remove_province_modifier = question_mod
+					ms_hide_question_tile_in_prov = yes
+				}
+				add_province_modifier = {
+					name = bomb_mod
+					duration = -1
+				}
+				ms_show_bomb_tile_in_prov = yes
+				clr_province_flag = bomb_flag
+			}
+			else_if = {
 				limit = {
 					has_province_flag = zero_flag
 				}
-				add_province_modifier = {
-					name = zero_mod
-					duration = -1
-				}
-				ms_show_0_tile_in_prov = yes
-				ROOT = {
-					set_variable = {
-						which = minesweeper_event_1_loop_exit_cond
-						value = 1
-					}
-				}
-
-				while = {
+				if = {
 					limit = {
-						ROOT = {
-							check_variable = {
-								which = minesweeper_event_1_loop_exit_cond
-								value = 1
-							}
-						}
+						has_province_modifier = flag_mod
 					}
-
-					# Set iteration counter
-					ROOT = {
-						set_variable = {
-							which = minesweeper_event_1_loop_exit_cond
-							value = 0
-						}
-					}
-
-					# Check if there are any zero provinces with question neighbors
-					minesweeper_region = {
-						limit = {
-							has_province_modifier = zero_mod
-						}
-						minesweeper_region = {
-							limit = {
-								AND = {
-									has_province_modifier = question_mod
-									NOT = {
-										province_distance = {
-											who = PREV
-											distance = 29
-										}
-									}
-								}
-							}
-
-							# These are provinces with question neighbors, set their values to their flags
-
-							# First update counter variable
-							ROOT = {
-								change_variable = {
-									which = minesweeper_event_1_loop_exit_cond
-									value = 1
-								}
-							}
-
-							# Next update score variable
-
-							owner = {
-								change_variable = {
-									which = score
-									value = 1
-								}
-							}
-
-							# Then remove question mod
-
-							remove_province_modifier = question_mod
-							ms_hide_question_tile_in_prov = yes
-
-							# Then if block
-							if = {
-								limit = {
-									has_province_flag = zero_flag
-								}
-								add_province_modifier = {
-									name = zero_mod
-									duration = -1
-								}
-								ms_show_0_tile_in_prov = yes
-							}
-							else_if = {
-								limit = {
-									has_province_flag = one_flag
-								}
-								add_province_modifier = {
-									name = one_mod
-									duration = -1
-								}
-								ms_show_1_tile_in_prov = yes
-							}
-							else_if = {
-								limit = {
-									has_province_flag = two_flag
-								}
-								add_province_modifier = {
-									name = two_mod
-									duration = -1
-								}
-								ms_show_2_tile_in_prov = yes
-							}
-							else_if = {
-								limit = {
-									has_province_flag = three_flag
-								}
-								add_province_modifier = {
-									name = three_mod
-									duration = -1
-								}
-								ms_show_3_tile_in_prov = yes
-							}
-							else_if = {
-								limit = {
-									has_province_flag = four_flag
-								}
-								add_province_modifier = {
-									name = four_mod
-									duration = -1
-								}
-								ms_show_4_tile_in_prov = yes
-							}
-							else_if = {
-								limit = {
-									has_province_flag = five_flag
-								}
-								add_province_modifier = {
-									name = five_mod
-									duration = -1
-								}
-								ms_show_5_tile_in_prov = yes
-							}
-							else_if = {
-								limit = {
-									has_province_flag = six_flag
-								}
-								add_province_modifier = {
-									name = six_mod
-									duration = -1
-								}
-								ms_show_6_tile_in_prov = yes
-							}
-							else_if = {
-								limit = {
-									has_province_flag = seven_flag
-								}
-								add_province_modifier = {
-									name = seven_mod
-									duration = -1
-								}
-								ms_show_7_tile_in_prov = yes
-							}
-							else = {
-								add_province_modifier = {
-									name = eight_mod
-									duration = -1
-								}
-								ms_show_8_tile_in_prov = yes
-							}
-							
-						}
-					}
-
-					# END WHILE
+					remove_province_modifier = flag_mod
+					ms_hide_flagged_tile_in_prov = yes
 				}
+				if = {
+					limit = {
+						has_province_modifier = question_mod
+					}
+					remove_province_modifier = question_mod
+					ms_hide_question_tile_in_prov = yes
+				}
+				if = {
+					limit = {
+						NOT = { has_province_modifier = zero_mod }
+					}
+					add_province_modifier = {
+						name = zero_mod
+						duration = -1
+					}
+					ms_show_0_tile_in_prov = yes
+				}
+				clr_province_flag = zero_flag
 			}
 			else_if = {
 				limit = {
 					has_province_flag = one_flag
 				}
-				add_province_modifier = {
-					name = one_mod
-					duration = -1
+				if = {
+					limit = {
+						has_province_modifier = flag_mod
+					}
+					remove_province_modifier = flag_mod
+					ms_hide_flagged_tile_in_prov = yes
 				}
-				ms_show_1_tile_in_prov = yes
+				if = {
+					limit = {
+						has_province_modifier = question_mod
+					}
+					remove_province_modifier = question_mod
+					ms_hide_question_tile_in_prov = yes
+				}
+				if = {
+					limit = {
+						NOT = { has_province_modifier = one_mod }
+					}
+					add_province_modifier = {
+						name = one_mod
+						duration = -1
+					}
+					ms_show_1_tile_in_prov = yes
+				}
+				clr_province_flag = one_flag
 			}
 			else_if = {
 				limit = {
 					has_province_flag = two_flag
 				}
-				add_province_modifier = {
-					name = two_mod
-					duration = -1
+				if = {
+					limit = {
+						has_province_modifier = flag_mod
+					}
+					remove_province_modifier = flag_mod
+					ms_hide_flagged_tile_in_prov = yes
 				}
-				ms_show_2_tile_in_prov = yes
+				if = {
+					limit = {
+						has_province_modifier = question_mod
+					}
+					remove_province_modifier = question_mod
+					ms_hide_question_tile_in_prov = yes
+				}
+				if = {
+					limit = {
+						NOT = { has_province_modifier = two_mod }
+					}
+					add_province_modifier = {
+						name = two_mod
+						duration = -1
+					}
+					ms_show_2_tile_in_prov = yes
+				}
+				clr_province_flag = two_flag
 			}
 			else_if = {
 				limit = {
 					has_province_flag = three_flag
 				}
-				add_province_modifier = {
-					name = three_mod
-					duration = -1
+				if = {
+					limit = {
+						has_province_modifier = flag_mod
+					}
+					remove_province_modifier = flag_mod
+					ms_hide_flagged_tile_in_prov = yes
 				}
-				ms_show_3_tile_in_prov = yes
+				if = {
+					limit = {
+						has_province_modifier = question_mod
+					}
+					remove_province_modifier = question_mod
+					ms_hide_question_tile_in_prov = yes
+				}
+				if = {
+					limit = {
+						NOT = { has_province_modifier = three_mod }
+					}
+					add_province_modifier = {
+						name = three_mod
+						duration = -1
+					}
+					ms_show_3_tile_in_prov = yes
+				}
+				clr_province_flag = three_flag
 			}
 			else_if = {
 				limit = {
 					has_province_flag = four_flag
 				}
-				add_province_modifier = {
-					name = four_mod
-					duration = -1
+				if = {
+					limit = {
+						has_province_modifier = flag_mod
+					}
+					remove_province_modifier = flag_mod
+					ms_hide_flagged_tile_in_prov = yes
 				}
-				ms_show_4_tile_in_prov = yes
+				if = {
+					limit = {
+						has_province_modifier = question_mod
+					}
+					remove_province_modifier = question_mod
+					ms_hide_question_tile_in_prov = yes
+				}
+				if = {
+					limit = {
+						NOT = { has_province_modifier = four_mod }
+					}
+					add_province_modifier = {
+						name = four_mod
+						duration = -1
+					}
+					ms_show_4_tile_in_prov = yes
+				}
+				clr_province_flag = four_flag
 			}
 			else_if = {
 				limit = {
 					has_province_flag = five_flag
 				}
-				add_province_modifier = {
-					name = five_mod
-					duration = -1
+				if = {
+					limit = {
+						has_province_modifier = flag_mod
+					}
+					remove_province_modifier = flag_mod
+					ms_hide_flagged_tile_in_prov = yes
 				}
-				ms_show_5_tile_in_prov = yes
+				if = {
+					limit = {
+						has_province_modifier = question_mod
+					}
+					remove_province_modifier = question_mod
+					ms_hide_question_tile_in_prov = yes
+				}
+				if = {
+					limit = {
+						NOT = { has_province_modifier = five_mod }
+					}
+					add_province_modifier = {
+						name = five_mod
+						duration = -1
+					}
+					ms_show_5_tile_in_prov = yes
+				}
+				clr_province_flag = five_flag
 			}
 			else_if = {
 				limit = {
 					has_province_flag = six_flag
 				}
-				add_province_modifier = {
-					name = six_mod
-					duration = -1
+				if = {
+					limit = {
+						has_province_modifier = flag_mod
+					}
+					remove_province_modifier = flag_mod
+					ms_hide_flagged_tile_in_prov = yes
 				}
-				ms_show_6_tile_in_prov = yes
+				if = {
+					limit = {
+						has_province_modifier = question_mod
+					}
+					remove_province_modifier = question_mod
+					ms_hide_question_tile_in_prov = yes
+				}
+				if = {
+					limit = {
+						NOT = { has_province_modifier = six_mod }
+					}
+					add_province_modifier = {
+						name = six_mod
+						duration = -1
+					}
+					ms_show_6_tile_in_prov = yes
+				}
+				clr_province_flag = six_flag
 			}
 			else_if = {
 				limit = {
 					has_province_flag = seven_flag
 				}
-				add_province_modifier = {
-					name = seven_mod
-					duration = -1
+				if = {
+					limit = {
+						has_province_modifier = flag_mod
+					}
+					remove_province_modifier = flag_mod
+					ms_hide_flagged_tile_in_prov = yes
 				}
-				ms_show_7_tile_in_prov = yes
-			}
-			else = {
-				add_province_modifier = {
-					name = eight_mod
-					duration = -1
+				if = {
+					limit = {
+						has_province_modifier = question_mod
+					}
+					remove_province_modifier = question_mod
+					ms_hide_question_tile_in_prov = yes
 				}
-				ms_show_8_tile_in_prov = yes
+				if = {
+					limit = {
+						NOT = { has_province_modifier = seven_mod }
+					}
+					add_province_modifier = {
+						name = seven_mod
+						duration = -1
+					}
+					ms_show_7_tile_in_prov = yes
+				}
+				clr_province_flag = seven_flag
 			}
-
+			else_if = {
+				limit = {
+					has_province_flag = eight_flag
+				}
+				if = {
+					limit = {
+						has_province_modifier = flag_mod
+					}
+					remove_province_modifier = flag_mod
+					ms_hide_flagged_tile_in_prov = yes
+				}
+				if = {
+					limit = {
+						has_province_modifier = question_mod
+					}
+					remove_province_modifier = question_mod
+					ms_hide_question_tile_in_prov = yes
+				}
+				if = {
+					limit = {
+						NOT = { has_province_modifier = eight_mod }
+					}
+					add_province_modifier = {
+						name = eight_mod
+						duration = -1
+					}
+					ms_show_8_tile_in_prov = yes
+				}
+				clr_province_flag = eight_flag
+			}
 		}
 
-		# Check win condition, first check if game is still in progress
+		# Also mark off the game_in_progress_flag flag for the owner scope. This variable will unlock the "reset game" decision
+		clr_global_flag = game_in_progress_flag
+
+	}
+
+	# Other Tiles
+	else_if = {
+		limit = {
+			has_province_modifier = question_mod
+		}
+		# Province hasnt been clicked before
+		# We should reveal the tile
+
+		# Increase game score
+		owner = {
+			change_variable = {
+				which = score
+				value = 1
+			}
+		}
+
+		remove_province_modifier = question_mod
+		ms_hide_question_tile_in_prov = yes
 
 		if = {
 			limit = {
-				owner = {
-					check_variable = {
-						which = score
-						value = 100
-					}
-				}
+				has_province_flag = zero_flag
 			}
-			clr_global_flag = game_in_progress_flag
+			add_province_modifier = {
+				name = zero_mod
+				duration = -1
+			}
+			ms_show_0_tile_in_prov = yes
+
+			ms_clear_all_0_tiles = yes
+		}
+		else_if = {
+			limit = {
+				has_province_flag = one_flag
+			}
+			add_province_modifier = {
+				name = one_mod
+				duration = -1
+			}
+			ms_show_1_tile_in_prov = yes
+		}
+		else_if = {
+			limit = {
+				has_province_flag = two_flag
+			}
+			add_province_modifier = {
+				name = two_mod
+				duration = -1
+			}
+			ms_show_2_tile_in_prov = yes
+		}
+		else_if = {
+			limit = {
+				has_province_flag = three_flag
+			}
+			add_province_modifier = {
+				name = three_mod
+				duration = -1
+			}
+			ms_show_3_tile_in_prov = yes
+		}
+		else_if = {
+			limit = {
+				has_province_flag = four_flag
+			}
+			add_province_modifier = {
+				name = four_mod
+				duration = -1
+			}
+			ms_show_4_tile_in_prov = yes
+		}
+		else_if = {
+			limit = {
+				has_province_flag = five_flag
+			}
+			add_province_modifier = {
+				name = five_mod
+				duration = -1
+			}
+			ms_show_5_tile_in_prov = yes
+		}
+		else_if = {
+			limit = {
+				has_province_flag = six_flag
+			}
+			add_province_modifier = {
+				name = six_mod
+				duration = -1
+			}
+			ms_show_6_tile_in_prov = yes
+		}
+		else_if = {
+			limit = {
+				has_province_flag = seven_flag
+			}
+			add_province_modifier = {
+				name = seven_mod
+				duration = -1
+			}
+			ms_show_7_tile_in_prov = yes
+		}
+		else = {
+			add_province_modifier = {
+				name = eight_mod
+				duration = -1
+			}
+			ms_show_8_tile_in_prov = yes
+		}
+
+	}
+
+	# Check win condition, first check if game is still in progress
+
+	if = {
+		limit = {
 			owner = {
-				country_event = {
-					id = minesweeper.7
+				check_variable = {
+					which = score
+					value = 100
 				}
 			}
 		}
-		# if not any of the above do nothing
+		clr_global_flag = game_in_progress_flag
+		owner = {
+			country_event = {
+				id = minesweeper.7
+			}
+		}
 	}
+	# if not any of the above do nothing
 }
 
 ms_flag_province = {
@@ -745,19 +590,364 @@ ms_flag_province = {
 	}
 }
 
-ms_wat_u_doin = {
+ms_clear_all_adjacent_if_complete = {
 	owner = {
 		add_dip_power = 5
 	}
 	add_base_production = -1
 
-	owner = {
-		country_event = {
-			id = minesweeper.8
+	# Check if game in progress
+	if = {
+		limit = {
+			has_global_flag = game_in_progress_flag
+		}
+
+		# Check if the interaction is valid
+		if = {
+			limit = {
+				AND = {
+					NOT = { has_province_modifier = question_mod }
+					NOT = { has_province_modifier = zero_mod }
+					NOT = { has_province_modifier = flag_mod }
+				}
+			}
+			# Then check if the province has as many flags as its number
+
+			# Count number of flags
+			set_variable = {
+				which = dip_adj_flag_count
+				value = 0
+			}
+			minesweeper_region = {
+				limit = {
+					has_province_modifier = flag_mod
+					NOT = {
+						province_distance = {
+							who = PREV
+							distance = 29
+						}
+					}
+				}
+				PREV = {
+					change_variable = {
+						which = dip_adj_flag_count
+						value = 1
+					}
+				}
+			}
+
+			# Check if its as many as number
+			if = {
+				limit = {
+					OR = {
+						AND = {
+							check_variable = {
+								which = dip_adj_flag_count
+								value = 8
+							}
+							has_province_flag = eight_flag
+						}
+
+						AND = {
+							check_variable = {
+								which = dip_adj_flag_count
+								value = 7
+							}
+							NOT = {
+								check_variable = {
+									which = dip_adj_flag_count
+									value = 8
+								}
+							}
+							has_province_flag = seven_flag
+						}
+
+						AND = {
+							check_variable = {
+								which = dip_adj_flag_count
+								value = 6
+							}
+							NOT = {
+								check_variable = {
+									which = dip_adj_flag_count
+									value = 7
+								}
+							}
+							has_province_flag = six_flag
+						}
+						
+						AND = {
+							check_variable = {
+								which = dip_adj_flag_count
+								value = 5
+							}
+							NOT = {
+								check_variable = {
+									which = dip_adj_flag_count
+									value = 6
+								}
+							}
+							has_province_flag = five_flag
+						}
+						
+						AND = {
+							check_variable = {
+								which = dip_adj_flag_count
+								value = 4
+							}
+							NOT = {
+								check_variable = {
+									which = dip_adj_flag_count
+									value = 5
+								}
+							}
+							has_province_flag = four_flag
+						}
+						
+						AND = {
+							check_variable = {
+								which = dip_adj_flag_count
+								value = 3
+							}
+							NOT = {
+								check_variable = {
+									which = dip_adj_flag_count
+									value = 4
+								}
+							}
+							has_province_flag = three_flag
+						}
+						
+						AND = {
+							check_variable = {
+								which = dip_adj_flag_count
+								value = 2
+							}
+							NOT = {
+								check_variable = {
+									which = dip_adj_flag_count
+									value = 3
+								}
+							}
+							has_province_flag = two_flag
+						}
+						
+						AND = {
+							check_variable = {
+								which = dip_adj_flag_count
+								value = 1
+							}
+							NOT = {
+								check_variable = {
+									which = dip_adj_flag_count
+									value = 2
+								}
+							}
+							has_province_flag = one_flag
+						}
+					}
+				}
+
+				# Now, check if it has at least 1 uncleared (question_mod) neighbor
+
+				minesweeper_region = {
+					limit = {
+						has_province_modifier = question_mod
+						NOT = {
+							province_distance = {
+								who = PREV
+								distance = 29
+							}
+						}
+					}
+					set_global_flag = dip_dev_clear_yes
+				}
+
+				if = {
+					limit = { has_global_flag = dip_dev_clear_yes }
+					clr_global_flag = dip_dev_clear_yes
+
+					minesweeper_region = {
+						limit = {
+							has_province_modifier = question_mod
+							NOT = {
+								province_distance = {
+									who = PREV
+									distance = 29
+								}
+							}
+						}
+						ms_clear_province = yes
+					}
+				}
+			}
 		}
 	}
 }
 
+#clear all tiles next to a 0 tile
+ms_clear_all_0_tiles = {
+	ROOT = {
+		set_variable = {
+			which = minesweeper_event_1_loop_exit_cond
+			value = 1
+		}
+	}
+	while = {
+		limit = {
+			ROOT = {
+				check_variable = {
+					which = minesweeper_event_1_loop_exit_cond
+					value = 1
+				}
+			}
+		}
+
+		# Set iteration counter
+		ROOT = {
+			set_variable = {
+				which = minesweeper_event_1_loop_exit_cond
+				value = 0
+			}
+		}
+
+		# Check if there are any zero provinces with question neighbors
+		minesweeper_region = {
+			limit = {
+				has_province_modifier = zero_mod
+			}
+			minesweeper_region = {
+				limit = {
+					AND = {
+						has_province_modifier = question_mod
+						NOT = {
+							province_distance = {
+								who = PREV
+								distance = 29
+							}
+						}
+					}
+				}
+
+				# These are provinces with question neighbors, set their values to their flags
+
+				# First update counter variable
+				ROOT = {
+					change_variable = {
+						which = minesweeper_event_1_loop_exit_cond
+						value = 1
+					}
+				}
+
+				# Next update score variable
+
+				owner = {
+					change_variable = {
+						which = score
+						value = 1
+					}
+				}
+
+				# Then remove question mod
+
+				remove_province_modifier = question_mod
+				ms_hide_question_tile_in_prov = yes
+
+				# Then if block
+				if = {
+					limit = {
+						has_province_flag = zero_flag
+					}
+					add_province_modifier = {
+						name = zero_mod
+						duration = -1
+					}
+					ms_show_0_tile_in_prov = yes
+				}
+				else_if = {
+					limit = {
+						has_province_flag = one_flag
+					}
+					add_province_modifier = {
+						name = one_mod
+						duration = -1
+					}
+					ms_show_1_tile_in_prov = yes
+				}
+				else_if = {
+					limit = {
+						has_province_flag = two_flag
+					}
+					add_province_modifier = {
+						name = two_mod
+						duration = -1
+					}
+					ms_show_2_tile_in_prov = yes
+				}
+				else_if = {
+					limit = {
+						has_province_flag = three_flag
+					}
+					add_province_modifier = {
+						name = three_mod
+						duration = -1
+					}
+					ms_show_3_tile_in_prov = yes
+				}
+				else_if = {
+					limit = {
+						has_province_flag = four_flag
+					}
+					add_province_modifier = {
+						name = four_mod
+						duration = -1
+					}
+					ms_show_4_tile_in_prov = yes
+				}
+				else_if = {
+					limit = {
+						has_province_flag = five_flag
+					}
+					add_province_modifier = {
+						name = five_mod
+						duration = -1
+					}
+					ms_show_5_tile_in_prov = yes
+				}
+				else_if = {
+					limit = {
+						has_province_flag = six_flag
+					}
+					add_province_modifier = {
+						name = six_mod
+						duration = -1
+					}
+					ms_show_6_tile_in_prov = yes
+				}
+				else_if = {
+					limit = {
+						has_province_flag = seven_flag
+					}
+					add_province_modifier = {
+						name = seven_mod
+						duration = -1
+					}
+					ms_show_7_tile_in_prov = yes
+				}
+				else = {
+					add_province_modifier = {
+						name = eight_mod
+						duration = -1
+					}
+					ms_show_8_tile_in_prov = yes
+				}
+				
+			}
+		}
+
+		# END WHILE
+	}
+}
 
 #ms menu
 ms_bomb_amount = { #add/#sub

@@ -11,4 +11,4 @@ There is a tutorial decision in game which will give you the explanation on how 
 If you want to contribute to the mod, please make a fork, make your changes (and comment them, please), and include with the pull request an explanation of what your changes do. This code is under an MIT license, so feel free to do what you want with it, though if you do give credit for anything you do I would appreciate it a ton!
 
 ## Credit
-This mod would not have been possible without GitHub user Seelowe, who I pestered with near constant questions, as he can probably attest to.
+This mod would not have been possible without GitHub user Seeloewe, who I pestered with near constant questions, as he can probably attest to. He also helped reorganize some filestructure, and make the events super pretty!

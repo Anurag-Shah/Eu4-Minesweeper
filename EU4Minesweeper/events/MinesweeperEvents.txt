@@ -419,7 +419,7 @@ country_event = {
 	}
 }
 
-# Diplo dev event
+# Tutorial event
 country_event = {
 	id = minesweeper.8
 	title = minesweeper.8.t
@@ -430,19 +430,5 @@ country_event = {
 
 	option = {
 		name = minesweeper.8a
-	}
-}
-
-# Tutorial event
-country_event = {
-	id = minesweeper.9
-	title = minesweeper.9.t
-	desc = minesweeper.9.d
-	picture = MINESWEEPER_eventPicture
-
-	is_triggered_only = yes
-
-	option = {
-		name = minesweeper.9a
 	}
 }

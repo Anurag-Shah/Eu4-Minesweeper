@@ -219,7 +219,7 @@ country_decisions = {
 		effect = {
 			hidden_effect = {
 				country_event = {
-					id = minesweeper.9
+					id = minesweeper.8
 				}
 			}
 		}

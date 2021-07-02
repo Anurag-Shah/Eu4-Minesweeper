@@ -1621,7 +1621,7 @@ on_adm_development = {
 		limit = {
 			region = minesweeper_region
 		}
-		ms_clear_province = yes
+		ms_admin_clear = yes
 	}
 }
 
@@ -1631,7 +1631,7 @@ on_dip_development = {
 		limit = {
 			region = minesweeper_region
 		}
-		ms_wat_u_doin = yes
+		ms_clear_all_adjacent_if_complete = yes
 	}
 }
 
