@@ -223,6 +223,9 @@ country_decisions = {
 				}
 			}
 		}
+		ai_will_do = {
+			factor = 0
+		}
 	}
 
 	minesweeper_view_flags_decision = {
@@ -236,6 +239,9 @@ country_decisions = {
 
 		effect = {
 			custom_tooltip = minesweeper_view_flags_decision_tooltip
+		}
+		ai_will_do = {
+			factor = 0
 		}
 	}
 
@@ -253,7 +259,41 @@ country_decisions = {
 			}
 		}
 		effect = {
+			hidden_effect = {
+				save_global_event_target_as = msw_country_to_switch_back_to
+				set_global_flag = player_switched_to_msw
+			}
 			switch_tag = MSW
+			hidden_effect = {
+				msw_kill_units = yes
+				MSW = {
+					add_adm_power = 5
+					add_dip_power = 5
+					add_mil_power = 5
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	switch_back_from_msw_decision = {
+		potential = {
+			ROOT = { TAG = MSW }
+			has_global_flag = player_switched_to_msw
+		}
+		allow = {
+			hidden_trigger = {
+				ROOT = { TAG = MSW }
+			}
+		}
+		effect = {
+			switch_tag = event_target:msw_country_to_switch_back_to
+			hidden_effect = {
+				clr_global_flag = player_switched_to_msw
+				clear_global_event_target = msw_country_to_switch_back_to
+			}
 		}
 	}
 }

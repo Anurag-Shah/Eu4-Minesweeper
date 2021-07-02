@@ -1,0 +1,51 @@
+# Do not change tags in here without changing every other reference to them.
+# Do not change tags in here without changing every other reference to them.
+# If adding new groups or ideas, make sure they are unique.
+
+### Nation specific idea groups
+
+MSW_ideas = {
+	start = {
+		development_cost = -10
+		global_regiment_cost = 100000
+		global_ship_cost = 100000
+		global_manpower = -1000000
+		manpower_recovery_speed = -10000
+		global_sailors = -1000000
+		sailors_recovery_speed = -10000
+		build_cost = 100000
+		technology_cost = 100000
+		idea_cost = 100000
+	}
+	
+	bonus = {
+		development_cost = -10
+	}	
+
+	trigger = {
+		tag = MSW
+	}
+	free = yes
+	
+	msw_idea_1 = {
+		development_cost = -10
+	}
+	msw_idea_2 = {
+		development_cost = -10
+	}
+	msw_idea_3 = {
+		development_cost = -10
+	}
+	msw_idea_4 = {
+		development_cost = -10
+	}
+	msw_idea_5 = {
+		development_cost = -10
+	}
+	msw_idea_6 = {
+		development_cost = -10
+	}
+	msw_idea_7 = {
+		development_cost = -10
+	}
+}
