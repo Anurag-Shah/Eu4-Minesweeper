@@ -1,7 +1,6 @@
 government_rank = 1
 government = monarchy
-primary_culture = cornish
-religion = animist
-technology_group = east_african
-unit_type = sub_saharan
+primary_culture = minesweeper_culture
+religion = animism
+technology_group = north_american
 capital = 5000

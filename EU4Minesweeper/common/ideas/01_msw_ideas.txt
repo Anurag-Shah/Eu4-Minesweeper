@@ -7,14 +7,14 @@
 MSW_ideas = {
 	start = {
 		development_cost = -10
-		global_regiment_cost = 100000
-		global_ship_cost = 100000
-		global_manpower = -1000000
+		global_regiment_cost = 10000
+		global_ship_cost = 10000
+		global_manpower = -10000
 		manpower_recovery_speed = -10000
-		global_sailors = -1000000
+		global_sailors = -10000
 		sailors_recovery_speed = -10000
-		build_cost = 100000
-		technology_cost = 100000
+		build_cost = 10000
+		technology_cost = 10000
 		idea_cost = 100000
 	}
 	

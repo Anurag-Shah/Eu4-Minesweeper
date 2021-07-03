@@ -202,7 +202,7 @@ country_event = {
 			MSW = {
 				set_variable = {
 					which = bomb_total
-					value = 20
+					value = 16
 				}
 			}
 
@@ -221,7 +221,7 @@ country_event = {
 			MSW = {
 				set_variable = {
 					which = bomb_total
-					value = 32
+					value = 22
 				}
 			}
 

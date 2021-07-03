@@ -229,8 +229,10 @@ country_decisions = {
 	}
 
 	minesweeper_view_flags_decision = {
+		major = yes
 		potential = {
 			has_global_flag = game_in_progress_flag
+			ROOT = { TAG = MSW }
 		}
 
 		allow = {
@@ -246,6 +248,7 @@ country_decisions = {
 	}
 
 	switch_to_msw_decision = {
+		major = yes
 		potential = {
 			NOT = {
 				ROOT = { TAG = MSW }
@@ -285,6 +288,7 @@ country_decisions = {
 						}
 						add_mil_power = 1
 					}
+					msw_reset_cash = yes
 				}
 			}
 		}
@@ -294,6 +298,7 @@ country_decisions = {
 	}
 
 	switch_back_from_msw_decision = {
+		major = yes
 		potential = {
 			ROOT = { TAG = MSW }
 			has_global_flag = player_switched_to_msw

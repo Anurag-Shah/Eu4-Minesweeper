@@ -1,0 +1,16 @@
+minesweeper_group = {
+	graphical_culture = northamericagfx
+	
+	minesweeper_culture = {
+		primary = MSW
+		male_names = {
+			"Minesweeper"
+		}
+		female_names = {
+			"Minesweeper"
+		}
+		dynasty_names = {
+			"Sweeper of the Mines"
+		}
+	}
+}

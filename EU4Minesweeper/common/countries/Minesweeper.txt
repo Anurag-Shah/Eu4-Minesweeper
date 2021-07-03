@@ -1,5 +1,5 @@
 #Country Name: Please see filename.
 
-graphical_culture = asiangfx
+graphical_culture = northamericagfx
 
 color = { 189	189   189 }

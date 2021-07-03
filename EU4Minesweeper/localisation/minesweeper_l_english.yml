@@ -15,8 +15,8 @@
  minesweeper.2.t: "Game Difficulty Menu"
  minesweeper.2.d: "Select your Game Difficulty from the presets below, or select the custom option to set the number of bombs yourself!"
  minesweeper.2a: "§GBeginner: 12 bombs§!"
- minesweeper.2b: "§OIntermediate: 20 Bombs§!"
- minesweeper.2c: "§RExpert: 32 Bombs§!" 
+ minesweeper.2b: "§OIntermediate: 16 Bombs§!"
+ minesweeper.2c: "§RExpert: 22 Bombs§!" 
  minesweeper.2d: "§TCustom§!"
  minesweeper.3.t: "Select Number of Custom Bombs"
  minesweeper.3.d: "Choose from the options below to §Gadd§! or §Osubtract§! a number of bombs. The number must be between 1 and 100. Current Bombs: [MSW.bomb_total.GetValue]."
@@ -61,6 +61,9 @@
  msw_idea_6_desc: "Sure, the mod is fun, and I, the dev, have put a lot of effort into it to make it fun. But, it's a video game at the end of the day, and your real life, and its responsibilities, take priority. Please, go tend to your basic needs, or accomplish something productive with your time. The fact that you downloaded and tried this mod out in the first place is enough for me."
  msw_idea_7: "Have a good day."
  msw_idea_7_desc: "Shoot me a message on discord or something if you actually bothered to look at ideas in game and found this."
+ # Culture
+ minesweeper_group: "Minesweeper"
+ minesweeper_culture: "Minesweeper"
  # Provinces
  PROV4999: "Board Border"
  PROV5000: "Tile 1"

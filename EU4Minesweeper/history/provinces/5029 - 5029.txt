@@ -3,12 +3,12 @@
 add_core = MSW
 owner = MSW
 controller = MSW
-culture = cornish
-religion = animist
+culture = minesweeper_culture
+religion = animism
 hre = no
 base_tax = 1
 base_production = 1
-trade_goods = copper
 base_manpower = 1
-capital = "5029"
+trade_goods = copper
+capital = "30"
 is_city = yes
