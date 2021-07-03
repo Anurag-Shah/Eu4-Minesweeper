@@ -41,7 +41,9 @@ ms_admin_clear = {
 	# This is the clear action
 	if = {
 		limit = {
-			ai = yes
+			owner = {
+				ai = yes
+			}
 		}
 		add_adm_power = -5
 	}
@@ -511,7 +513,9 @@ ms_flag_province = {
 
 	if = {
 		limit = {
-			ai = yes
+			owner = {
+				ai = yes
+			}
 		}
 		add_mil_power = -5
 	}
@@ -615,7 +619,9 @@ ms_clear_all_adjacent_if_complete = {
 	# Check if game in progress
 	if = {
 		limit = {
-			ai = yes
+			owner = {
+				ai = yes
+			}
 		}
 		add_dip_power = -5
 	}
