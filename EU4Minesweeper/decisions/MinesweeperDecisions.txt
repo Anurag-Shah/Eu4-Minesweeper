@@ -267,9 +267,24 @@ country_decisions = {
 			hidden_effect = {
 				msw_kill_units = yes
 				MSW = {
-					add_adm_power = 5
-					add_dip_power = 5
-					add_mil_power = 5
+					while = {
+						limit = {
+							NOT = { adm_power = 5 }
+						}
+						add_adm_power = 1
+					}
+					while = {
+						limit = {
+							NOT = { dip_power = 5 }
+						}
+						add_dip_power = 1
+					}
+					while = {
+						limit = {
+							NOT = { mil_power = 5 }
+						}
+						add_mil_power = 1
+					}
 				}
 			}
 		}
