@@ -1,6 +1,9 @@
 # Initial setup and startup
 ms_setup = {
+	# Delete units
 	msw_kill_units = yes
+
+	# Set province ids for ambient objects
 	if = {
 		limit = {
 			NOT = { has_global_flag = game_start_setup }
@@ -13,7 +16,50 @@ ms_setup = {
 		    }
 		}
 	}
+
+	# Fix treasury
 	msw_reset_cash = yes
+
+	# Fix TI
+	north_america = { undiscover_country = MSW }
+	north_east_pacific_region = { undiscover_country = MSW }
+	american_east_coast_region = { undiscover_country = MSW }
+	caribbean_sea_region = { undiscover_country = MSW }
+	1658 = { undiscover_country = MSW }
+	4940 = { undiscover_country = MSW }
+	4941 = { undiscover_country = MSW }
+	1922 = { undiscover_country = MSW }
+	1906 = { undiscover_country = MSW }
+	1903 = { undiscover_country = MSW }
+	1905 = { undiscover_country = MSW }
+	1904 = { undiscover_country = MSW }
+	1907 = { undiscover_country = MSW }
+	1910 = { undiscover_country = MSW }
+	1908 = { undiscover_country = MSW }
+	1909 = { undiscover_country = MSW }
+	1659 = { undiscover_country = MSW }
+	1660 = { undiscover_country = MSW }
+	1661 = { undiscover_country = MSW }
+	1662 = { undiscover_country = MSW }
+	1663 = { undiscover_country = MSW }
+	1664 = { undiscover_country = MSW }
+	1911 = { undiscover_country = MSW }
+	1665 = { undiscover_country = MSW }
+	1917 = { undiscover_country = MSW }
+	1916 = { undiscover_country = MSW }
+	1919 = { undiscover_country = MSW }
+	1918 = { undiscover_country = MSW }
+	1920 = { undiscover_country = MSW }
+	1912 = { undiscover_country = MSW }
+	1913 = { undiscover_country = MSW }
+	1916 = { undiscover_country = MSW }
+	1921 = { undiscover_country = MSW }
+	1914 = { undiscover_country = MSW }
+	1923 = { undiscover_country = MSW }
+	1582 = { discover_country = MSW }
+	4999 = { discover_country = MSW }
+
+
 	set_global_flag = game_start_setup
 }
 
