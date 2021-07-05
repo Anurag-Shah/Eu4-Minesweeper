@@ -2,7 +2,9 @@
 Ever looked at EU4 and thought, what this historical grand strategy game needs is really a giant grid of minesweeper, perfectly playable, located smack dab in the atlantic ocean? Well, its your lucky day!
 
 ## Installation
-Move the EU4Minesweeper folder and the EU4Minesweeper.mod file to your "Paradox Interactive/Europa Universalis IV/mod" directory
+Move the EU4Minesweeper folder and the EU4Minesweeper.mod file to your "Paradox Interactive/Europa Universalis IV/mod" directory.
+
+Alternatively, use the steam workshop link here: https://steamcommunity.com/sharedfiles/filedetails/?id=2537251519
 
 ## How to play
 There is a tutorial decision in game which will give you the explanation on how to play this mod.
