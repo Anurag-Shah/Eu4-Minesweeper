@@ -402,6 +402,12 @@ country_event = {
 
 	option = {
 		name = minesweeper.6a
+		highlight = yes
+		ms_new_game = yes
+	}
+
+	option = {
+		name = minesweeper.6b
 	}
 }
 
@@ -416,6 +422,12 @@ country_event = {
 
 	option = {
 		name = minesweeper.7a
+		highlight = yes
+		ms_new_game = yes
+	}
+
+	option = {
+		name = minesweeper.7b
 	}
 }
 
@@ -430,5 +442,19 @@ country_event = {
 
 	option = {
 		name = minesweeper.8a
+		highlight = yes
+		trigger = {
+			hidden_trigger = {
+				AND = {
+					ROOT = { tag = MSW }
+					NOT = { has_global_flag = game_in_progress_flag }
+				}
+			}
+		}
+		ms_new_game = yes
+	}
+
+	option = {
+		name = minesweeper.8b
 	}
 }
