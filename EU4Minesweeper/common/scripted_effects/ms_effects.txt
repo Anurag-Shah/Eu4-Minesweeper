@@ -1103,19 +1103,19 @@ ms_bomb_amount = { #add/#sub
 
 ms_new_game = {
 	custom_tooltip = ms_new_game_tooltip
-	hidden_Effect = {
+	hidden_effect = {
 		if = {
-		limit = {
-			AND = {
-				NOT = { has_global_flag = game_in_progress_flag }
-				ROOT = {
-					tag = MSW
-				}
-				MSW = {
-					NOT = { ai = yes }
+			limit = {
+				AND = {
+					NOT = { has_global_flag = game_in_progress_flag }
+					ROOT = {
+						tag = MSW
+					}
+					MSW = {
+						NOT = { ai = yes }
+					}
 				}
 			}
-		}
 			# Initialize flag
 			set_global_flag	= game_in_progress_flag
 

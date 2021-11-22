@@ -277,6 +277,7 @@
  PROV_ADJ5100: "Tile 101"
  # Area, region, superregion, continent
  minesweeper_area: "Minesweeper"
+ no_area: "No Area"
  minesweeper_region: "Minesweeper"
  minesweeper_superregion: "Minesweeper"
  minesweeper: "Minesweeper"
