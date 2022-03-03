@@ -1,6 +1,6 @@
 name="EU4 Minesweeper"
 path="mod/EU4Minesweeper"
-supported_version="1.32.*.*"
+supported_version="1.33.*.*"
 picture="thumbnail.png"
 tags={
 	"Gameplay"
